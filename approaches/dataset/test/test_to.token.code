@@ -1,0 +1,33 @@
+initializer normal normal initializer
+ops elu exponential linear unit operation  compute the element wise exponential linear
+layer layer convolution transpose 2d layer factory function to create a 2 d convolution transpose layer with optional non linearity
+layer layer dense layer factory function to create an instance of a fully connect linear layer of the form
+initializer uniform uniform initializer
+ops elu exponential linear unit operation  compute the element wise exponential linear
+layer layer max pool layer factory function to create a max pool layer
+cntk py dropout each element of the input be independently set to 0 with probability   dropout rate
+learners rms prop create an rmsprop learner instance to learn the parameters
+learners ada grad create an adagrad learner instance to learn the parameters
+ops function load model alias for  func  ~cntk ops function function load
+ops space to depth rearrange elements in the input tensor from the spatial dimension to the depth dimension
+ops pad pad a tensor accord to the specify pattern
+layer layer average pool layer factory function to create an average pool layer
+ops hard s igm oid compute the element wise hardsigmoid function  y   max 0  min 1  alpha   x   beta
+layer layer convolution 3d layer factory function to create a 3 d convolution layer with optional non linearity
+layer layer dense layer factory function to create an instance of a fully connect linear layer of the form
+ops function unique class decorator for enumerations ensure unique member value
+ops leaky relu leaky rectify linear operation  compute the element wise leaky rectify linear
+ops element time the output of this operation be the element wise product of the two or more input
+layer block rnn step layer factory function to create a plain rnn block for use inside a recurrence
+ops function function grad compute the gradient of this function at location   at   with respect to   wrt
+layer layer average pool layer factory function to create an average pool layer
+layer sequential layer factory function to create a composite that apply a sequence of layer  or any function  onto an input
+learners sgd create an sgd learner instance to learn the parameters
+layer layer dropout layer factory function to create a drop out layer
+layer layer average pool layer factory function to create an average pool layer
+random bernoulli generate sample from the bernoulli distribution with success probability  mean
+random normal generate sample from the normal distribution with mean  mean  and standard deviation  scale
+ops relu rectify linear operation  compute the element wise rectify linear
+initializer gl or ot normal initializer
+square error this operation compute the sum of the square difference between elements in the two input matrices
+initializer he normal initializer

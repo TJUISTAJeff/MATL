@@ -1,0 +1,5 @@
+optim rms prop
+optim ada grad
+load
+nn pixel un shuffle
+nn zero pad 2d

@@ -1,0 +1,50 @@
+nn functional batch norm
+nn functional normalize
+nn cosine similarity
+optim adam
+nn conv 1d
+nn lstm
+nn initial k aiming uniform
+split
+nn embed
+nn functional adaptive avg pool 2d
+nn conv transpose 3d
+distributions uniform uniform
+nn initial xavier uniform
+nn max pool 3d
+nn soft plus
+nn max pool 2d
+nn functional log soft max
+nn functional soft max
+nn pixel shuffle
+nn functional soft sign
+nn cross entropy loss
+nn functional s igm oid
+no grad
+nn functional max pool 3d
+nn functional binary cross entropy
+nn functional tan h
+nn functional pad
+nn max pool 1d
+optim ada delta
+nn layer norm
+nn p relu
+nn functional s elu
+nn gru
+nn functional max pool 1d
+nn functional relu
+nn conv 2d
+nn flatten
+nn batch norm 1d
+save
+nn soft max
+nn functional fractional max pool 2d
+nn functional cross entropy
+nn initial normal
+nn elu
+nn conv transpose 2d
+nn linear
+nn initial uniform
+nn functional elu
+nn functional max pool 2d
+nn functional dropout

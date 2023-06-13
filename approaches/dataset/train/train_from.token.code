@@ -1,0 +1,50 @@
+nn functional batch norm apply batch normalization for each chael across a batch of data
+nn functional normalize perform lpl plp​ normalization of input over specify dimension
+nn cosine similarity return cosine similarity between x1x 1x1​ and x2x 2x2​  compute along dim
+optim adam implement adam algorithm
+nn conv 1d apply a 1d convolution over an input signal compose of several input plan
+nn lstm apply a multi-layer long short-term memory  lstm  r to an input sequence
+nn initial k aiming uniform fill the input tensor with value accord to the method describe in delve deep into rectifiers  surpass human-level performance on imagenet classification - he  k  et al   2015   use a uniform distribution  the result tensor will have value sample from u −bound bind \mathcal{u} -\text{bound}  \text{bound} u −bound bind  where
+split split the tensor into chunk
+nn embed a simple lookup table that store embeddings of a fix dictionary and size
+nn functional adaptive avg pool 2d apply a 2d adaptive average pool over an input signal compose of several input plan
+nn conv transpose 3d apply a 3d transpose convolution operator over an input image compose of several input plan
+distributions uniform uniform generate uniformly distribute random sample from the half - open interval [ low , high ) .
+nn initial xavier uniform fill the input tensor with value accord to the method describe in understand the difficulty of train deep feedforward neural network - glorot  x    bengio  y   2010   use a uniform distribution  the result tensor will have value sample from u −a a \mathcal{u} -a  a u −a a  where
+nn max pool 3d apply a 3d max pool over an input signal compose of several input plan
+nn soft plus apply the softplus function softplus x =1β∗log⁡ 1 exp⁡ β∗x  \text{softplus} x  = \frac{1}{\beta}   \log 1   \exp \beta   x  softplus x =β1​∗log 1 exp β∗x   element-wise
+nn max pool 2d apply a 2d max pool over an input signal compose of several input plan
+nn functional log soft max apply a softmax follow by a logarithm
+nn functional soft max apply a softmax function
+nn pixel shuffle rearrange elements in a tensor of shape  ∗ c×r2 h w     c \times r 2  h  w  ∗ c×r2 h w  to a tensor of shape  ∗ c h×r w×r     c  h \times r  w \times r  ∗ c h×r w×r   where r be an upscale factor
+nn functional soft sign apply element-wise  the function softsign x =x1 ∣x∣\text{softsign} x  = \frac{x}{1   |x|}softsign x =1 ∣x∣x​
+nn cross entropy loss this criterion compute the cross entropy loss between input and target
+nn functional s igm oid apply the element-wise function sigmoid x =11 exp⁡ −x \text{sigmoid} x  = \frac{1}{1   \exp -x }sigmoid x =1 exp −x 1​
+no grad context-manager that disable gradient calculation
+nn functional max pool 3d apply a 3d max pool over an input signal compose of several input plan
+nn functional binary cross entropy function that measure the binary cross entropy between the target and input probabilities
+nn functional tan h apply element-wise  tanh x =tanh⁡ x =exp⁡ x −exp⁡ −x exp⁡ x  exp⁡ −x \text{tanh} x  = \tanh x  = \frac{\exp x  - \exp -x }{\exp x    \exp -x }tanh x =tanh x =exp x  exp −x exp x −exp −x ​
+nn functional pad pad tensor
+nn max pool 1d apply a 1d max pool over an input signal compose of several input plan
+optim ada delta implement adadelta algorithm
+nn layer norm apply layer normalization over a mini-batch of input as describe in the paper layer normalization
+nn p relu apply the element-wise function prelu
+nn functional s elu apply element-wise  selu x =scale∗ max⁡ 0 x  min⁡ 0 α∗ exp⁡ x −1   \text{selu} x  = scale    \max 0 x    \min 0  \alpha    \exp x  - 1   selu x =scale∗ max 0 x  min 0 α∗ exp x −1     with α=1 6732632423543772848170429916717\alpha=1 6732632423543772848170429916717α=1 6732632423543772848170429916717 and scale=1 0507009873554804934193349852946scale=1 0507009873554804934193349852946scale=1 0507009873554804934193349852946
+nn gru apply a multi-layer gate recurrent unit  gru  r to an input sequence
+nn functional max pool 1d apply a 1d max pool over an input signal compose of several input plan
+nn functional relu apply the rectify linear unit function element-wise
+nn conv 2d apply a 2d convolution over an input signal compose of several input plan
+nn flatten flatten a contiguous range of dim into a tensor
+nn batch norm 1d apply batch normalization over a 2d or 3d input as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift
+save save an object to a disk file
+nn soft max apply the softmax function to an n-dimensional input tensor rescale them so that the elements of the n-dimensional output tensor lie in the range [0 1] and sum to 1
+nn functional fractional max pool 2d apply 2d fractional max pool over an input signal compose of several input plan
+nn functional cross entropy this criterion compute the cross entropy loss between input and target
+nn initial normal fill the input tensor with value draw from the normal distribution n mean std2 \mathcal{n} \text{mean}  \text{std} 2 n mean std2
+nn elu apply the exponential linear unit  elu  function  element-wise  as describe in the paper  fast and accurate deep network learn by exponential linear units  elus
+nn conv transpose 2d apply a 2d transpose convolution operator over an input image compose of several input plan
+nn linear apply a linear transformation to the incoming data  y=xat by = xa t   by=xat b
+nn initial uniform fill the input tensor with value draw from the uniform distribution u a b \mathcal{u} a  b u a b
+nn functional elu apply element-wise  elu x =max⁡ 0 x  min⁡ 0 α∗ exp⁡ x −1  \text{elu} x  = \max 0 x    \min 0  \alpha    \exp x  - 1  elu x =max 0 x  min 0 α∗ exp x −1
+nn functional max pool 2d apply a 2d max pool over an input signal compose of several input plan
+nn functional dropout during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution

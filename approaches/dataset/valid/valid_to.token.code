@@ -1,0 +1,5 @@
+learners rms prop create an rmsprop learner instance to learn the parameters
+learners ada grad create an adagrad learner instance to learn the parameters
+ops function load model alias for  func  ~cntk ops function function load
+ops space to depth rearrange elements in the input tensor from the spatial dimension to the depth dimension
+ops pad pad a tensor accord to the specify pattern

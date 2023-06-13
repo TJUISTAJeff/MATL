@@ -1,0 +1,5 @@
+optim rms prop implement rmsprop algorithm
+optim ada grad implement adagrad algorithm
+load load an object save with  save   from a file
+nn pixel un shuffle reverse the pixelshuffle operation by rearrange elements in a tensor of shape  ∗ c h×r w×r     c  h \times r  w \times r  ∗ c h×r w×r  to a tensor of shape  ∗ c×r2 h w     c \times r 2  h  w  ∗ c×r2 h w   where r be a downscale factor
+nn zero pad 2d pad the input tensor boundaries with zero

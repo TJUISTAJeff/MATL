@@ -1,0 +1,5 @@
+learners rms prop
+learners ada grad
+ops function load model
+ops space to depth
+ops pad

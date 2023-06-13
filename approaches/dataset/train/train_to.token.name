@@ -1,0 +1,50 @@
+cntk py batch normalization
+ops per dim mean variance normalize
+losses cosine distance
+learners adam
+layer layer convolution 1d
+layer block lstm
+initializer he uniform
+ops crop manual
+layer layer embed
+layer layer average pool
+layer layer convolution transpose 3d
+random uniform
+initializer gl or ot uniform
+layer layer max pool
+layer soft plus
+layer layer max pool
+ops log soft max
+ops soft max
+ops depth to space
+ops soft sign
+losses cross entropy with soft max
+layer s igm oid
+ops stop gradient
+layer layer max pool
+losses binary cross entropy
+ops tan h
+ops pad
+layer layer max pool
+learners ada delta
+layer layer layer normalization
+ops param relu
+ops s elu
+layer block gru
+layer layer max pool
+ops relu
+layer layer convolution 2d
+ops flatten
+layer layer batch normalization
+train trainer save checkpoint
+ops soft max
+layer max pool
+losses cross entropy with soft max
+initializer normal
+ops elu
+layer layer convolution transpose 2d
+layer layer dense
+initializer uniform
+ops elu
+layer layer max pool
+cntk py dropout

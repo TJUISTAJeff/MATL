@@ -1,0 +1,33 @@
+nn initial normal
+nn elu
+nn conv transpose 2d
+nn linear
+nn initial uniform
+nn functional elu
+nn functional max pool 2d
+nn functional dropout
+optim rms prop
+optim ada grad
+load
+nn pixel un shuffle
+nn zero pad 2d
+nn avg pool 3d
+nn functional hard s igm oid
+nn conv 3d
+nn functional linear
+unique
+nn leaky relu
+tensor dot
+nn rnn
+auto grad grad
+nn avg pool 2d
+nn sequential
+optim sgd
+nn dropout
+nn avg pool 1d
+distributions bernoulli bernoulli
+distributions normal normal
+nn relu
+nn initial xavier normal
+nn functional mse loss
+nn initial k aiming normal

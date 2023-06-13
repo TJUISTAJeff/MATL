@@ -1,0 +1,33 @@
+initializer normal
+ops elu
+layer layer convolution transpose 2d
+layer layer dense
+initializer uniform
+ops elu
+layer layer max pool
+cntk py dropout
+learners rms prop
+learners ada grad
+ops function load model
+ops space to depth
+ops pad
+layer layer average pool
+ops hard s igm oid
+layer layer convolution 3d
+layer layer dense
+ops function unique
+ops leaky relu
+ops element time
+layer block rnn step
+ops function function grad
+layer layer average pool
+layer sequential
+learners sgd
+layer layer dropout
+layer layer average pool
+random bernoulli
+random normal
+ops relu
+initializer gl or ot normal
+square error
+initializer he normal

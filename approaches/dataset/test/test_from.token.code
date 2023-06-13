@@ -1,0 +1,33 @@
+nn initial normal fill the input tensor with value draw from the normal distribution n mean std2 \mathcal{n} \text{mean}  \text{std} 2 n mean std2
+nn elu apply the exponential linear unit  elu  function  element-wise  as describe in the paper  fast and accurate deep network learn by exponential linear units  elus
+nn conv transpose 2d apply a 2d transpose convolution operator over an input image compose of several input plan
+nn linear apply a linear transformation to the incoming data  y=xat by = xa t   by=xat b
+nn initial uniform fill the input tensor with value draw from the uniform distribution u a b \mathcal{u} a  b u a b
+nn functional elu apply element-wise  elu x =max⁡ 0 x  min⁡ 0 α∗ exp⁡ x −1  \text{elu} x  = \max 0 x    \min 0  \alpha    \exp x  - 1  elu x =max 0 x  min 0 α∗ exp x −1
+nn functional max pool 2d apply a 2d max pool over an input signal compose of several input plan
+nn functional dropout during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution
+optim rms prop implement rmsprop algorithm
+optim ada grad implement adagrad algorithm
+load load an object save with  save   from a file
+nn pixel un shuffle reverse the pixelshuffle operation by rearrange elements in a tensor of shape  ∗ c h×r w×r     c  h \times r  w \times r  ∗ c h×r w×r  to a tensor of shape  ∗ c×r2 h w     c \times r 2  h  w  ∗ c×r2 h w   where r be a downscale factor
+nn zero pad 2d pad the input tensor boundaries with zero
+nn avg pool 3d apply a 3d average pool over an input signal compose of several input plan
+nn functional hard s igm oid apply the element-wise function hard sigmoid
+nn conv 3d apply a 3d convolution over an input signal compose of several input plan
+nn functional linear apply a linear transformation to the incoming data  y=xat by = xa t   by=xat b
+unique return the unique elements of the input tensor
+nn leaky relu apply the element-wise function leaky relu
+tensor dot return a contraction of a and b over multiple dimension
+nn rnn apply a multi-layer elman r with tanh⁡\tanhtanh or relu\text{relu}relu non-linearity to an input sequence
+auto grad grad compute and return the sum of gradients of output with respect to the input
+nn avg pool 2d apply a 2d average pool over an input signal compose of several input plan
+nn sequential a sequential container
+optim sgd implement stochastic gradient descent  optionally with momentum
+nn dropout during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution
+nn avg pool 1d apply a 1d average pool over an input signal compose of several input plan
+distributions bernoulli bernoulli create a bernoulli distribution parameterized by probs or logits ( but not both ) .
+distributions normal normal create a normal ( also call gaussian ) distribution parameterized by loc and scale .
+nn relu apply the rectify linear unit function element-wise
+nn initial xavier normal fill the input tensor with value accord to the method describe in understand the difficulty of train deep feedforward neural network - glorot  x    bengio  y   2010   use a normal distribution  the result tensor will have value sample from n 0 std2 \mathcal{n} 0  \text{std} 2 n 0 std2  where
+nn functional mse loss measure the element-wise mean square error
+nn initial k aiming normal fill the input tensor with value accord to the method describe in delve deep into rectifiers  surpass human-level performance on imagenet classification - he  k  et al   2015   use a normal distribution  the result tensor will have value sample from n 0 std2 \mathcal{n} 0  \text{std} 2 n 0 std2  where

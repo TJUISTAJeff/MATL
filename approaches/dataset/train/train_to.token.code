@@ -1,0 +1,50 @@
+cntk py batch normalization normalize layer output for every minibatch for each output  feature  independently
+ops per dim mean variance normalize compute per dimension mean variance normalization of the specify input operand
+losses cosine distance compute the cosine distance between   x   and   y
+learners adam create an adam learner instance to learn the parameters
+layer layer convolution 1d layer factory function to create a 1 d convolution layer with optional non linearity
+layer block lstm layer factory function to create an lstm block for use inside a recurrence
+initializer he uniform initializer
+ops crop manual crop input along spatial dimension so that it match spatial size of reference input
+layer layer embed layer factory function to create a embed layer
+layer layer average pool layer factory function to create an average pool layer
+layer layer convolution transpose 3d layer factory function to create a 3 d convolution transpose layer with optional non linearity
+random uniform generate sample from the uniform distribution in the interval   low   high
+initializer gl or ot uniform glorot initializer
+layer layer max pool layer factory function to create a max pool layer
+layer soft plus softplus operation  compute the element wise softplus of   x
+layer layer max pool layer factory function to create a max pool layer
+ops log soft max compute the logsoftmax normalize value of x  that be  y   x   log reduce sum exp x   axis
+ops soft max compute the gradient of  math  f z  \log\sum i\exp z i   at   z   x    concretely
+ops depth to space rearrange elements in the input tensor from the depth dimension into spatial block
+ops soft sign compute the element wise softsign of   x
+losses cross entropy with soft max this operation compute the cross entropy between the   target vector   and the softmax of the   output vector
+layer s igm oid compute the element wise sigmoid of   x
+ops stop gradient output its input as it be and prevent any gradient contribution from its output to its input
+layer layer max pool layer factory function to create a max pool layer
+losses binary cross entropy compute the binary cross entropy  aka logistic loss  between the   output   and   target
+ops tan h compute the element wise tanh of   x
+ops pad pad a tensor accord to the specify pattern
+layer layer max pool layer factory function to create a max pool layer
+learners ada delta create an adadelta learner instance to learn the parameters
+layer layer layer normalization layer factory function to create a function that implement layer normalization
+ops param relu parametric rectify linear operation  compute the element wise parameteric rectify linear
+ops s elu scale exponential linear unit operation  compute the element wise exponential linear
+layer block gru layer factory function to create a gru block for use inside a recurrence
+layer layer max pool layer factory function to create a max pool layer
+ops relu rectify linear operation  compute the element wise rectify linear
+layer layer convolution 2d layer factory function to create a 2 d convolution layer with optional non linearity
+ops flatten flatten the input tensor into a 2 d matrix
+layer layer batch normalization normalize layer output for every minibatch for each output  feature  independently
+train trainer save checkpoint save a checkpoint of the model and other trainer state at the specify file location
+ops soft max compute the gradient of  math  f z  \log\sum i\exp z i   at   z   x    concretely
+layer max pool layer factory function to create a max pool layer
+losses cross entropy with soft max this operation compute the cross entropy between the   target vector   and the softmax of the   output vector
+initializer normal normal initializer
+ops elu exponential linear unit operation  compute the element wise exponential linear
+layer layer convolution transpose 2d layer factory function to create a 2 d convolution transpose layer with optional non linearity
+layer layer dense layer factory function to create an instance of a fully connect linear layer of the form
+initializer uniform uniform initializer
+ops elu exponential linear unit operation  compute the element wise exponential linear
+layer layer max pool layer factory function to create a max pool layer
+cntk py dropout each element of the input be independently set to 0 with probability   dropout rate

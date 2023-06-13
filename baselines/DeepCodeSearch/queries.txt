@@ -1,0 +1,33 @@
+optimizer that implement the adam algorithm
+optimizer that implement the rmsprop algorithm  tielemans et al
+construct symbolic derivatives of sum of ys w r t  x in xs
+return a tensor with the same shape and content as input
+exponential linear unit
+exponential linear unit
+hard sigmoid activation function
+scale exponential linear unit  selu
+functional interface to the dot layer
+layer that compute a dot product between sample in two tensors
+tensor contraction of a and b along specify ax and outer product
+turn positive integers  index  into dense vectors of fix size
+layer normalization layer  ba et al   2016
+leaky version of a rectify linear unit
+parametric rectify linear unit
+base class for recurrent layer
+upsampling layer for 2d input
+compute the cross-entropy loss between true label and predict label
+compute the crossentropy loss between the label and predictions
+compute the cosine similarity between the label and predictions
+compute the cosine similarity between label and predictions
+compute the cosine similarity between label and predictions
+compute the poisson loss between y true and y pred
+save a model as a tensorflow savedmodel or hdf5 file
+a learningrateschedule that use an exponential decay schedule
+gradient descent  with momentum  optimizer
+sequential group a linear stack of layer into a tf keras model
+specify that ops of type op type be not differentiable
+split a tensor value into a list of sub tensors
+find unique elements in a 1-d tensor
+broadcast parameters for evaluation on an n-d grid
+construct an identity matrix  or a batch of matrices
+tensor contraction over specify indices and outer product

@@ -1,0 +1,4 @@
+Collecting PyHamcrest
+  Downloading https://files.pythonhosted.org/packages/5a/fa/488920633f45c1c291c633fcbe0cd465f40d91ac2a2b90f594bae36db80a/PyHamcrest-2.0.3-py3-none-any.whl (51kB)
+Installing collected packages: PyHamcrest
+Successfully installed PyHamcrest-2.0.3

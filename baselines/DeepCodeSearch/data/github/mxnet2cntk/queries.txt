@@ -1,0 +1,30 @@
+max pool operation for 3d data  spatial or spatio temporal
+the adam optimizer
+apply a multi layer gate recurrent unit  gru  rnn to an input sequence
+the cross entropy loss for binary classification   alias  sigmoidbceloss
+flatten the input to two dimensional
+convenience fluent method for  py func  depth to space
+apply a multi layer long short term memory  lstm  rnn to an input sequence
+pad an input array with a constant or edge value of the array
+compute hard sigmoid of x element wise
+apply softmax activation to input  this be intend for internal layer
+apply a multi layer elman rnn with  tanh  or  relu  non linearity to an input sequence
+checkpoint the model data into file
+apply layer normalization to the n dimensional input array
+load parameters from file
+convenience fluent method for  py func  log softmax
+batch normalization layer  ioffe and szegedy  2014
+calculate the mean square error between  label  and  pred
+initialize weight with random value uniformly sample from a give range
+3d convolution layer  e g  spatial convolution over volumes
+compute the gradients of head w r t variables  gradients will be
+compute the norm on an ndarray
+initialize weight with random value sample from a normal distribution
+find the unique elements of an array  return the sort unique elements of an array
+turn non negative integers  indexes/tokens  into dense vectors
+rearrange permute  block of spatial data into depth
+1d convolution layer  e g  temporal convolution
+draw random sample from a uniform distribution
+return a scope context to be use in  with  statement for cod that do not need
+exponential linear unit  elu
+max pool operation for two dimensional  spatial  data

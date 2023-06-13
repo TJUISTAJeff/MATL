@@ -1,0 +1,33 @@
+leaky version of a rectify linear unit
+convenience fluent method for  py func  log softmax
+rearrange permute  block of spatial data into depth
+convenience fluent method for  py func  clip
+long short term memory  lstm  network cell
+apply a multi layer gate recurrent unit  gru  rnn to an input sequence
+the rmsprop optimizer
+apply softmax activation to input  this be intend for internal layer
+for a target label 1 or  1  vectors input1 and input2  the function compute the cosine distance
+return coordinate matrices from coordinate vectors
+max pool operation for one dimensional data
+find the unique elements of an array  return the sort unique elements of an array
+compute the gradients of head w r t variables  gradients will be
+the adam optimizer
+the adadelta optimizer
+elman rnn recurrent neural network cell
+calculate the mean square error between  label  and  pred
+the cross entropy loss for binary classification   alias  sigmoidbceloss
+create a bernoulli distribution parameterized by  attr  prob
+average pool operation for spatial data
+the sgd optimizer with momentum and weight decay
+transpose 2d convolution layer  sometimes call deconvolution
+return a 2 d array with ones on the diagonal and zero elsewhere
+for a target  random variable  in a poisson distribution  the function calculate the negative
+this class implement the adagrad optimizer describe in  adaptive subgradient methods for online learn and stochastic optimization
+calculate smooth l1 loss that be equal to l1 loss if absolute error
+upsamples the give input data
+calculate the hinge loss function often use in svms
+apply a multi layer long short term memory  lstm  rnn to an input sequence
+block that pass through the input directly
+max pool operation for 3d data  spatial or spatio temporal
+parametric leaky version of a rectify linear unit
+return a scope context to be use in  with  statement for cod that do not need

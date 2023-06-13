@@ -1,0 +1,31 @@
+generate sample from the uniform distribution in the interval   low   high
+initializer
+layer factory function to create a 3d convolution layer with optional non linearity
+layer factory function to create a gru block for use inside a recurrence
+layer factory function to create a function that implement layer normalization
+layer factory function to create a embed layer
+compute the element wise sigmoid of   x
+normalize layer output for every minibatch for each output  feature  independently
+compute the gradient of this function at location   at   with respect to   wrt
+layer factory function to create a 2d convolution transpose layer with optional non linearity
+layer factory function to create a max pool layer
+save a checkpoint of the model and other trainer state at the specify file location
+layer factory function to create a 1d convolution layer with optional non linearity
+generate sample from the normal distribution with mean  mean  and standard deviation  scale
+glorot initializer
+compute the element wise softsign of   x
+alias for  func  ~cntk ops function function load
+parametric rectify linear operation  compute the element wise parameteric rectify linear
+the output of this operation be the element wise product of the two or more input
+exponential linear unit operation  compute the element wise exponential linear
+pad a tensor accord to the specify pattern
+this operation compute the cross entropy between the   target vector   and the softmax of the   output vector
+create an sgd learner instance to learn the parameters
+scale exponential linear unit operation  compute the element wise exponential linear
+each element of the input be independently set to 0 with probability   dropout rate
+create an adam learner instance to learn the parameters
+compute the element wise tanh of   x
+layer factory function to create a max pool layer
+leaky rectify linear operation  compute the element wise leaky rectify linear
+compute the element wise hardsigmoid function  y   max 0  min 1  alpha   x   beta
+crop input along spatial dimension so that it match spatial size of reference input

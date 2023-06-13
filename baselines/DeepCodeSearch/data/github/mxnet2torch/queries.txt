@@ -1,0 +1,33 @@
+block that pass through the input directly
+calculate the hinge loss function often use in svms
+initialize weight as orthogonal matrix
+leaky version of a rectify linear unit
+compute hard sigmoid of x element wise
+apply layer normalization to the n dimensional input array
+exponential linear unit  elu
+stack block sequentially
+the rmsprop optimizer
+for a target label 1 or  1  vectors input1 and input2  the function compute the cosine distance
+evaluate the einstein summation convention on the operands
+pad an input array with a constant or edge value of the array
+average pool operation for temporal data
+2d convolution layer  e g  spatial convolution over image
+create a bernoulli distribution parameterized by  attr  prob
+return a 2 d array with ones on the diagonal and zero elsewhere
+scale exponential linear unit  selu
+the cross entropy loss for binary classification   alias  sigmoidbceloss
+convenience fluent method for  py func  depth to space
+the adadelta optimizer
+connectionist temporal classification loss
+elman rnn recurrent neural network cell
+1d convolution layer  e g  temporal convolution
+apply dropout to the input
+long short term memory  lstm  network cell
+convenience fluent method for  py func  log softmax
+dot product of two array
+initialize the weight to a give value
+draw random sample from a uniform distribution
+parametric leaky version of a rectify linear unit
+draw sample from an exponential distribution
+compute the gradients of head w r t variables  gradients will be
+max pool operation for two dimensional  spatial  data

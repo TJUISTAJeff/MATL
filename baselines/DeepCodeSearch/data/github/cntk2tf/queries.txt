@@ -1,0 +1,30 @@
+layer factory function to create a 1d convolution layer with optional non linearity
+uniform initializer
+normal initializer
+layer factory function to create a 2d convolution layer with optional non linearity
+compute the gradient of this function at location   at   with respect to   wrt
+layer factory function to create a function that implement layer normalization
+normalize layer output for every minibatch for each output  feature  independently
+generate sample from the bernoulli distribution with success probability  mean
+compute the element wise sigmoid of   x
+generate sample from the normal distribution with mean  mean  and standard deviation  scale
+exponential linear unit operation  compute the element wise exponential linear
+create an adagrad learner instance to learn the parameters
+layer factory function to create an lstm block for use inside a recurrence
+create an sgd learner instance to learn the parameters
+class decorator for enumerations ensure unique member value
+compute the element wise tanh of   x
+compute the cosine distance between   x   and   y
+the output of this operation be the element wise product of the two or more input
+flatten the input tensor into a 2d matrix
+output its input as it be and prevent any gradient contribution from its output to its input
+leaky rectify linear operation  compute the element wise leaky rectify linear
+initializer
+layer factory function to create a composite that apply a sequence of layer  or any function  onto an input
+compute the element wise softsign of   x
+initializer
+rearrange elements in the input tensor from the depth dimension into spatial block
+scale exponential linear unit operation  compute the element wise exponential linear
+compute per dimension mean variance normalization of the specify input operand
+glorot initializer
+this operation compute the cross entropy between the   target vector   and the softmax of the   output vector

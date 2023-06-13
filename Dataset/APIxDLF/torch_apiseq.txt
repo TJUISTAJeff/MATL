@@ -1,0 +1,933 @@
+with meta class warn warn runtime error not implemented error not implemented error
+warn ki neto activities add warn ki neto activities add len warn auto grad profiler config runtime error auto grad prepare profiler auto grad enable profiler auto grad enable profiler legacy parse ki neto result parse legacy record event list re pr str runtime error function events table ki neto result save function events export chrome trace function events export stack function events key average
+runtime error auto grad enable profiler legacy auto grad profiler config
+warn warn set anomaly enable set anomaly enable
+set anomaly enable set anomaly enable
+warn warn set auto cast enable set auto cast enable fun c
+warn warn default dic t format format full full is instance lazy in it scale growth tracker scale to is instance len lazy in it scale growth tracker stash append multi device replica tor stash 0 get is instance map is instance is instance type value error apply scale multi device replica tor multi device replica tor default dic t default dic t value error per device and d type grads to un scale device to un scale d type append amp for each non finite check and un scale per device find inf get per device in v scale get check scale growth tracker per optimizer states id optimizer id runtime error runtime error full un scale grads sum optimizer step optimizer step runtime error check scale growth tracker per optimizer states id optimizer id runtime error has at tr optimizer step dic t un scale len maybe opt step check scale growth tracker is instance scale fill is instance scale copy find inf to len len range len amp update scale default dic t len runtime error scale fill growth tracker fill len dic t update check scale growth tracker full full per optimizer states id optimizer found inf per device id un scale grads per optimizer states id optimizer found inf per device id per optimizer states id optimizer found inf per device id
+
+
+
+
+
+len runtime error scale fill growth tracker fill
+is instance lazy in it scale growth tracker scale to is instance len lazy in it scale growth tracker stash append multi device replica tor stash 0 get is instance map is instance is instance type value error apply scale
+
+
+
+
+optimizer step runtime error check scale growth tracker per optimizer states id optimizer id runtime error has at tr optimizer step dic t un scale len maybe opt step
+check scale growth tracker per optimizer states id optimizer id runtime error runtime error full un scale grads
+check scale growth tracker is instance scale fill is instance scale copy find inf to len len range len amp update scale default dic t
+len len fun c tools partial len len fwd auto cast fwd cast cast fwd
+auto cast b wd
+
+
+is instance value error format get at tr value error value error format set at tr
+has at tr
+is instance runtime error runtime error backend warn warn format new process group helper update default pg rendezvous next store set time out new process group helper update default pg range store base barrier get backend
+
+
+
+rank not in group runtime error pg map get
+rank not in group get group rank
+rank not in group get group size
+sort len runtime error runtime error rank index list range backend new process group helper enumerate store base barrier get backend
+check single tensor rank not in group default pg send get group rank group send
+check single tensor rank not in group pg re cv any source get global rank pg re cv get group rank pg re cv
+check single tensor rank not in group default pg send get group rank group send
+check single tensor rank not in group pg re cv any source pg re cv get group rank pg re cv
+check single tensor rank not in group default pg broadcast get group rank group broadcast
+rank not in group zip object to tensor cat empty len get backend device device object size tensor to object size tensor to broadcast cat empty sum object tensor to broadcast enumerate obj view type device tensor to object
+check single tensor rank not in group support complex runtime error view as real default pg all reduce group all reduce
+check single tensor rank not in group default pg reduce get group rank group reduce
+check tensor list check single tensor rank not in group view as real view as real default pg all gather group all gather
+rank not in group object to tensor get backend device device input tensor to local size to get world size zero object size tensor i un squeeze range all gather int max input tensor resize empty range all gather enumerate tensor type device tensor to object
+check single tensor check tensor list rank not in group validate output list for rank default pg gather get group rank group gather
+rank not in group validate output list for rank object to tensor get backend device device input tensor to local size to get world size zero object size tensor i un squeeze range all gather int max input tensor resize empty range gather enumerate tensor type tensor to object
+check single tensor check tensor list rank not in group value error value error default pg scatter get group rank group scatter
+rank not in group is instance len runtime error get rank zip object to tensor list list max tensor resize tensor broadcast empty scatter tensor scatter tensor to object
+check single tensor check tensor list rank not in group default pg reduce scatter group reduce scatter
+rank not in group check tensor list check tensor list default pg all to all group all to all
+rank not in group get backend runtime error format get backend is instance runtime error default pg barrier group barrier
+rank not in group get backend runtime error group to use monitor barrier
+rank not in group default pg broadcast get group rank group broadcast
+rank not in group view as real default pg all reduce group all reduce
+rank not in group default pg reduce get group rank group reduce
+rank not in group view as real view as real default pg all gather group all gather
+rank not in group default pg reduce scatter group reduce scatter
+warn warn constraints be dependent is instance get at tr type constraint check get at tr value error format super r sample warn warn sample size exp is instance size is instance value error len len value error format zip reverse reverse value error format warn warn support check value error type not implemented error format new type join format
+log normalize r auto grad grad zip
+value error is instance broadcast all is instance broadcast all super get check instance size p robs expand log its expand super param new p robs to log its log its to p robs extend shape bernoulli p robs expand validate sample broadcast all binary cross entropy with log its binary cross entropy with log its a range value view len value expand log log exp
+is instance is instance tensor float float broadcast all stack di rich let super get check instance size di rich let expand super total pow di rich let r sample validate sample stack di rich let log pro b is instance tensor is instance tensor l gamma l gamma l gamma
+value error broadcast all total count type as broadcast all total count type as super get check instance size total count expand p robs expand log its expand super param new constraints integer interval p robs to log its log its to p robs extend shape binomial total count expand p robs expand validate sample l gamma l gamma l gamma clamp by zero log 1 p exp abs int not implemented error a range value view len value expand
+value error value error p robs sum value error log its log sum exp super get check instance size size p robs expand log its expand super param new constraints integer interval p robs to log its log its to p robs full full is instance size p robs reshape multi no mi al sample 2 d reshape extend shape validate sample broadcast tensors log pm f gather f info clamp p log p sum a range value view len value expand
+broadcast all is instance is instance super get check instance size loc expand scale expand super full full extend shape loc new validate sample math log validate sample at an tan math log
+super get check instance super
+value error is instance broadcast all arg constraints ' p robs ' check get at tr value error format clamp p robs is instance broadcast all super get check instance size p robs expand log its expand super param new max le gt where ones like where le zero like where ge ones like log abs log 1 p log where le log 1 p log pow math log where log 1 p log pow where sqr t pow pow log 1 p log pow where p robs to log its clamp p robs log its to p robs extend shape rand icd f extend shape rand icd f validate sample broadcast all binary cross entropy with log its validate sample pow pow where where le zero like where ge ones like where log 1 p log 1 p log log 1 p log 1 p log max le gt where ones like log abs exp log abs pow pow where
+constraints independent value error super get check instance size concentration expand super extend shape concentration expand di rich let apply validate sample sum log l gamma concentration sum l gamma concentration sum concentration sum c on 0 pow concentration size concentration sum l gamma l gamma digamma sum digamma l gamma x sum
+rate pow broadcast all is instance super get check instance size rate expand super extend shape rand rate new validate sample validate sample exp log log log
+broadcast all gamma gamma is instance is instance super get check instance size df 1 expand df 2 expand gamma 1 expand gamma 2 expand super df 2 clone df 2 clone df 2 pow pow size extend shape gamma 1 r sample gamma 2 r sample f info x 2 clamp y clamp validate sample log log 1 p
+rate pow broadcast all is instance is instance super get check instance size concentration expand rate expand super extend shape standard gamma concentration expand rate expand f info as tensor validate sample log log l gamma log l gamma digamma l gamma log
+value error broadcast all p robs gt value error broadcast all is instance super get check instance size p robs expand log its expand super p robs to log its log its to p robs extend shape f info rand u clamp p robs new validate sample broadcast all p robs clone binary cross entropy with log its
+broadcast all f info is instance is instance uniform uniform full like full like affine transform ones like affine transform super get check instance loc expand scale expand super validate sample math sqr t std dev pow
+cauchy super get check instance super full validate sample as tensor base dist log pro b math log log pro b value expand log pro b shape 0 value expand validate sample base dist cd f base dist icd f math log
+normal super get check instance super math sqr t scale pow validate sample base dist log pro b math log log pro b value expand log pro b shape 0 value expand validate sample base dist cd f base dist icd f math log
+len value error format len len shape len shape event dim len shape len shape event dim len super get check instance size base dist expand super constraints independent base dist sample base dist r sample base dist log pro b sum rightmost sum rightmost not implemented error base dist enumerate support format
+broadcast all f info uniform full like full like power transform affine transform power transform super get check instance concentration 1 expand concentration 0 expand super moments moments pow digamma log log
+value error broadcast all size a range cat offset new zero marginal co nc un squeeze beta super get check instance size concentration expand beta expand super beta sample rand n extend shape u normal norm u hyper sphere 0 fill sqr t f info clamp sum dia g embed validate sample value diagonal a range un squeeze sum l gamma mv l gamma math log
+scale pow broadcast all is instance is instance super get check instance size loc expand scale expand super extend shape f info rand log 1 p loc new log 1 p validate sample log abs validate sample exp m 1 log 1 p log
+normal super get check instance super exp scale pow scale pow exp scale pow
+constraints independent constraints independent value error value error value error format value error format loc un squeeze cov dia g un squeeze broadcast tensors value error format batch capacitance tr il super get check instance size loc expand cov dia g expand cov factor expand super expand un broadcasted cov factor pow mat mul din v sqr t w transpose k view lina lg c hole sky scale tr il expand mat mul un broadcasted cov factor transpose dia g embed co variance matrix expand un broadcasted cov factor transpose un broadcasted cov dia g un squeeze triangular solve dia g embed mat mul a transpose precision matrix expand extend shape standard normal standard normal batch mv validate sample batch low rank mahal a nobis batch low rank log det math log batch low rank log det math log len h expand
+is instance value error is instance value error zip reverse reverse value error format value error format len super size get check instance component distribution expand mixture distribution expand super pad mixture dimension sum pad mixture dimension sum sum pow pad pad component distribution cd f sum validate sample pad component distribution log pro b log soft max log sum exp len len mixture distribution sample component distribution sample mix sample reshape size len mix sample r repeat size len size gather sample squeeze x un squeeze x reshape size size format
+is instance not implemented error categorical super get check instance size categorical expand super categorical new constraints multi no mi al size categorical sample size list range shift i dx append shift i dx pop sample permute sample new extend shape count scatter add ones like count type as validate sample broadcast all log its clone l gamma value sum l gamma sum
+value error value error value error broadcast shape scale tr il expand value error broadcast shape co variance matrix expand value error broadcast shape precision matrix expand loc expand super lina lg c hole sky precision to scale tr il get check instance size loc expand co variance matrix expand scale tr il expand precision matrix expand super un broadcasted scale tr il expand mat mul un broadcasted scale tr il transpose eye loc size c hole sky solve un broadcasted scale tr il pow extend shape standard normal batch mv validate sample batch mahal a nobis un broadcasted scale tr il diagonal math log un broadcasted scale tr il diagonal math log len h expand
+constraints greater than eq constraints half open interval value error broadcast all total count type as broadcast all total count type as super get check instance size total count expand p robs expand log its expand super param new exp s igm oid p robs to log its log its to p robs distributions gamma exp gamma sample poisson validate sample f logs igm oid f logs igm oid l gamma l gamma l gamma
+std dev pow broadcast all is instance is instance super get check instance size loc expand scale expand super extend shape normal loc expand scale expand extend shape standard normal validate sample math log is instance math log math sqr t validate sample er f math sqr t er fin v math sqr t math log log scale pow scale pow x pow log
+categorical super get check instance size categorical expand super categorical new size categorical sample nn functional one hot validate sample value max categorical log pro b eye value view len value expand
+broadcast all exponential affine transform super get check instance scale expand alpha expand super alpha clamp alpha clamp scale pow pow constraints greater than
+broadcast all is instance super get check instance size rate expand super extend shape poisson rate expand validate sample broadcast all log exp
+log it relaxed bernoulli super get check instance super
+value error is instance broadcast all is instance broadcast all super get check instance size p robs expand log its expand super param new p robs to log its log its to p robs extend shape clamp p robs p robs expand clamp p robs rand validate sample broadcast all value mul
+exp relaxed categorical super get check instance super
+loc clone df clone scale self df 2 pow broadcast all chi 2 super get check instance size df expand loc expand scale expand chi 2 expand super extend shape standard normal chi 2 r sample r sqr t validate sample math log l gamma l gamma log 1 p l gamma math l gamma l gamma digamma digamma
+is instance is instance all is instance value error value error format len compose transform len value error format transform forward shape transform inverse shape expand base shape len expanded base shape base event dim len base distribution expand independent max len len super get check instance size reverse t inverse shape shape len shape len self base dist event shape len len base dist expand super len constraints independent len base dist sample transform base dist r sample transform validate sample len reverse transform in v sum rightmost transform log abs det jacobi an sum rightmost base dist log pro b len is instance transform in v base dist validate sample base dist cd f mono toni ze cd f mono toni ze cd f base dist validate sample base dist icd f transform
+constraints dependent constraints dependent pow broadcast all is instance is instance super lt value error get check instance size low expand high expand super constraints interval extend shape rand validate sample low le high gt log lb mul log validate sample result clamp log
+broadcast all super cos math log log modify bessel fn extend shape empty rejection sample super dic t get loc expand concentration expand type exp log modify bessel fn log modify bessel fn
+broadcast all exponential ones like power transform affine transform super get check instance scale expand concentration expand base dist expand power transform affine transform super exp l gamma scale pow exp l gamma exp l gamma log
+is instance
+super constraints independent constraints independent affine transform is instance is instance is instance is instance is instance is instance float float is instance full like math log abs abs result view result expand broadcast shape get at tr get at tr broadcast shape get at tr get at tr
+part with cache super is instance reverse max constraints independent max constraints independent all compose transform reverse weak ref ref weak ref ref compose transform part zero like xs append part xs append zip term append sum rightmost part log abs det jacobi an fun c tools reduce part forward shape reverse part inverse shape join
+tan h f info x clamp vec to tr il matrix eye pad cum sum pad tr il matrix to vec tr il matrix to vec cum sum tr il matrix to vec sum soft plus math log len value error round value error len value error value error
+is instance
+base transform with cache independent transform constraints independent constraints independent value error base transform value error base transform in v base transform log abs det jacobi an sum rightmost base transform forward shape base transform inverse shape
+constraints independent is instance x tr il x diagonal y tr il y diagonal
+super broadcast all power transform is instance exponent eq x pow y pow broadcast shape get at tr broadcast shape get at tr
+size size value error constraints independent len constraints independent len reshape transform len x reshape len y reshape len x new zero len len value error len len value error format len len value error len len value error format
+is instance clip s igm oid f info y clamp f soft plus f soft plus
+constraints interval is instance at an h math log soft plus
+is instance exp log p robs max p robs sum len value error len value error
+all is instance t with cache super list stack transform z select range z size x size len zip slice y slices append trans stack y size len zip slice x slices append trans in v stack x size len y size len slice slice zip log det jac s append trans log abs det jacobi an stack all constraints stack constraints stack
+is instance x new ones clip s igm oid cum prod pad pad y new ones y crop cum sum clamp f info x new ones sum f logs igm oid len value error len value error
+value error super value error inverse transform weak ref ref type type not implemented error format type eq call call inverse inverse
+
+super register is instance type is instance is subclass type error format registry type constraint type not implemented error factory
+
+
+
+
+
+
+exp
+
+r sample
+warn warn sample size
+
+log normalize r auto grad grad zip
+binary cross entropy with log its
+a range value view len value expand
+get check instance size p robs expand log its expand super
+validate sample broadcast all binary cross entropy with log its
+extend shape bernoulli p robs expand
+
+get check instance size di rich let expand super
+validate sample stack di rich let log pro b
+di rich let r sample
+
+int not implemented error a range value view len value expand
+get check instance size total count expand p robs expand log its expand super
+validate sample l gamma l gamma l gamma clamp by zero log 1 p exp abs
+extend shape binomial total count expand p robs expand
+f info clamp p log p sum
+a range value view len value expand
+get check instance size size p robs expand log its expand super
+validate sample broadcast tensors log pm f gather
+is instance size p robs reshape multi no mi al sample 2 d reshape extend shape
+validate sample at an
+math log
+get check instance size loc expand scale expand super
+tan
+validate sample math log
+extend shape loc new
+get check instance super
+validate sample pow pow where where le zero like where ge ones like
+log 1 p log
+get check instance size p robs expand log its expand super
+where log 1 p log 1 p log log 1 p
+validate sample broadcast all binary cross entropy with log its
+extend shape rand icd f
+extend shape rand icd f
+concentration size concentration sum l gamma l gamma digamma sum digamma
+get check instance size concentration expand super
+validate sample sum log l gamma concentration sum l gamma
+extend shape concentration expand di rich let apply
+validate sample exp
+log
+get check instance size rate expand super
+log
+validate sample
+extend shape rand rate new
+get check instance size df 1 expand df 2 expand gamma 1 expand gamma 2 expand super
+validate sample log log 1 p
+size extend shape gamma 1 r sample gamma 2 r sample f info x 2 clamp y clamp
+log l gamma digamma
+get check instance size concentration expand rate expand super
+as tensor validate sample log log l gamma
+extend shape standard gamma concentration expand rate expand f info
+binary cross entropy with log its
+get check instance size p robs expand log its expand super
+validate sample broadcast all p robs clone
+extend shape f info rand u clamp p robs new
+
+get check instance loc expand scale expand super
+validate sample
+validate sample base dist cd f
+math log
+get check instance super
+base dist icd f
+validate sample as tensor base dist log pro b math log log pro b value expand log pro b shape 0 value expand
+validate sample base dist cd f
+math log
+get check instance super
+base dist icd f
+validate sample base dist log pro b math log log pro b value expand log pro b shape 0 value expand
+sum rightmost
+not implemented error base dist enumerate support
+get check instance size base dist expand super
+base dist log pro b sum rightmost
+base dist r sample
+base dist sample
+digamma log log
+get check instance concentration 1 expand concentration 0 expand super
+get check instance size concentration expand beta expand super
+validate sample value diagonal a range un squeeze sum l gamma mv l gamma math log
+beta sample rand n extend shape u normal norm u hyper sphere 0 fill sqr t f info clamp sum dia g embed
+validate sample exp m 1
+log
+get check instance size loc expand scale expand super
+log 1 p
+validate sample log abs
+extend shape f info rand log 1 p loc new log 1 p
+
+get check instance super
+batch low rank log det math log len h expand
+get check instance size loc expand cov dia g expand cov factor expand super
+validate sample batch low rank mahal a nobis batch low rank log det math log
+extend shape standard normal standard normal batch mv
+pad component distribution cd f sum
+size get check instance component distribution expand mixture distribution expand super
+validate sample pad component distribution log pro b log soft max log sum exp
+len len mixture distribution sample component distribution sample mix sample reshape size len mix sample r repeat size len size gather sample squeeze
+
+get check instance size categorical expand super
+validate sample broadcast all log its clone l gamma value sum l gamma sum
+size categorical sample size list range shift i dx append shift i dx pop sample permute sample new extend shape count scatter add ones like count type as
+un broadcasted scale tr il diagonal math log len h expand
+get check instance size loc expand co variance matrix expand scale tr il expand precision matrix expand super
+validate sample batch mahal a nobis un broadcasted scale tr il diagonal math log
+extend shape standard normal batch mv
+get check instance size total count expand p robs expand log its expand super
+validate sample f logs igm oid f logs igm oid l gamma l gamma l gamma
+gamma sample poisson
+validate sample er f math sqr t
+math log log
+get check instance size loc expand scale expand super
+er fin v math sqr t
+validate sample math log is instance math log math sqr t
+extend shape standard normal
+extend shape normal loc expand scale expand
+
+eye value view len value expand
+get check instance size categorical expand super
+validate sample value max categorical log pro b
+size categorical sample nn functional one hot
+
+get check instance scale expand alpha expand super
+get check instance size rate expand super
+validate sample broadcast all
+extend shape poisson rate expand
+get check instance super
+get check instance size p robs expand log its expand super
+validate sample broadcast all value mul
+extend shape clamp p robs p robs expand clamp p robs rand
+get check instance super
+l gamma math l gamma l gamma digamma digamma
+get check instance size df expand loc expand scale expand chi 2 expand super
+validate sample math log l gamma l gamma log 1 p
+extend shape standard normal chi 2 r sample r sqr t
+transform in v base dist validate sample base dist cd f mono toni ze cd f
+get check instance size reverse t inverse shape shape len shape len self base dist event shape len len base dist expand super
+mono toni ze cd f base dist validate sample base dist icd f transform
+validate sample len reverse transform in v sum rightmost transform log abs det jacobi an sum rightmost base dist log pro b len
+base dist r sample transform
+base dist sample transform
+validate sample result clamp
+log
+get check instance size low expand high expand super
+
+validate sample low le high gt log lb mul log
+extend shape rand
+super dic t get loc expand concentration expand type
+cos math log log modify bessel fn
+extend shape empty rejection sample
+log
+get check instance scale expand concentration expand base dist expand power transform affine transform super
+
+
+
+
+register is instance type is instance is subclass type error format
+kl memo ize type p type q type type dispatch kl type type kl memo ize type p type q type type fun
+is instance is subclass type error format is instance is subclass type error format
+dependent property
+format
+format
+is instance is instance base constraint check value error result reshape result all format re pr
+format
+format
+format
+format
+all x sum
+all is instance list any max value select range value size stack const r check zip
+
+
+is instance set result
+
+cast
+
+
+cast c collect all cast
+c collect all cast
+get cache or reload s ys path insert import module s ys path remove dir callable get at tr f starts with
+get cache or reload s ys path insert import module s ys path remove load entry from hub conf
+k war gs pop k war gs pop k war gs pop value error get cache or reload load local
+request url open has at tr meta get headers meta get all len int os path expand user os path dir name temp file named temporary file t qd m u read len f write sha 256 update p bar update len digest len hash prefix len runtime error format shut il move os path exist os remove
+os get en v warn warn os path join os make dir s url parse os path base name os path join os path exist s ys std err write format hash regex search r group download url to file be legacy zip format legacy zip load load
+os get en v warn warn os path join
+
+get overload arg s tuple map overload arg function format type error format type
+type has at tr type
+
+dispatcher have function handle function fun c
+default dic t at trs get broken error append message write message write message write dependency graph nodes module name get message write
+
+
+is instance is instance str os path is dir c py torch file reader mock zip reader c py torch file reader package node module allow import error add ex tern add file package unpick ler gcd import zip file path zip reader get record load binary data decode zip file path get restore location data type storage context have storage storage context get storage zip reader get storage from record is instance storage context add storage restore location is instance maybe decode ascii load tensor maybe decode ascii fun c io bytes io zip reader get record unpick ler create directory from file list zip reader get record m angler mangle import lib machinery module spec import lib util module from spec m angler mangle install on parent line cache lazy cache compile source name split is instance module not found error is instance import lib import module make module is instance zip reader get record normalize line end compile import module de mangle zip reader get record de mangle get package package resource reader set at tr name r partition name r partition gcd import format module not found error load module install on parent modules get do find and load format module not found error sanity check resolve name find and load de mangle has at tr is instance type error has at tr handle from list has at tr format gcd import modules get gcd import calc package gcd import gcd import name partition len len name partition de mangle modules module name len module name cut off module name len module name cut off len handle from list has at tr type error format import module type error format get package de mangle normalize path enumerate cur children get package node is instance is instance join import error is instance filename split len get or create package is instance import error last ends with last len py len module node ex tern name split get or create package is instance
+len directory children dir name get dir file path split get dir directory filename split len children child have file string if y tree join str list append dir key append file key append enumerate sort len len children key string if y tree children key string if y tree enumerate sort len str list append
+is instance str c py torch file writer zip file set min version c script module serialize r is instance is instance type error ordered importer
+
+patterns glob group include exclude exclude glob group pattern info
+patterns glob group include exclude exclude glob group pattern info
+str
+patterns glob group include exclude exclude glob group pattern info
+patterns glob group include exclude exclude glob group pattern info
+removable handle
+removable handle
+removable handle
+filename write
+is instance type error dependency graph add node add module to dependency graph
+filename create pickle r pickle r dump dependency graph add node pickle tools gen ops is instance arg split all dependencies append join dependency graph add edge require module if not provide write
+dependency graph add node get dependencies dependency graph add edge require module if not provide
+save binary text encode
+is instance is instance str os path is dir c py torch file reader mock zip reader c py torch file reader package node module allow import error add ex tern add file package unpick ler
+create directory from file list
+
+gcd import
+zip file path zip reader get record
+zip file path get restore location data type storage context have storage storage context get storage zip reader get storage from record is instance storage context add storage restore location is instance maybe decode ascii load tensor maybe decode ascii fun c io bytes io zip reader get record unpick ler
+load binary data decode
+filename split len children child have file
+set warn activities add activities remove len schedule prof record function str step rec fn exit step rec fn exit schedule warn warn on trace ready warn on trace ready on trace ready prof record function str path ends with temp file named temporary file profiler export chrome trace open gzip open f out write lines os remove profiler export chrome trace profiler export stack profiler key average value replace auto grad add metadata json auto grad add metadata json on trace ready prof profile add metadata json json dump profiler exit
+
+step rec fn exit schedule warn warn on trace ready warn on trace ready on trace ready prof record function str
+warn
+os path is dir os make dir s runtime error format str format int prof export chrome trace os path join
+math sqr t is instance is instance is instance value error format math sqr t value error format
+no grad uniform
+no grad normal
+no grad fill
+no grad fill
+no grad zero
+value error eye
+value error value error min range range tensor g out chan s per grp d d tensor size 2 2 tensor size tensor g out chan s per grp d d tensor size 2 2 tensor size 3 2 tensor size tensor size tensor g out chan s per grp d d tensor size 2 2 tensor size 3 2 tensor size 4 2 tensor size tensor size tensor size
+calculate fan in and fan out math sqr t float math sqr t no grad uniform
+calculate fan in and fan out math sqr t float no grad normal
+warn warn calculate correct fan calculate gain math sqr t math sqr t tensor uniform
+warn warn calculate correct fan calculate gain math sqr t tensor normal
+value error tensor size tensor new lina lg qr dia g tensor view as tensor mul
+value error int math ce il tensor normal range rand perm
+utils export
+utils export to pretty string
+utils register custom op symbolic
+utils select model mode for export
+
+c log api usage once is instance type error typename default dic t list len value error is instance add param group dic t update enumerate format sort format format format auto grad profiler record function fun c get at tr profile hook step param mappings update id enumerate id param mappings id p id len pack group param mappings id k id is instance deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state has at tr auto grad profiler record function p grad require grad is instance is instance is instance type error list is instance type error typename value error value error param group set default len len set warn warn param set update set param set is disjoint set value error param group append
+release context
+warn warn format list range list gpu r ng state append cuda get r ng state set r ng state zip cuda set r ng state
+
+
+int cuda manual seed all default generator manual seed
+cuda manual seed all
+default generator set state
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+get a sync or non block cuda device get at tr tensor indices tensor value new type get at tr new type
+get a sync or non block is instance import dot name type runtime error d type module replace tensor value tensor indices d type runtime error d type
+parse input cast fun c tools partial check pair
+c log api usage once value error value error value error value error is instance value error format value error format value error format value error value error value error random sampler sequential sampler batch sampler single process data loader it er multiprocessing data loader it er is instance value error format multiprocessing get context is instance type error format value error format value error format super iterator reset len ce il len format format has at tr len os s ched get affinity warn warn create warn msg warn warn create warn msg
+c on cat data set
+
+all tensors 0 size tensor size tuple tensors 0 size
+len r append super len list is instance cum sum len value error len bisect bisect right warn warn
+super is instance is instance len
+len
+
+it er range len len
+is instance type error format value error is instance value error format len len generator manual seed int empty range ran dint ran dint rand perm
+rand perm len len
+is instance is instance value error format is instance value error format as tensor multi no mi al it er
+is instance is instance value error format is instance value error format batch append len len len len
+runtime error runtime error value error format len math ce il len math ce il len g manual seed rand perm len list range len len len padding size math ce il len len len it er
+
+sum len value error rand perm sum subset zip accumulate
+have function u nary handle function update name
+have function u nary handle function update name
+have function u nary handle function resolve ellipsis super
+have function u nary handle function single ellipsis index super super be ellipsis
+have function u nary handle function runtime error is instance is instance is instance unzip named shape super
+is instance
+type
+c set default d type
+is instance import dot name c set default tensor type
+
+have function u nary handle function tensor split
+cuda manual seed all
+int cuda manual seed all default generator manual seed
+
+
+default generator set state
+value error device zero so bol engine initialize state zero shift clone reshape first point to so bol engine draw cat so bol engine draw out resize as value error format draw quasi copy so bol engine ff so bol engine ff g manual seed device ran dint mv pow a range ran dint so bol engine scramble join
+check dill version open file like open zip file writer save legacy save
+check dill version open file like be zip file open zip file reader be torch script zip warn warn open file seek jit load load legacy load
+set grad enable set grad enable
+c set grad enable c set grad enable
+c set grad enable c set grad enable
+c inference mode
+have function u nary handle function is instance vf fro ben ius norm is instance range vf norm is instance is instance value error list range vf fro ben ius norm vf fro ben ius norm value error vf nuclear norm vf nuclear norm vf nuclear norm vf nuclear norm runtime error list range vf norm vf norm vf norm vf norm
+len if true if false
+len if true if false
+have function u nary handle function list int f pad input view input view vf st ft
+have function u nary handle function vf is tft
+have function handle function len vf atleast 1 d
+have function handle function len vf atleast 2 d
+have function handle function len vf atleast 3 d
+have function handle function c variable functions block dia g
+have function handle function vf broadcast tensors
+zero scalar expand broadcast tensors
+have function handle function vf cartesian prod
+have function varia dic handle function vf c dist vf c dist vf c dist value error
+have function handle function len is instance ein sum vf ein sum
+mesh grid
+have function varia dic handle function is instance is instance jit annotate jit annotate int runtime error list range list range is instance runtime error list range list range len len runtime error vf tensor dot vf tensor dot
+have function handle function vf chain mat mul vf chain mat mul
+len if true if false
+set map type have function handle function sv d low rank
+type have function handle function min min value error format min value error format utils get float d type sv d low rank utils be sparse len value error sparse sum zero len sparse coo tensor ones utils transpose sparse mm sv d low rank a mean sv d low rank
+set map type have function handle function a transpose b transpose lob pcg auto grad function apply runtime error lob pcg
+
+c set deterministic algorithms
+
+c set warn always
+
+tensor tensor make subclass id memo id self id type data clone memo id self id super
+tensor tensor make subclass
+tensor tensor make subclass
+c log api usage once is instance runtime error attribute error is instance type error format typename key error key error has at tr key error format is instance type error format typename non persistent buffer set discard non persistent buffer set add attribute error is instance type error format typename key error key error has at tr key error format is instance type error format typename value error format is instance type error format typename is instance type error format typename has at tr key error format key error format key error target split has at tr attribute error get at tr is instance attribute error target r partition get sub module has at tr attribute error get at tr is instance attribute error target r partition get sub module has at tr attribute error get at tr attribute error module apply have compatible shallow copy type fn compute should use set data is instance parameter fn compute should use set data grad apply require grad fn module apply fn apply t cuda apply t xp u apply apply t type apply apply apply apply apply empty like c nn parse to type error format warn warn t to t to apply runtime error hook removable handle runtime error hook removable handle is instance is instance all is instance warn warn is instance is instance all is instance warn warn len len warn warn len warn warn warn warn hook removable handle hook removable handle is instance forward trace state push scope forward forward call it er tools chain hook is instance hook backward hook b w hook setup input hook forward call it er tools chain hook b w hook setup output hook is instance is instance next is instance fun c tools partial fun c tools update wrapper grad fn register hook maybe warn non full backward hook dic t update attribute error format type is instance d discard dic t get is instance attribute error remove from register parameter type error format typename register parameter dic t get is instance attribute error remove from type error format typename dic t get is instance type error format typename object set at tr non persistent buffer set discard object del at tr hook removable handle type var dic t save to state dic t module state dic t hook hook removable handle hook it er tools chain nn parameter be lazy len len error msg s append format param copy error msg s append format miss key append key starts with key len prefix len input name split unexpected key append get at tr metadata get module load from state dic t load load len error msg s insert format join format len error msg s insert format join format len runtime error format join incompatible keys name modules get members fn memo add name parameters name members name buffer name members memo add memo add module name modules is instance value error module train train p require grad get at tr warn warn p grad require grad apply extra re pr split re pr add indent child line append len join dir list list list list sort new type
+is instance type error format typename is instance type error format typename has at tr key error format key error format key error
+name buffer
+
+apply
+apply t cuda
+train
+
+name members
+memo add
+memo add module name modules
+name members
+name parameters
+runtime error hook removable handle
+is instance runtime error attribute error is instance type error format typename key error key error has at tr key error format is instance type error format typename non persistent buffer set discard non persistent buffer set add
+hook removable handle
+hook removable handle
+runtime error hook removable handle
+attribute error is instance type error format typename key error key error has at tr key error format is instance type error format typename value error format
+p require grad
+dic t save to state dic t module state dic t hook
+c nn parse to type error format warn warn t to t to apply
+apply empty like
+is instance value error module train
+apply t xp u
+super len is instance add module enumerate add module str len operator index index error format next is lice is instance class ordered dic t list get item by i dx get item by i dx set at tr is instance list del at tr get item by i dx del at tr len super it er module
+super operator index len len index error format len str is instance class list modules self get abs string index i dx get abs string index get abs string index set at tr str is instance range len del at tr str del at tr get abs string index str range len ordered dic t list zip len it er extend super range len modules str i str modules str i 1 str modules str index str add module str len is instance type error type len enumerate add module str
+add module str len
+is instance type error type len enumerate add module str
+range len modules str i str modules str i 1 str modules str index str
+super update add module len it er is instance type error type is instance enumerate is instance type error str type len value error str str len
+
+super super operator index len len index error format len str is instance class list get abs string index parameters str i dx str get abs string index register parameter str get at tr has at tr is instance warn warn super len it er extend super register parameter str len is instance type error type len enumerate register parameter str join str format format typename child line append str join runtime error warn warn super
+register parameter str len
+is instance type error type len enumerate register parameter str
+super update super register parameter get at tr has at tr is instance warn warn super len it er is instance type error type is instance is instance sort enumerate is instance type error str type len value error str str len join str format format typename child line append join runtime error warn warn super
+
+hook removable handle
+hook removable handle
+runtime error hook removable handle
+runtime error hook removable handle
+format single single is instance single single super single f conv 1 d f pad single f conv 1 d conv forward
+format pair pair is instance pair pair super pair f conv 2 d f pad pair f conv 2 d conv forward
+format triple triple is instance triple triple super triple f conv 3 d f pad triple f conv 3 d conv forward
+format single single single single single super value error is instance output pad f conv transpose 1 d
+format pair pair pair pair pair super value error is instance output pad f conv transpose 2 d
+format triple triple triple triple triple super value error is instance output pad f conv transpose 3 d
+uninitialized parameter uninitialized parameter
+uninitialized parameter uninitialized parameter
+uninitialized parameter uninitialized parameter
+uninitialized parameter uninitialized parameter
+uninitialized parameter uninitialized parameter
+uninitialized parameter uninitialized parameter
+super f unfold format
+super f fold format
+f max pool 1 d
+f max pool 2 d
+f max pool 3 d
+super single single single f max un pool 1 d
+super pair pair pair f max un pool 2 d
+super triple triple triple f max un pool 3 d
+super single single single f avg pool 1 d
+super f avg pool 2 d
+super f avg pool 3 d super dic t set default dic t set default dic t set default
+super pair register buffer pair pair value error value error value error format f fractional max pool 2 d
+super triple register buffer triple triple value error value error value error format f fractional max pool 3 d
+f lp pool 1 d float
+f lp pool 2 d float
+f adaptive max pool 1 d
+f adaptive max pool 2 d
+f adaptive max pool 3 d
+f adaptive avg pool 1 d
+f adaptive avg pool 2 d
+f adaptive avg pool 3 d
+super pair
+super quadruple
+super pair
+super quadruple
+super n tuple
+super
+super pair
+super quadruple
+super n tuple
+super f elu format
+super f hard shrink format
+super f hard s igm oid
+super warn warn warn warn f hard tan h format
+super f hard swish
+super f leaky relu format
+f logs igm oid
+super parameter empty parameter empty parameter empty register parameter parameter empty register parameter register parameter register parameter parameter empty register parameter non dynamically quant iz able linear parameter empty parameter empty xavier uniform xavier uniform xavier uniform xavier uniform constant constant xavier normal xavier normal super x transpose f multi head attention forward f multi head attention forward at tn output transpose
+super parameter empty f p relu format
+super f relu
+super
+super f r relu format
+super f s elu
+super f c elu format
+f g elu
+s igm oid
+super f sil u
+super f m ish
+super f soft plus format
+super f soft shrink str
+f soft sign
+tan h
+f tan h shrink
+super f threshold format
+super f g lu format
+super dic t update has at tr f soft min format
+super dic t update has at tr f soft max format
+f soft max
+super dic t update has at tr f log soft max format
+super list sort min max len set len any int value error len linear range int sequential linear linear tail append input size target size runtime error target size input new zero target new empty range len gather in ds index copy input index select tail i 1 gather in ds index fill log soft max cluster log pro b gather relative target un squeeze output index copy local log pro b squeeze runtime error format head log soft max head log pro b gather gather in ds un squeeze asm output input new empty head output size log soft max enumerate zip tail i log soft max head log pro b shortlist size i un squeeze head get full log pro b head arg max get full log pro b arg max get full log pro b arg max
+value error format
+value error format
+value error format
+value error format
+value error format
+value error format
+super parameter empty parameter empty register parameter register parameter in it ones in it zero f group norm format
+super value error format input size value error value error check input dim check non zero input channel distribute get world size f batch norm sync batch norm apply is instance nn sync batch norm has at tr module output add module cls convert sync batch norm
+value error value error format
+value error format
+value error format
+super is instance tuple parameter empty parameter empty register parameter register parameter in it ones in it zero f layer norm format
+super f local response norm format
+value error k war gs pop value error format super
+super int input size input size check input check hide size get expect hide size check hide size get expect cell size apply permutation apply permutation is instance int input size input size zero zero permute hide check forward arg s vf lstm vf lstm is instance packed sequence permute hide permute hide
+value error super is instance int input size input size zero permute hide check forward arg s vf gru vf gru is instance packed sequence permute hide permute hide
+super zero input size vf rnn tan h cell vf rnn relu cell runtime error format
+super zero input size vf lstm cell
+super zero input size vf gru cell
+super transformer encoder layer layer norm transformer encoder transformer decoder layer layer norm transformer decoder s rc size t gt size runtime error s rc size t gt size runtime error s rc size t gt size runtime error encoder decoder transpose tri u ones float float xavier uniform
+s rc size t gt size runtime error s rc size t gt size runtime error s rc size t gt size runtime error encoder decoder
+super get clone mod norm
+mod norm
+super get clone mod norm
+mod norm
+super multi head attention linear dropout linear layer norm layer norm dropout dropout get activation fn super at tn dropout 1 norm 1 linear 2 dropout activation linear 1 dropout 2 norm 2
+at tn dropout 1 norm 1 linear 2 dropout activation linear 1 dropout 2 norm 2
+super multi head attention multi head attention linear dropout linear layer norm layer norm layer norm dropout dropout dropout get activation fn super at tn dropout 1 norm 1 multi head at tn dropout 2 norm 2 linear 2 dropout activation linear 1 dropout 3 norm 3
+at tn dropout 1 norm 1 multi head at tn dropout 2 norm 2 linear 2 dropout activation linear 1 dropout 3 norm 3
+super
+super parameter empty parameter empty register parameter in it k aiming uniform math sqr t in it calculate fan in and fan out math sqr t in it uniform f linear format
+super parameter empty parameter empty register parameter math sqr t weight size in it uniform in it uniform f bi linear format
+uninitialized parameter uninitialized parameter weight materialize bias materialize
+f dropout
+f dropout 2 d
+f dropout 3 d
+f alpha dropout
+f feature alpha dropout
+super parameter empty list parameter in it normal weight self pad i dx fill f embed s format cls
+super parameter empty list parameter in it normal weight self pad i dx fill f embed bag s format cls
+f embed bag
+super f cosine similarity
+super f pairwise distance
+super f l 1 loss
+super f mse loss
+super f cross entropy
+super f ct c loss
+super f nll loss
+super f poisson nll loss
+super f gaussian nll loss
+super f kl div
+super f binary cross entropy
+super register buffer register buffer f binary cross entropy with log its
+super f margin rank loss
+super f hinge embed loss
+super f multi label margin loss
+f huber loss
+super f smooth l 1 loss
+super f soft margin loss
+super f multi label soft margin loss
+super f cosine embed loss
+super value error f multi margin loss
+super f triplet margin loss
+super f triplet margin with distance loss
+super f pixel shuffle format
+super f pixel un shuffle format
+super type is instance tuple float float f interpolate str str
+super
+super
+super f channel shuffle format
+super get device index get device index device check balance len module to auto grad profiler record function module chain runtime error format scatter len module replicate device ids len inputs len parallel apply gather replicate scatter k war gs parallel apply device ids len replicas len gather
+
+check com m hook logger set com m hook name dist register com m hook
+is instance float float len tensor len max stack norm stack norm runtime error warn warn clip coe f to
+is instance float filter p grad data clamp
+check param device vec append param view cat
+is instance type error format typename check param device vec pointer pointer num param view as
+is instance hook remove value error format
+is instance hook remove value error format is instance is instance
+has at tr value error format get at tr is instance para met rize register para me tri z ation spectral norm
+para me tri z ation train be para met rize d module para me tri zat ions tensor name append get at tr del at tr be para met rize d inject new class inject property para me tri z ation list value error format
+be para met rize d value error format get at tr original set value error format del at tr is instance module register parameter module register buffer be para met rize d del at tr
+
+get at tr is instance len
+is instance register parameter register buffer reverse has at tr module right inverse runtime error format original copy module runtime error format
+super pack sequence in it arg s type bind bind tensor to to tensor to to to to to to to to to to data to filter bind t to bind t to type
+is instance warn warn as tensor sort sort indices to input index select vf pack pad sequence pack sequence in it
+sequence batch size size value error format vf pad pack sequence pad output index select
+c nn pad sequence
+as tensor v size pack pad sequence pad sequence
+super input flatten format
+super is instance require tuple int is instance require tuple tuple type error is instance enumerate is instance type error format type type error format type is instance enumerate is instance type error format type type error format type input un flatten format
+register load state dic t pre hook register forward pre hook warn warn be lazy be lazy it er tools chain be lazy be lazy param materialize not implemented error format it er tools chain be lazy module initialize parameters runtime error format del at tr del at tr runtime error
+have function u nary handle function assert int or pair assert int or pair assert int or pair assert int or pair c nn im 2 col pair pair pair pair not implemented error format
+have function u nary handle function assert int or pair assert int or pair assert int or pair assert int or pair assert int or pair c nn col 2 im pair pair pair pair pair not implemented error format
+len if true if false
+len if true if false
+len if true if false
+have function u nary handle function single single single un pool output size is instance c nn max un pool 2 d input un squeeze indices un squeeze
+have function u nary handle function pair pair pair un pool output size c nn max un pool 2 d
+have function u nary handle function triple triple triple un pool output size c nn max un pool 3 d
+have function u nary handle function avg pool 1 d input pow avg pool 1 d input pow mul sign relu abs
+have function u nary handle function utils pair avg pool 2 d input pow avg pool 2 d input pow mul sign relu abs
+len if true if false
+len if true if false
+len if true if false
+have function u nary handle function list with default c nn adaptive avg pool 2 d
+have function u nary handle function list with default c nn adaptive avg pool 3 d
+len if true if false
+len if true if false
+have function u nary handle function vf threshold vf threshold
+have function u nary handle function relu relu
+have function u nary handle function c nn hard tan h c nn hard tan h
+have function u nary handle function c nn hard swish c nn hard swish
+have function u nary handle function c nn relu 6 c nn relu 6
+have function u nary handle function c nn elu c nn elu
+have function u nary handle function s elu s elu
+have function u nary handle function c elu c elu
+have function u nary handle function c nn leaky relu c nn leaky relu
+have function u nary handle function p relu
+have function u nary handle function r relu r relu
+have function u nary handle function runtime error c nn g lu
+have function u nary handle function c nn g elu
+have function u nary handle function hard shrink
+have function u nary handle function
+have function u nary handle function
+have function u nary handle function get soft max dim soft max soft max
+have function u nary handle function get soft max dim input soft max input soft max
+have function u nary handle function warn warn empty like g umbels soft max y soft max zero like
+have function u nary handle function get soft max dim input log soft max input log soft max
+warn warn
+warn warn
+have function u nary handle function c nn hard s igm oid c nn hard s igm oid
+have function u nary handle function c nn sil u c nn sil u
+have function u nary handle function c nn m ish c nn m ish
+have function u nary handle function verify batch size batch norm
+have function u nary handle function verify batch size input size input size list group norm
+have function u nary handle function verify spatial size instance norm
+have function u nary handle function layer norm
+have function u nary handle function value error format input mul pad avg pool 2 d div view pad avg pool 3 d div view div mul
+have function u nary handle function input norm input norm div
+have function varia dic handle function c nn linear
+have function varia dic handle function bi linear
+have function u nary handle function value error format vf dropout vf dropout
+have function u nary handle function value error format vf alpha dropout vf alpha dropout
+have function u nary handle function value error format vf feature alpha dropout vf feature alpha dropout
+have function u nary handle function value error format vf feature dropout vf feature dropout
+have function u nary handle function value error format vf feature dropout vf feature dropout
+have function varia dic handle function weight size weight size weight size no grad embed re norm embed
+have function varia dic handle function warn warn value error format str type value error format a range input size input reshape per sample weight reshape value error value error value error format value error value error value error no grad embed re norm not implemented error format embed bag
+have function varia dic handle function pairwise distance
+have function varia dic handle function reduction legacy get e num reduction get e num value error format infer size weight expand c nn binary cross entropy
+have function varia dic handle function reduction legacy get e num reduction get e num value error format binary cross entropy with log its
+have function varia dic handle function reduction legacy get string value error poisson nll loss reduction get e num
+have function varia dic handle function reduction legacy get e num reduction get e num cosine embed loss
+have function varia dic handle function reduction legacy get string c nn cross entropy loss reduction get e num
+have function varia dic handle function ct c loss reduction get e num
+have function varia dic handle function un squeeze var size value error value error any value error var clamp log math log
+have function varia dic handle function reduction legacy get e num reduction get e num hinge embed loss
+have function varia dic handle function reduction legacy get e num warn warn reduction get e num reduction get e num kl div
+have function varia dic handle function warn warn format reduction legacy get string broadcast tensors c nn l 1 loss reduction get e num
+have function varia dic handle function warn warn format reduction legacy get string broadcast tensors c nn mse loss reduction get e num
+have function varia dic handle function reduction legacy get e num reduction get e num runtime error format margin rank loss
+have function varia dic handle function reduction legacy get e num reduction get e num c nn multi label margin loss
+have function varia dic handle function reduction legacy get string logs igm oid logs igm oid loss sum input size value error
+have function varia dic handle function reduction legacy get e num reduction get e num value error value error c nn multi margin loss
+have function varia dic handle function reduction legacy get string c nn nll loss nd reduction get e num
+have function varia dic handle function warn warn format broadcast tensors c nn huber loss reduction get e num
+have function varia dic handle function warn warn format reduction legacy get string broadcast tensors c nn smooth l 1 loss reduction get e num
+have function varia dic handle function reduction legacy get e num reduction get e num c nn soft margin loss
+have function varia dic handle function reduction legacy get e num reduction get e num triplet margin loss
+not implemented error have function varia dic handle function distance function distance function distance function min clamp reduction get e num
+have function u nary handle function len len vf constant pad nd format len c nn reflection pad 1 d c nn replication pad 1 d pad circular len c nn reflection pad 2 d c nn replication pad 2 d pad circular len c nn replication pad 3 d pad circular not implemented error
+have function u nary handle function value error warn warn format value error is instance len value error format len range is instance len value error format len range value error math floor warn warn value error floor float input size tensor range int math floor float input size range c nn up sample nearest 1 d c nn up sample nearest 2 d c nn up sample nearest 3 d adaptive avg pool 1 d adaptive avg pool 2 d adaptive avg pool 3 d c nn up sample linear 1 d c nn up sample bi linear 2 d c nn up sample tri linear 3 d c nn up sample bi cubic 2 d not implemented error not implemented error not implemented error not implemented error not implemented error not implemented error not implemented error format
+warn warn interpolate
+warn warn interpolate
+warn warn interpolate
+have function varia dic handle function value error format value error format warn warn grid sampler
+have function u nary handle function warn warn value error format len value error format len value error format not implemented error format min warn warn min value error format affine grid generator
+have function u nary handle function auto grad backward
+have function u nary handle function
+have function u nary handle function is tft
+have function u nary handle function size size value error lu apply runtime error lu with info
+have function u nary handle function norm
+have function u nary handle function runtime error grad fn register hook dic t hook removable handle
+have function u nary handle function runtime error has at tr weak ref ref grad clone register hook
+have function u nary handle function
+have function u nary handle function is instance super is instance int super super super
+have function u nary handle function st ft
+have function u nary handle function unique
+have function u nary handle function unique consecutive
+warn warn runtime error len runtime error is instance tuple is instance tuple tensor or tensors to tuple len make grads variable execution engine run backward
+is instance tuple is instance tuple have function handle function warn warn tensor or tensors to tuple len make grads variable execution engine run backward
+
+runtime error vf make dual
+vf unpack dual
+as tuple grad pre process fun c as tuple check require grad runtime error tuple construct standard basis for tuple output reshape list auto grad grad enumerate zero like tuple v map zip zip jac split jac view jacobi an input i output append jacobi an input output append tuple zip grad post process tuple post process enumerate tuple range len range auto grad grad out reshape enumerate zip format runtime error jac i el append format runtime error jac i el append zero like tuple stack enumerate grad post process tuple post process
+as tuple fun c as tuple check require grad is instance runtime error runtime error jacobi an check require grad jacobi an tuple post process
+as tuple grad pre process fun c as tuple check require grad as tuple grad pre process validate v len runtime error set grad enable auto grad grad fill in zero grad post process grad post process tuple post process tuple post process
+as tuple grad pre process as tuple grad pre process validate v len runtime error fun c as tuple check require grad tuple zero like auto grad grad check require grad auto grad grad fill in zero auto grad grad fill in zero grad post process grad post process tuple post process tuple post process
+as tuple grad pre process as tuple grad pre process validate v len runtime error fun c as tuple check require grad is instance runtime error runtime error auto grad grad check require grad set grad enable auto grad grad fill in zero grad post process grad post process tuple post process tuple post process
+as tuple grad pre process as tuple grad pre process validate v len runtime error fun c as tuple check require grad is instance runtime error runtime error auto grad grad check require grad tuple zero like auto grad grad check require grad set grad enable auto grad grad fill in zero grad post process grad post process tuple post process tuple post process
+set grad enable set grad enable
+c set grad enable c set grad enable
+c set grad enable c set grad enable
+c inference mode
+not implemented error
+not implemented error
+as tuple test rand n like test make non contiguous as tuple fun c tuple rand n like as tuple len differentiable output fun c tuple is instance auto grad grad tuple grad check
+ki neto result save function events export chrome trace
+function events key average
+
+event list parse nv prof trace
+get device index cuda default stream cuda default stream cuda current stream device cuda current stream cuda set stream cuda set stream cuda set stream
+get device index get device index assertion error assertion error c cuda can device access peer
+
+
+stream c cuda get current stream get device index
+stream c cuda get default stream get device index
+get device index cuda set device cuda set device
+
+super
+
+get device properties
+get device properties
+get device index assertion error get device properties
+len arch split join
+
+
+has at tr
+
+get device index c cuda set device
+c cuda set stream
+cuda device super event wait wait event event record super super c types c void p is instance super hash format
+super
+event record
+event wait
+wait event
+cuda device
+is instance device is instance device
+range result append get r ng state
+new state clone is instance device is instance device cast default generator set state lazy call
+enumerate set r ng state
+int default generator manual seed lazy call
+int range default generator manual seed lazy call
+lazy call
+range default generator manual seed lazy call
+
+super super super super super super super super c types c void p format
+super
+
+get device index py n vml n vml device get handle by index py n vml n vml device get compute running processes line append len line append line append join
+is instance len re curse add to result result append memory stats as nest dic t re curse add to result collections ordered dic t
+get device index memory stats format format line append line append line append line append line append line append line append sub metrics append sub metrics append line append format formatter formatter formatter formatter line append fm t dic t k replace k replace join
+
+memory stats
+memory stats
+warn warn reset peak memory stats
+memory stats
+memory stats
+get device index is instance type error value error format c cuda set memory fraction
+warn warn memory reserve
+warn warn max memory reserve
+warn warn reset peak memory stats
+get device index c cuda reset peak memory stats
+get device index cuda current stream is instance is instance type error cuda device c cuda cuda caching al locator raw all oc
+c cuda cuda caching al locator raw delete
+nv tx mark a
+nv tx range push a
+
+is instance is instance is instance type error list is instance type error typename value error value error param group set default len len set warn warn param set update set param set is disjoint set value error param group append
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+param mappings update id enumerate id param mappings id p id len pack group param mappings id k id is instance
+
+has at tr auto grad profiler record function p grad require grad
+value error format value error format value error format value error format dic t super params with grad append runtime error grads append len zero like zero like square avg s append acc deltas append f ada delta
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append runtime error grads append len zero like zero like square avg s append acc deltas append f ada delta
+value error format value error format value error format value error format value error format dic t super full like params with grad append grads append state sum append state step append f ada grad
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append grads append state sum append state step append f ada grad
+value error format value error format value error format value error format value error format dic t super super group set default params with grad append runtime error grads append len zero like zero like zero like exp avg s append exp avg sq s append max exp avg sq s append state step append f adam
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append runtime error grads append len zero like zero like zero like exp avg s append exp avg sq s append max exp avg sq s append state step append f adam
+value error format value error format value error format value error format value error format dic t super super group set default params with grad append runtime error grads append len zero like zero like zero like exp avg s append exp avg sq s append max exp avg sq s append state step append f adam w
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append runtime error grads append len zero like zero like zero like exp avg s append exp avg sq s append max exp avg sq s append state step append f adam w
+value error format value error format value error format value error format list enumerate is instance enumerate param get sparse params append sparse params append value error dic t super runtime error len zero like zero like constructor exp avg sparse mask grad value sub exp avg add make sparse exp avg sq sparse mask grad value pow exp avg sq add make sparse exp avg update value add exp avg sq update value add math sqr t p add make sparse n umer div
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+runtime error len zero like zero like constructor exp avg sparse mask grad value sub exp avg add make sparse exp avg sq sparse mask grad value pow exp avg sq add make sparse exp avg update value add exp avg sq update value add math sqr t p add make sparse n umer div
+value error format value error format value error format value error format value error format dic t super params with grad append runtime error grads append len zero like zero like exp avg s append exp in fs append state step append f adama x
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append runtime error grads append len zero like zero like exp avg s append exp in fs append state step append f adama x
+value error format value error format dic t super runtime error len zero like grad add p mul p add state ' ax ' add p sub state ' ax ' copy math pow max
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+runtime error len zero like grad add p mul p add state ' ax ' add p sub state ' ax ' copy math pow max
+dic t super len value error reduce p new p grad view view append cat p add update offset offset num el view as p clone zip p copy add grad float set param len state set default state set default float state get state get state get state get state get state get state get state get flat grad sub d mul y dot len old dir s pop old stp s pop ro pop old dir s append old stp s append ro append y dot len range old stp s i dot q add mul range old dir s i dot r add flat grad clone prev flat grad copy min flat grad dot runtime error directional evaluate strong wolfe add grad add grad float d mul abs
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+len state set default state set default float state get state get state get state get state get state get state get state get flat grad sub d mul y dot len old dir s pop old stp s pop ro pop old dir s append old stp s append ro append y dot len range old stp s i dot q add mul range old dir s i dot r add flat grad clone prev flat grad copy min flat grad dot runtime error directional evaluate strong wolfe add grad add grad float d mul abs
+value error format value error format value error format value error format value error format dic t super super group set default group set default params with grad append runtime error grads append len zero like zero like zero like square avg s append momentum buffer list append grad avg s append f rms prop
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append runtime error grads append len zero like zero like zero like square avg s append momentum buffer list append grad avg s append f rms prop
+value error format value error format dic t super params append runtime error grads append len zero like prev s append step size append f r prop
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params append runtime error grads append len zero like prev s append step size append f r prop
+value error format value error format value error format dic t value error super super group set default params with grad append d p list append momentum buffer list append momentum buffer list append f sgd zip
+deep copy len len value error len len any zip value error zip chain from it er able chain from it er able is instance value to value to is instance cast is instance type cast default dic t cast update group zip set state
+params with grad append d p list append momentum buffer list append momentum buffer list append f sgd zip
+is instance is instance len len len value error format len len list super len enumerate is instance state dic t pop dic t update enumerate lr lambda s i dx dic t update warn warn lm bda zip
+state dic t pop dic t update enumerate lr lambda s i dx dic t update
+is instance is instance len len len value error format len len list super len enumerate is instance state dic t pop dic t update enumerate lr lambda s i dx dic t update warn warn lm bda zip list
+state dic t pop dic t update enumerate lr lambda s i dx dic t update
+super warn warn
+dic t update
+counter super warn warn list sort bisect right
+dic t update
+super warn warn
+dic t update
+super warn warn math cos zip math cos math cos math cos
+dic t update
+value error is instance type error format type is instance is instance len len value error format len len list len in it be better float warn warn be better reduce lr enumerate float max format value error value error dic t update in it be better
+is instance type error format type format param zip format param float float value error value error format param zip format param super is instance len len value error format len len len warn warn math floor zip scale fn scale fn lr s append zip scale fn scale fn momentum s append zip
+dic t update
+is instance type error format type value error is instance value error format is instance value error format is instance value error format float float float is instance value error format value error format format param enumerate value error format param format param zip super is instance len len value error format len len len math cos warn warn value error format enumerate len anneal fun c anneal fun c lr s append
+dic t update
+is instance value error format is instance value error format super warn warn math cos value error format int math log math floor enable get lr call enumerate zip print lr
+dic t update
+sparse sum sparse sum sparse sum sparse sum
+sparse add mm
+sparse sparse mat mul sparse mm
+sparse soft max
+sparse log soft max

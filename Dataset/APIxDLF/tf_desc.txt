@@ -1,0 +1,1200 @@
+a class list aggregation methods use to combine gradients 
+critical section 
+represent a  possibly partial  specification for a tensorflow device 
+record operations for automatic differentiation 
+a tensorflow computation  represent as a dataflow graph 
+a sparse representation of a set of tensor slice at give indices 
+type specification for a tf indexedslices 
+base neural network module class 
+represent a graph node that perform computation on tensors 
+type specification for tf experimental optional 
+represent a rag tensor 
+type specification for a tf raggedtensor 
+a decorator for register the gradient function for an op type 
+type specification for a tf sparse sparsetensor 
+a tf tensor represent a multidimensional array of elements 
+class wrap dynamic-sized  per-time-step  write-once tensor array 
+type specification for a tf tensorarray 
+represent the shape of a tensor 
+describe a tf tensor 
+specify a tensorflow value type 
+control how gradient computation behave when y do not depend on x 
+see the [variable guide] https //tensorflow org/guide/variable  
+indicate how a distribute variable will be aggregate 
+indicate when a distribute variable will be sync 
+return the indices of a tensor that give its sort order along an axis 
+batchtospace for n-d tensors of type t 
+bitcasts a tensor from one type to another without copy data 
+apply boolean mask to tensor 
+compute the shape of a broadcast give symbolic shape 
+compute the shape of a broadcast give know shape 
+broadcast an array for a compatible shape 
+create a case operation 
+cast a tensor to a new type 
+clip value of multiple tensors by the ratio of the sum of their norms 
+clip tensor value to a maximum l2-norm 
+clip tensor value to a specify min and max 
+concatenate tensors along one dimension 
+return true fn   if the predicate pred be true else false fn   
+create a constant tensor from a tensor-like object 
+initializer that generate tensors with constant value 
+wrapper for graph control dependencies   use the default graph 
+convert the give value to a tensor 
+decorator to define a function with a custom gradient 
+specify the device for ops created/executed in this context 
+partition data into num partition tensors use indices from partition 
+interleave the value from the data tensors into a single tensor 
+compute the levenshtein distance between sequence 
+tensor contraction over specify indices and outer product 
+update the shape of a tensor and check at runtime that the shape hold 
+check whether the current thread have eager execution enable 
+return a tensor with a length 1 axis insert at index axis 
+extract patch from input and put them in the   34 depth  34  output dimension  3 d extension of extract image patch 
+construct an identity matrix  or a batch of matrices 
+create a tensor fill with a scalar value 
+generate fingerprint value 
+foldl on the list of tensors unpack from elems on dimension 0   deprecate argument value 
+foldr on the list of tensors unpack from elems on dimension 0   deprecate argument value 
+compile a function into a callable tensorflow graph   deprecate arguments   deprecate arguments 
+gather slice from params axis axis accord to indices   deprecate arguments 
+gather slice from params into a tensor with shape specify by indices 
+return tf logger instance 
+return the constant value of the give tensor  if efficiently calculable 
+create a grad-pass-through op with the forward behavior provide in f 
+construct symbolic derivatives of sum of ys w r t  x in xs 
+create an op that group multiple operations 
+promise to the tf runtime that the input tensor be a constant   deprecate 
+construct the hessian of sum of ys with respect to x in xs 
+return histogram of value 
+bin the give value for use in a histogram 
+return a tensor with the same shape and content as input 
+return a list of tensors with the same shape and content as the input
+a context manager that lift ops out of control-flow scopes and function-building graph 
+check whether x be a tf-native type that can be pass to many tf ops 
+generate evenly-spaced value in an interval along a give axis 
+load a tensorflow plugin 
+load a tensorflow plugin  contain custom ops and kernels 
+create a numpy ndarray from a tensor 
+create a tensorproto 
+transform elems by apply fn to each element unstacked on axis 0   deprecate arguments 
+broadcast parameters for evaluation on an n-d grid 
+a context manager for use when define a python op 
+specify that ops of type op type be not differentiable 
+do nothing  only useful as a placeholder for control edge 
+batch the computation do by the decorate function 
+compute the norm of vectors  matrices  and tensors 
+wrap a python function and use it as a tensorflow op 
+return a one-hot tensor 
+create a tensor with all elements set to one  1  
+initializer that generate tensors initialize to 1 
+create a tensor of all ones that have the same shape as the input 
+pad a tensor 
+stack a list of rank-r tensors into one rank- r  43 1  tensor in parallel 
+print the specify input 
+wrap a python function into a tensorflow op that execute it eagerly 
+initializer that generate tensors with a normal distribution 
+initializer that generate tensors with a uniform distribution 
+create a sequence of number 
+return the rank of a tensor 
+return x / y element-wise for real type 
+define a function as a recompute-checkpoint for the tape auto-diff 
+register a function for convert object of base type to tensor 
+repeat elements of input 
+calculate pad require to make block shape divide input shape 
+reshape a tensor 
+reverse specific dimension of a tensor 
+reverse variable length slice 
+roll the elements of a tensor along an axis 
+scan on the list of tensors unpack from elems on dimension 0   deprecate argument value 
+scatter update into a tensor of shape shape accord to indices 
+search for where a value would go in a sort sequence 
+return a mask tensor represent the first n position of each cell 
+return a tensor contain the shape of the input tensor 
+return shape of tensors 
+return the size of a tensor 
+extract a slice from a tensor 
+sort a tensor 
+spacetobatch for n-d tensors of type t 
+spacetobatch for n-d tensors of type t 
+split a tensor value into a list of sub tensors 
+remove dimension of size 1 from the shape of a tensor 
+stack a list of rank-r tensors into one rank- r  43 1  tensor 
+stop gradient computation 
+extract a stride slice of a tensor  generalize python array index  
+create a switch/case operation  i e  an integer-indexed conditional 
+add sparse update to an exist tensor accord to indices 
+subtract sparse update from an exist tensor accord to indices 
+scatter update into an exist tensor accord to indices 
+tensor contraction of a and b along specify ax and outer product 
+construct a tensor by tile a give tensor 
+provide the time since epoch in second 
+transpose a  where a be a tensor 
+return x / y element-wise for integer type 
+return element-wise remainder of division  this emulate c semantics in that
+group tensors together 
+find unique elements in a 1-d tensor 
+find unique elements in a 1-d tensor 
+convert an array of flat indices into a tuple of coordinate array 
+unpack the give dimension of a rank-r tensor into rank- r-1  tensors 
+scope which define a variable creation function to be use by variable   
+parallel map on the list of tensors unpack from elems on dimension 0 
+return the indices of non-zero elements  or multiplexes x and y 
+repeat body while the condition cond be true   deprecate argument value 
+create a tensor with all elements set to zero 
+initializer that generate tensors initialize to 0 
+create a tensor with all elements set to zero 
+convert bytearray  bytes  or unicode python input type to bytes 
+convert input to str type 
+convert any string-like python input type to unicode 
+compatibility utility require to allow for both v1 and v2 behavior in tf 
+compatibility utility require to allow for both v1 and v2 behavior in tf 
+context manager for test forward compatibility of generate graph 
+return true if the forward compatibility window have expire 
+convert input which be a pathlike object to str type 
+a conditional accumulator for aggregate gradients 
+a conditional accumulator for aggregate gradients 
+represent a  possibly partial  specification for a tensorflow device 
+represent the value of one dimension in a tensorshape 
+a reader that output fixed-length record from a file 
+standard name to use for graph collections 
+a reader that output the queue work as both the key and value 
+a tensorflow session for use in interactive contexts  such as a shell 
+a reader that output the record from a lmdb file 
+print a list of tensors   deprecate 
+base class for different reader type  that produce a record every step 
+a class for run tensorflow operations 
+a conditional accumulator for aggregate sparse gradients 
+a reader that output the record from a tfrecords file 
+a reader that output the line of a file delimit by newlines 
+see the [variables guide] https //tensorflow org/guide/variables  
+indicate how a distribute variable will be aggregate 
+variable scope object to carry default to provide to get variable 
+a reader that output the entire content of a file as a value 
+connect a tf debug check numerics to every float point tensor 
+wrapper for graph add to collection   use the default graph 
+wrapper for graph add to collections   use the default graph 
+use tf compat v1 global variables instead   deprecate 
+return the index with the largest value across dimension of a tensor 
+return the index with the smallest value across dimension of a tensor 
+return the index with the largest value across ax of a tensor   deprecate arguments 
+return the index with the smallest value across ax of a tensor   deprecate arguments 
+assert the condition x == y hold element-wise 
+assert the condition x  gt  y hold element-wise 
+assert the condition x  gt = y hold element-wise 
+assert that x be of integer dtype 
+assert the condition x  lt  y hold element-wise 
+assert the condition x  lt = y hold element-wise 
+assert the condition x and y be close element-wise 
+assert the condition x  lt  0 hold element-wise 
+assert the condition x  gt = 0 hold element-wise 
+assert the condition x  lt = 0 hold element-wise 
+assert the condition x  = y hold element-wise 
+assert the condition x  gt  0 hold element-wise 
+assert x have rank equal to rank 
+assert x have rank equal to rank or higher 
+assert x have rank in rank 
+assert that the give tensor be a scalar  i e  zero-dimensional  
+statically assert that the give tensor be of the specify type 
+return an op to check if variables be initialize 
+update ref by assign value to it 
+update ref by add value to it 
+update ref by subtract value from it 
+gather slice from params accord to indices with lead batch dim   deprecate 
+generalization of tf compat v1 scatter update to axis different than 0   deprecate 
+batchtospace for 4-d tensors of type t 
+batchtospace for n-d tensors of type t 
+count the number of occurrences of each value in an integer array 
+apply boolean mask to tensor 
+create a case operation 
+clip tensor value to a maximum average l2-norm   deprecate 
+deprecate function
+return true fn   if the predicate pred be true else false fn     deprecate arguments 
+compute the confusion matrix from predictions and label 
+create a constant tensor 
+wrapper for graph container   use the default graph 
+return true if v2 control flow be enable 
+convert the give value to a tensor 
+convert the give object to a tensor or an indexedslices 
+convert value to a sparsetensor or tensor 
+compute number of nonzero elements across dimension of a tensor   deprecate arguments   deprecate arguments 
+increments   39 ref  39  until it reach   39 limit  39    deprecate 
+create a list of partition variables accord to the give slice   deprecate 
+convert csv record to tensors  each column map to one tensor 
+convert raw byte string into tensors   deprecate arguments 
+delete the tensor for the give tensor handle 
+depthtospace for tensors of type t 
+wrapper for graph device   use the default graph 
+opt out of control flow v2 
+disable eager execution 
+opt out of resource variables   deprecate 
+compare tensors by their id and be hashable 
+disable tensorflow 2 x behaviors 
+disable the v2 tensorshape behavior and revert to v1 behavior 
+divide x / y elementwise  use python 2 division operator semantics    deprecate 
+use control flow v2 
+enable eager execution for the lifetime of this program 
+create resource variables by default 
+compare tensors with element-wise comparison and thus be unhashable 
+enable tensorflow 2 x behaviors 
+in tensorflow 2 0  iterate over a tensorshape instance return value 
+check whether the current thread have eager execution enable 
+return a tensor with a length 1 axis insert at index axis   deprecate arguments 
+extract patch from image and put them in the   34 depth  34  output dimension 
+partitioner to specify a fix number of shards along give axis 
+return x // y element-wise 
+foldl on the list of tensors unpack from elems on dimension 0 
+foldr on the list of tensors unpack from elems on dimension 0 
+gather slice from params axis axis accord to indices   deprecate arguments 
+gather slice from params into a tensor with shape specify by indices 
+wrapper for graph get collection   use the default graph 
+wrapper for graph get collection ref   use the default graph 
+return the default graph for the current thread 
+return the default session for the current thread 
+get an exist  local  variable or create a new one 
+return the local seed an operation should use give an op-specific seed 
+return the handle of data 
+get the tensor of type dtype by feed a tensor handle 
+get an exist variable with these parameters or create a new one 
+return the current variable scope 
+return global variables 
+return an op that initialize global variables 
+construct symbolic derivatives of sum of ys w r t  x in xs 
+construct the hessian of sum of ys with respect to x in xs 
+return an op that initialize all table of the default graph   deprecate 
+see tf compat v1 global variables initializer   deprecate 
+see tf compat v1 local variables initializer   deprecate 
+see tf compat v1 variables initializer   deprecate 
+test if a variable have be initialize 
+load a tensorflow plugin  contain file system implementation   deprecate 
+return local variables 
+return an op that initialize all local variables 
+give an arbitrary function  wrap it so that it do variable share 
+transform elems by apply fn to each element unstacked on axis 0   deprecate arguments 
+partitioner to allocate minimum size per slice 
+return all variables in the model variables collection 
+return all variables that maintain their move average 
+draw sample from a multinomial distribution   deprecate 
+use this function to prevent regularization of variables 
+compute the norm of vectors  matrices  and tensors   deprecate arguments 
+create a tensor with all elements set to 1 
+deprecate  same as name scope above  just different argument order 
+pad a tensor 
+parse example protos into a dict of tensors 
+parse a single example proto 
+insert a placeholder for a tensor that will be always feed 
+a placeholder op that pass through input when its output be not feed 
+wrap a python function and use it as a tensorflow op 
+please use tf quantization quantize instead 
+initializer that generate tensors with a normal distribution 
+draw shape sample from each of the give poisson distribution s  
+initializer that generate tensors with a uniform distribution 
+compute tf math logical and of elements across dimension of a tensor   deprecate arguments 
+compute tf math logical or of elements across dimension of a tensor   deprecate arguments 
+join all string into a single string  or join along an axis 
+compute log sum exp elements across dimension of a tensor      deprecate arguments 
+compute tf math maximum of elements across dimension of a tensor   deprecate arguments 
+compute the mean of elements across dimension of a tensor 
+compute the tf math minimum of elements across dimension of a tensor   deprecate arguments 
+compute tf math multiply of elements across dimension of a tensor   deprecate arguments 
+compute the sum of elements across dimension of a tensor   deprecate arguments 
+add ops to list the name of uninitialized variables 
+clear the default graph stack and reset the global default graph 
+return true if resource variables be enable 
+reverse variable length slice   deprecate arguments   deprecate arguments 
+multiply a scalar time a tensor or indexedslices object 
+scan on the list of tensors unpack from elems on dimension 0 
+add sparse update to the variable reference by resource 
+divide a variable reference by sparse update 
+reduce sparse update into a variable reference use the max operation 
+reduce sparse update into a variable reference use the min operation 
+multiply sparse update into a variable reference 
+apply sparse addition to individual value or slice in a variable 
+apply sparse subtraction to individual value or slice in a variable 
+apply sparse update to individual value or slice in a variable 
+subtract sparse update to a variable reference 
+apply sparse update to a variable reference 
+serialize n-minibatch sparsetensor into an [n  3] tensor 
+serialize a sparsetensor into a 3-vector  1-d tensor  object 
+set the graph-level random seed for the default graph 
+compute the difference between two list of number or string 
+return the shape of a tensor 
+return the size of a tensor 
+spacetobatch for 4-d tensors of type t 
+spacetodepth for tensors of type t 
+add two tensors  at least one of each be a sparsetensor   deprecate arguments 
+concatenate a list of sparsetensor along the specify dimension   deprecate arguments 
+multiply matrix   34 a  34  by matrix   34 b  34  
+combine a batch of feature ids and value into a single sparsetensor   deprecate 
+insert a placeholder for a sparse tensor that will be always feed 
+compute tf sparse maximum of elements across dimension of a sparsetensor   deprecate arguments   deprecate arguments 
+compute the max of elements across dimension of a sparsetensor   deprecate arguments 
+compute tf sparse add of elements across dimension of a sparsetensor   deprecate arguments   deprecate arguments 
+compute the sum of elements across dimension of a sparsetensor   deprecate arguments 
+compute the mean along sparse segment of a tensor 
+compute the sum along sparse segment of a tensor divide by the sqrt n  
+compute the sum along sparse segment of a tensor 
+split a sparsetensor into num split tensors along axis   deprecate arguments 
+convert a sparse representation into a dense tensor   deprecate 
+remove dimension of size 1 from the shape of a tensor   deprecate arguments 
+split elements of source base on delimiter   deprecate arguments 
+convert each string in the input tensor to its hash mod by a number of bucket 
+convert each string in the input tensor to the specify numeric type 
+return substrings from tensor of string 
+return an op that initialize all table of the default graph 
+cast a tensor to type bfloat16   deprecate 
+cast a tensor to type complex128   deprecate 
+cast a tensor to type complex64   deprecate 
+cast a tensor to type float64   deprecate 
+cast a tensor to type float32   deprecate 
+cast a tensor to type int32   deprecate 
+cast a tensor to type int64   deprecate 
+return all variables create with trainable=true 
+transpose a 
+initializer that generate a truncate normal distribution 
+group tensors together 
+initializer that generate tensors without scale variance 
+get a partitioner for variablescope to keep shards below max shard bytes 
+scope which define a variable creation function to be use by variable   
+deprecate  context manager for define an op that create variables 
+a context manager for define ops that create variables  layer  
+return an op that initialize a list of variables 
+assert that the tensor do not contain any nan  39 s or inf  39 s 
+return the elements  either from x or y  depend on the condition 
+repeat body while the condition cond be true 
+wrap the tf 1 x function fn into a graph function 
+create a tensor with all elements set to zero 
+run the program with an optional   39 main  39  function and   39 argv  39  list 
+return the source code generate by autograph  as a string 
+convert a python entity into a tensorflow graph 
+represent a potentially large set of elements 
+a dataset of fixed-length record from one or more binary file 
+represent the state of iterate through a dataset 
+a dataset comprise record from one or more tfrecord file 
+a dataset comprise line from one or more text file 
+return the output class for elements of the input dataset / iterator 
+return the output shape for elements of the input dataset / iterator 
+return the output shape for elements of the input dataset / iterator 
+create an iterator for elements of dataset 
+create an iterator for elements of dataset 
+assert tensor shape and dimension size relationships between tensors 
+synchronous train across multiple replicas on one machine 
+a distribution strategy for run on a single device 
+a class with a collection of apis that can be call in a replica context 
+a list of devices with a state   compute distribution policy 
+additional apis for algorithms that need to be distribution-aware 
+tf distribute reduceop correspond to the last loss reduction 
+bernoulli distribution 
+beta distribution 
+categorical distribution 
+dirichlet distribution 
+dirichlet-multinomial compound distribution 
+a generic probability distribution base class 
+exponential distribution 
+gamma distribution 
+the laplace distribution with location loc and scale parameters 
+multinomial distribution 
+the normal distribution with location loc and scale parameters 
+decorator to register a kl divergence implementation function 
+instance of this class represent how sample be reparameterized 
+student  39 s t-distribution 
+uniform distribution with low and high parameters 
+get the kl-divergence kl distribution a || distribution b    deprecate 
+context manager to check for c api status 
+a classifier that can establish a simple baseline 
+an estimator that can establish a simple baseline 
+a regressor that can establish a simple baseline 
+a classifier for tensorflow dnn model 
+an estimator for tensorflow dnn model with user-specified head 
+an estimator for tensorflow linear and dnn join classification model 
+an estimator for tensorflow linear and dnn join model with custom head 
+an estimator for tensorflow linear and dnn join model for regression 
+a regressor for tensorflow dnn model 
+estimator class to train and evaluate tensorflow model 
+linear classifier model 
+an estimator for tensorflow linear model with user-specified head 
+an estimator for tensorflow linear regression problems 
+generate parse spec for tf parse example to be use with classifiers 
+generate parse spec for tf parse example to be use with regressors 
+return input function that would fee dict of numpy array into the model 
+return input function that would fee pandas dataframe into the model 
+please see the definition of these value in tpuconfig 
+runconfig with tpu support 
+tpu relate configuration require by tpuestimator 
+estimator with tpu support 
+ops and object return from a model fn and pass to tpuestimator 
+a categoricalcolumn with a vocabulary file 
+return a dense tensor as input layer base on give feature columns 
+return a linear prediction tensor base on give feature columns 
+create parse spec dictionary from input feature columns 
+list of dense columns that convert from sparse  categorical input 
+copy data from src to dst 
+delete everything under dirname recursively 
+determine whether a path exist or not 
+file i/o wrappers without thread lock 
+return a list of file that match the give pattern s  
+return whether the path be a directory or not 
+return a list of entries contain within a directory 
+create a directory and all parent/intermediate directories 
+create a directory with the name dirname 
+delete the file locate at   39 filename  39  
+rename or move a file / directory 
+return file statistics for a give path 
+recursive directory tree generator for directories 
+replace all the variables in a graph with constants of the same value   deprecate 
+extract the subgraph that can reach any of the nod in   39 dest nod  39    deprecate 
+return true if the give node def must run on cpu  otherwise false   deprecate 
+prune out nod that aren  39 t need for inference   deprecate 
+convenience function to get a shape from a nodedef  39 s input string   deprecate 
+see v1 image resize for detail 
+extract crop from the input image tensor and resize them 
+draw bound box on a batch of image 
+extract a glimpse from the input tensor 
+resize image to size use the specify method 
+resize image to size use area interpolation 
+resize and pad an image to a target width and height 
+generate a single randomly distort bound box for an image   deprecate 
+he normal initializer 
+he uniform variance scale initializer 
+lecun normal initializer 
+lecun uniform initializer 
+the type of compression for the record 
+return the tf session to be use by the backend 
+a context manager for use when define a python op 
+set the global tensorflow session 
+enable visualizations for tensorboard 
+construct an estimator instance from give keras model 
+initializer that generate tensors with constant value 
+initializer that generate the identity matrix 
+initializer that generate tensors initialize to 1 
+initializer that generate an orthogonal matrix 
+initializer that generate a normal distribution 
+initializer that generate tensors with a uniform distribution 
+initializer that generate a truncate normal distribution 
+initializer capable of adapt its scale to the shape of weight tensors 
+initializer that generate tensors initialize to 0 
+the glorot normal initializer  also call xavier normal initializer 
+the glorot uniform initializer  also call xavier uniform initializer 
+initializer capable of adapt its scale to the shape of weight tensors 
+initializer capable of adapt its scale to the shape of weight tensors 
+initializer capable of adapt its scale to the shape of weight tensors 
+initializer capable of adapt its scale to the shape of weight tensors 
+layer that normalize its input 
+fast gru implementation back by cudnn 
+fast lstm implementation back by cudnn 
+a layer that produce a dense tensor base on give feature columns 
+gate recurrent unit - cho et al  2014 
+cell class for the gru layer 
+long short-term memory layer - hochreiter 1997 
+cell class for the lstm layer 
+average pool layer for 1d input 
+average pool layer for 2d input  e g  image  
+average pool layer for 3d input  e g  volumes  
+batch normalization layer from  ioffe et al   2015  
+1d convolution layer  e g  temporal convolution  
+2d convolution layer  e g  spatial convolution over image  
+transpose 2d convolution layer  sometimes call 2d deconvolution  
+3d convolution layer  e g  spatial convolution over volumes  
+transpose 3d convolution layer  sometimes call 3d deconvolution  
+densely-connected layer class 
+apply dropout to the input 
+flatten an input tensor while preserve the batch axis  axis 0  
+base layer class 
+max pool layer for 1d input 
+max pool layer for 2d input  e g  image  
+max pool layer for 3d input  e g  volumes  
+depthwise separable 1d convolution 
+depthwise separable 2d convolution 
+average pool layer for 1d input 
+average pool layer for 2d input  e g  image  
+average pool layer for 3d input  e g  volumes  
+functional interface for the batch normalization layer from config ioffe et al   2015  
+functional interface for 1d convolution layer  e g  temporal convolution  
+functional interface for the 2d convolution layer 
+functional interface for transpose 2d convolution layer 
+functional interface for the 3d convolution layer 
+functional interface for transpose 3d convolution layer 
+functional interface for the densely-connected layer 
+apply dropout to the input 
+flatten an input tensor while preserve the batch axis  axis 0  
+max pool layer for 1d input 
+max pool layer for 2d input  e g  image  
+max pool layer for 3d input  e g 
+functional interface for the depthwise separable 1d convolution layer 
+functional interface for the depthwise separable 2d convolution layer 
+a class that help build tflite function invocations   deprecate 
+convert a tensorflow model into output format 
+convert a tensorflow model into output format 
+convert a tensorflow graphdef to tflite   deprecate 
+return how much log output will be produce 
+log   39 msg   args  39  at level   39 level  39  once per   39 n  39  time 
+log   39 msg   args  39  at level   39 level  39  only first   39 n  39  time 
+log   39 msg   args  39  at level   39 level  39  only if condition be fulfil 
+set the threshold for what message will be log 
+a generic hash table that be immutable once initialize 
+string to id table that assign out-of-vocabulary key to hash bucket 
+type of loss reduction 
+add an absolute difference loss to the train procedure 
+add a externally define loss to the collection of losses 
+compute the weight loss 
+add a cosine-distance loss to the train procedure   deprecate arguments 
+get the list of losses from the loss collection 
+get the total regularization loss 
+get the list of regularization losses 
+return a tensor whose value represent the total loss 
+add a hinge loss to the train procedure 
+add a [huber loss] https //en wikipedia org/wiki/huber loss  term to the train procedure 
+add a log loss term to the train procedure 
+add a pairwise-errors-squared loss to the train procedure 
+add a sum-of-squares loss to the train procedure 
+create a cross-entropy loss use tf nn sigmoid cross entropy with logits 
+create a cross-entropy loss use tf nn softmax cross entropy with logits v2 
+cross-entropy loss use tf nn sparse softmax cross entropy with logits 
+say whether the target be in the top k predictions 
+compute log softmax activations   deprecate arguments 
+compute softmax activations 
+calculate how often predictions match label 
+compute the approximate auc via a riemann sum   deprecate 
+compute average precision k of predictions with respect to sparse label 
+compute the total number of false negative 
+compute false negative at provide threshold value 
+sum the weight of false positives 
+compute false positives at provide threshold value 
+compute the  weight  mean of the give value 
+compute the mean absolute error between the label and predictions 
+compute the cosine distance between the label and predictions 
+calculate per-step mean intersection-over-union  miou  
+calculate the mean of the per-class accuracies 
+compute the mean relative error by normalize with the give value 
+compute the mean square error between the label and predictions 
+compute the element-wise  weight  mean of the give tensors 
+compute the percentage of value less than the give threshold 
+compute the precision of the predictions with respect to the label 
+compute precision k of the predictions with respect to sparse label 
+compute precision value for different thresholds on predictions 
+compute precision k of the predictions with respect to sparse label 
+compute the recall of the predictions with respect to the label 
+compute recall k of the predictions with respect to sparse label 
+compute various recall value for different thresholds on predictions 
+compute recall k of top-k predictions with respect to sparse label 
+compute the root mean square error between the label and predictions 
+compute the specificity at a give sensitivity 
+rename to average precision at k  please use that method instead   deprecate 
+rename to precision at k  please use that method instead   deprecate 
+compute the specificity at a give sensitivity 
+sum the weight of true negative 
+compute true negative at provide threshold value 
+sum the weight of true positives 
+compute true positives at provide threshold value 
+perform the average pool on the input 
+batch normalization 
+create a dynamic version of bidirectional recurrent neural network   deprecate 
+compute a 1-d convolution of input with rank  gt =3 and a 3-d filter   deprecate argument value   deprecate argument value 
+compute a 2-d convolution give 4-d input and filter tensors 
+compute the gradients of convolution with respect to the filter 
+compute the gradients of convolution with respect to the input 
+the transpose of conv2d 
+compute a 3-d convolution give 5-d input and filter tensors 
+compute the gradients of 3-d convolution with respect to the filter 
+the transpose of conv3d 
+compute sum of n-d convolutions  actually cross-correlation  
+compute concatenate relu 
+perform beam search decode on the logits give in input 
+compute the ctc  connectionist temporal classification  loss 
+compute ctc  connectionist temporal classification  loss 
+depthwise 2-d convolution 
+compute a 2-d depthwise convolution 
+compute the grayscale dilation of 4-d input and 3-d filter tensors 
+compute dropout   deprecate arguments 
+create a recurrent neural network specify by rnncell cell   deprecate 
+look up embeddings for the give ids from a list of tensors 
+look up embeddings for the give ids and weight from a list of tensors 
+compute the grayscale erosion of 4-d value and 3-d kernel tensors 
+perform fractional average pool on the input   deprecate 
+perform fractional max pool on the input   deprecate 
+batch normalization 
+perform the max pool on the input 
+perform max pool on the input and output both max value and indices 
+calculate the mean and variance of x 
+compute and return the noise-contrastive estimation train loss 
+perform an n-d pool operation 
+produce the average pool of the input tensor for quantize type 
+compute a 2d convolution give quantize 4d input and filter tensors 
+produce the max pool of the input tensor for quantize type 
+compute quantize rectify linear x  min max feature  0   max value 
+create an rnn specify by rnncell cell and loop function loop fn 
+compute relu x   weight   43  bias  
+lookup embed result  account for invalid ids and empty feature 
+compute and return the sample softmax train loss 
+2-d convolution with separable filter 
+compute sigmoid cross entropy give logits 
+compute softmax cross entropy between logits and label   deprecate 
+compute softmax cross entropy between logits and label   deprecate arguments 
+compute sparse softmax cross entropy between logits and label 
+create a bidirectional recurrent neural network   deprecate 
+create a recurrent neural network specify by rnncell cell   deprecate 
+rnn that accept a state saver for time-truncated rnn calculation   deprecate 
+calculate the sufficient statistics for the mean and variance of x 
+compute a weight cross entropy   deprecate arguments 
+return the frequency-weighted mean and variance of x 
+compute matmul x  weight    43  bias 
+deprecate  please use tf compat v1 nn rnn cell lstmcell instead 
+the most basic rnn cell 
+operator that ensure an rnncell run on a particular device 
+operator add dropout to input and output of the give cell 
+gate recurrent unit cell 
+long short-term memory unit  lstm  recurrent network cell 
+tuple use by lstm cells for state size  zero state  and output state 
+rnn cell compose sequentially of multiple simple cells 
+abstract object represent an rnn cell 
+rnncell wrapper that ensure cell input be add to the output 
+option builder for profile api 
+tensorflow multi-step profiler 
+auto profile and advise 
+profile model 
+log provide   39 op log  39   and add additional model information below 
+represent the value of a raggedtensor 
+construct a raggedtensorvalue from a nest python list 
+create a placeholder for a tf raggedtensor that will always be feed 
+draw deterministic pseudorandom sample from a multinomial distribution   deprecate 
+get a direct path to the data file colocated with the script 
+get the path to the specify file in the data dependencies 
+get a root directory contain all the data attribute in the build rule 
+load the resource at give path  where path be relative to tensorflow/ 
+readahead file not implement  simply return give path 
+build the savedmodel protocol buffer and save variables and assets 
+utility function to build a signaturedef protocol buffer 
+utility function to build tensorinfo proto from a tensor   deprecate 
+create classification signature from give examples and predictions 
+check whether the provide export directory could contain a savedmodel 
+return the tensor or compositetensor describe by a tensorinfo proto   deprecate 
+determine whether a signaturedef can be serve by tensorflow serve 
+load the model from a savedmodel as specify by tag   deprecate 
+return a main op to init variables  table and restore the graph   deprecate 
+create prediction signature from give input and output 
+create regression signature from give examples and predictions 
+convenience function to build a savedmodel suitable for serve   deprecate 
+return a main op to init variables and table   deprecate 
+compute the length of each string give in the input tensor 
+split elements of input base on sep 
+return substrings from tensor of string 
+write summary protocol buffer to event file 
+cache for file writers 
+return all v2-style summary ops define in the current default graph 
+output a summary protocol buffer with audio 
+give a tensorsummary node def  retrieve its summarydescription 
+output a summary protocol buffer with a histogram 
+output a summary protocol buffer with image 
+initialize summary write for graph execution mode 
+merge summaries 
+merge all summaries collect in the default graph 
+output a summary protocol buffer contain a single scalar value 
+output a summary protocol buffer with a serialize tensor proto 
+summarize textual data 
+support class for stub methods out for unit test 
+assert that two graphdefs be  mostly  the same 
+compute and return the theoretical and numerical jacobian   deprecate 
+compute the gradient error   deprecate 
+return a temporary directory for use during test 
+create an absolute test srcdir path give a relative path 
+an optimizer that average gradients across tpu shards 
+shards computation along the batch dimension for parallel execution 
+scope class for bfloat16 variables so that the model use custom getter 
+return the device name for a core in a replicate tpu computation 
+sum the input tensor across replicas accord to group assignment 
+initialize a distribute tpu system for use with tensorflow 
+build part of a computation outside any current tpu replicate scope 
+build a graph operator that run a replicate tpu computation 
+rewrite computation for execution on a tpu system 
+shards computation for parallel execution 
+shut down a run a distribute tpu system 
+optimizer that implement the adadelta algorithm 
+adagrad dual average algorithm for sparse linear model 
+optimizer that implement the adagrad algorithm 
+optimizer that implement the adam algorithm 
+group trackable object  save and restore them 
+create a tf compat v1 session for a chief 
+optimizer that implement the ftrl algorithm 
+optimizer that implement the gradient descent algorithm 
+a thread that run code repeatedly  optionally on a timer 
+optimizer that implement the momentum algorithm 
+session-like object that handle initialization  recovery and hook 
+create a monitoredsession for train 
+a function that return a checkpointreader 
+base class for optimizers 
+optimizer that implement the proximal adagrad algorithm 
+optimizer that implement the proximal gradient descent algorithm 
+hold a list of enqueue operations for a queue  each to be run in a thread 
+optimizer that implement the rmsprop algorithm  tielemans et al 
+save and restore variables 
+structure to create or gather piece commonly need to train a model 
+a factory for tf session 
+train helper that restore from checkpoint and create session 
+session-like object that handle initialization  restore  and hook 
+a train helper that checkpoints model and compute summaries 
+class to synchronize  aggregate gradients and pass them to the optimizer 
+create a tf compat v1 session for a worker 
+add a queuerunner to a collection in the graph   deprecate 
+assert global step tensor be a scalar int variable or tensor 
+basic loop to train a model 
+create batch of tensors in tensors   deprecate 
+run a list of tensors to fill a queue to create batch of examples   deprecate 
+check whether a v1 or v2 checkpoint exist with the specify prefix   deprecate 
+apply cosine decay to the learn rate 
+apply cosine decay with restart to the learn rate 
+create global step tensor in graph 
+a general quantization scheme be be develop in tf contrib quantize   deprecate 
+apply exponential decay to the learn rate 
+return metagraphdef proto 
+generate a checkpoint state proto 
+return the mtimes  modification timestamps  of the checkpoints   deprecate 
+get the global step tensor 
+return and create  if necessary  the global step tensor 
+small helper to get the global step 
+recreate a graph save in a metagraphdef proto 
+replace tf variable initializers so they load from a checkpoint file 
+output the row of input tensor to a queue for an input pipeline   deprecate 
+apply inverse time decay to the initial learn rate 
+return tensor num epochs time and then raise an outofrange error   deprecate 
+apply linear cosine decay to the learn rate 
+conditionally create batch of tensors base on keep input   deprecate 
+run a list of tensors to conditionally fill a queue to create batch   deprecate 
+create batch by randomly shuffle conditionally-enqueued tensors   deprecate 
+create batch by randomly shuffle conditionally-enqueued tensors   deprecate 
+apply natural exponential decay to the initial learn rate 
+apply noisy linear cosine decay to the learn rate 
+piecewise constant from boundaries and interval value 
+apply a polynomial decay to the learn rate 
+produce the integers from 0 to limit-1 in a queue   deprecate 
+remove a checkpoint give by checkpoint prefix   deprecate 
+return a device function to use when build a graph for replicas 
+compute fingerprint of the input string 
+distribute version of stochastic dual coordinate ascent  sdca  optimizer for
+apply l1 regularization shrink step on the parameters 
+create batch by randomly shuffle tensors   deprecate 
+create batch by randomly shuffle tensors   deprecate 
+produce a slice of each tensor in tensor list   deprecate 
+start all queue runners collect in the graph   deprecate 
+output string  e g  filenames  to a queue for an input pipeline   deprecate 
+return a iterator for read event protocol buffer from an event file 
+update the content of the   39 checkpoint  39  file   deprecate 
+warm-starts a model use the give settings 
+example of override the generate code for an op 
+represent the output of a classification head 
+represent an output of a model that can be serve 
+represent the output of a generic prediction head 
+represent the output of a regression head 
+a return type for a serve input receiver fn 
+a return type for a serve input receiver fn 
+build a serve input receiver fn expect feed tf examples 
+build a serve input receiver fn expect feature tensors 
+input   be use to instantiate a keras tensor 
+model group layer into an object with train and inference feature 
+sequential group a linear stack of layer into a tf keras model 
+return activation function give a string identifier 
+exponential linear unit 
+exponential activation function 
+return function 
+hard sigmoid activation function 
+linear activation function  pass-through  
+apply the rectify linear unit activation function 
+scale exponential linear unit  selu  
+return the string identifier of an activation function 
+sigmoid activation function  sigmoid x  = 1 /  1   43  exp -x   
+softmax convert a vector of value to a probability distribution 
+softplus activation function  softplus x  = log exp x    43  1  
+softsign activation function  softsign x  = x /  abs x    43  1  
+hyperbolic tangent activation function 
+instantiate the densenet121 architecture 
+instantiate the densenet169 architecture 
+instantiate the densenet201 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the inception-resnet v2 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the inception v3 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the mobilenet architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the mobilenetv2 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate a nasnet model in imagenet mode 
+instantiate a mobile nasnet model in imagenet mode 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the resnet101 architecture 
+instantiate the resnet152 architecture 
+instantiate the resnet50 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the resnet101v2 architecture 
+instantiate the resnet152v2 architecture 
+instantiate the resnet50v2 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the vgg16 model 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the vgg19 architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+instantiate the xception architecture 
+decode the prediction of an imagenet model 
+preprocesses a tensor or numpy array encode a batch of image 
+reset all state generate by keras 
+return the value of the fuzz factor use in numeric expressions 
+return the default float type  as a string 
+associate a string prefix with an integer counter in a tensorflow graph 
+return the default image data format convention 
+return whether x be a keras tensor 
+reset graph identifiers 
+iterate over the time dimension of a tensor 
+set the value of the fuzz factor use in numeric expressions 
+set the default float type 
+set the value of the image data format convention 
+callback that accumulate epoch average of metrics 
+callback that stream epoch result to a csv file 
+abstract base class use to build new callbacks 
+stop train when a monitor metric have stop improve 
+callback that record events into a history object 
+callback for create simple  custom callbacks on-the-fly 
+learn rate scheduler 
+callback to save the keras model or model weight at some frequency 
+callback that print metrics to stdout 
+reduce learn rate when a metric have stop improve 
+callback use to stream events to a server 
+enable visualizations for tensorboard 
+callback that terminate train when a nan loss be encounter 
+base class for weight constraints 
+maxnorm weight constraint 
+minmaxnorm weight constraint 
+constrain the weight to be non-negative 
+constrain conv2d kernel weight to be the same for each radius 
+constrain the weight incident to each hide unit to have unit norm 
+retrieve a keras constraint function 
+load the boston house dataset 
+load the cifar10 dataset 
+load the cifar100 dataset 
+load the fashion-mnist dataset 
+retrieve a dict map word to their index in the imdb dataset 
+load the [imdb dataset] https //ai stanford edu/~amaas/data/sentiment/  
+load the mnist dataset 
+retrieve a dict map word to their index in the reuters dataset 
+load the reuters newswire classification dataset 
+construct an estimator instance from give keras model 
+initializer that generate tensors with constant value 
+the glorot normal initializer  also call xavier normal initializer 
+the glorot uniform initializer  also call xavier uniform initializer 
+initializer that generate the identity matrix 
+initializer base class  all keras initializers inherit from this class 
+initializer that generate tensors initialize to 1 
+initializer that generate an orthogonal matrix 
+initializer that generate tensors with a normal distribution 
+initializer that generate tensors with a uniform distribution 
+initializer that generate a truncate normal distribution 
+initializer capable of adapt its scale to the shape of weight tensors 
+initializer that generate tensors initialize to 0 
+return an initializer object from its config 
+retrieve a keras initializer by the identifier 
+abstract object represent an rnn cell 
+apply an activation function to an output 
+layer that apply an update to the cost function base input activity 
+layer that add a list of input 
+additive attention layer  a k a  bahdanau-style attention 
+apply alpha dropout to the input 
+dot-product attention layer  a k a  luong-style attention 
+layer that average a list of input element-wise 
+average pool for temporal data 
+average pool operation for spatial data 
+average pool operation for 3d data  spatial or spatio-temporal  
+layer that normalize its input 
+bidirectional wrapper for rnns 
+layer that concatenate a list of input 
+1d convolution layer  e g  temporal convolution  
+2d convolution layer  e g  spatial convolution over image  
+transpose convolution layer  sometimes call deconvolution  
+3d convolution layer  e g  spatial convolution over volumes  
+transpose convolution layer  sometimes call deconvolution  
+2d convolutional lstm 
+crop layer for 1d input  e g  temporal sequence  
+crop layer for 2d input  e g  picture  
+crop layer for 3d data  e g  spatial or spatio-temporal  
+just your regular densely-connected nn layer 
+a layer that produce a dense tensor base on give feature columns 
+depthwise 2d convolution 
+layer that compute a dot product between sample in two tensors 
+apply dropout to the input 
+exponential linear unit 
+turn positive integers  index  into dense vectors of fix size 
+flatten the input  do not affect the batch size 
+gate recurrent unit - cho et al  2014 
+cell class for the gru layer 
+apply multiplicative 1-centered gaussian noise 
+apply additive zero-centered gaussian noise 
+global average pool operation for temporal data 
+global average pool operation for spatial data 
+global average pool operation for 3d data 
+global max pool operation for 1d temporal data 
+global max pool operation for spatial data 
+layer to be use as an entry point into a network  a graph of layer  
+specify the rank  dtype and shape of every input to a layer 
+long short-term memory layer - hochreiter 1997 
+cell class for the lstm layer 
+wrap arbitrary expressions as a layer object 
+this be the class from which all layer inherit 
+layer normalization layer  ba et al   2016  
+leaky version of a rectify linear unit 
+locally-connected layer for 1d input 
+locally-connected layer for 2d input 
+mask a sequence by use a mask value to skip timesteps 
+max pool operation for 1d temporal data 
+max pool operation for 2d spatial data 
+max pool operation for 3d data  spatial or spatio-temporal  
+layer that compute the maximum  element-wise  a list of input 
+layer that compute the minimum  element-wise  a list of input 
+layer that multiply  element-wise  a list of input 
+parametric rectify linear unit 
+permute the dimension of the input accord to a give pattern 
+base class for recurrent layer 
+rectify linear unit activation function 
+repeat the input n time 
+layer that reshape input into the give shape 
+depthwise separable 1d convolution 
+depthwise separable 2d convolution 
+fully-connected rnn where the output be to be feed back to input 
+cell class for simplernn 
+softmax activation function 
+spatial 1d version of dropout 
+spatial 2d version of dropout 
+spatial 3d version of dropout 
+wrapper allow a stack of rnn cells to behave as a single cell 
+layer that subtract two input 
+thresholded rectify linear unit 
+this wrapper allow to apply a layer to every temporal slice of an input 
+upsampling layer for 1d input 
+upsampling layer for 2d input 
+upsampling layer for 3d input 
+abstract wrapper base class 
+zero-padding layer for 1d input  e g  temporal sequence  
+zero-padding layer for 2d input  e g  picture  
+zero-padding layer for 3d data  spatial or spatio-temporal  
+functional interface to the tf keras layer add layer 
+functional interface to the tf keras layer average layer 
+functional interface to the concatenate layer 
+instantiate a layer from a config dictionary 
+functional interface to the dot layer 
+functional interface to compute maximum  element-wise  list of input 
+functional interface to the minimum layer 
+functional interface to the multiply layer 
+serialize a layer object into a json-compatible representation 
+functional interface to the subtract layer 
+base class for preprocessing layer 
+compute the cross-entropy loss between true label and predict label 
+compute the crossentropy loss between the label and predictions 
+compute the categorical hinge loss between y true and y pred 
+compute the cosine similarity between label and predictions 
+compute the hinge loss between y true and y pred 
+compute the huber loss between y true and y pred 
+compute kullback-leibler divergence loss between y true and y pred 
+compute the logarithm of the hyperbolic cosine of the prediction error 
+loss base class 
+compute the mean of absolute difference between label and predictions 
+compute the mean absolute percentage error between y true and y pred 
+compute the mean of square of errors between label and predictions 
+compute the mean square logarithmic error between y true and y pred 
+compute the poisson loss between y true and y pred 
+type of loss reduction 
+compute the crossentropy loss between the label and predictions 
+compute the square hinge loss between y true and y pred 
+compute the categorical hinge loss between y true and y pred 
+compute the cosine similarity between label and predictions 
+deserializes a serialize loss class/function instance 
+retrieve a keras loss as a function/loss class instance 
+serialize loss function or loss instance 
+approximate the auc  area under the curve  of the roc or pr curve 
+calculate how often predictions equal label 
+calculate how often predictions match binary label 
+compute the crossentropy metric between the label and predictions 
+calculate how often predictions match one-hot label 
+compute the crossentropy metric between the label and predictions 
+compute the categorical hinge metric between y true and y pred 
+compute the cosine similarity between the label and predictions 
+calculate the number of false negative 
+calculate the number of false positives 
+compute the hinge metric between y true and y pred 
+compute kullback-leibler divergence metric between y true and y pred 
+compute the logarithm of the hyperbolic cosine of the prediction error 
+compute the  weight  mean of the give value 
+compute the mean absolute error between the label and predictions 
+compute the mean absolute percentage error between y true and y pred 
+compute the mean intersection-over-union metric 
+compute the mean relative error by normalize with the give value 
+compute the mean square error between y true and y pred 
+compute the mean square logarithmic error between y true and y pred 
+compute the element-wise  weight  mean of the give tensors 
+encapsulate metric logic and state 
+compute the poisson metric between y true and y pred 
+compute the precision of the predictions with respect to the label 
+compute best precision where recall be  gt = specify value 
+compute the recall of the predictions with respect to the label 
+compute root mean square error metric between y true and y pred 
+compute best sensitivity where specificity be  gt = specify value 
+calculate how often predictions match integer label 
+compute the crossentropy metric between the label and predictions 
+compute how often integer target be in the top k predictions 
+compute best specificity where sensitivity be  gt = specify value 
+compute the square hinge metric between y true and y pred 
+compute the  weight  sum of the give value 
+compute how often target be in the top k predictions 
+calculate the number of true negative 
+calculate the number of true positives 
+calculate how often predictions match binary label 
+compute the binary crossentropy loss 
+calculate how often predictions match one-hot label 
+compute the categorical crossentropy loss 
+deserializes a serialize metric class/function instance 
+retrieve a keras metric as a function/metric class instance 
+compute the hinge loss between y true and y pred 
+compute the mean absolute error between label and predictions 
+compute the mean absolute percentage error between y true and y pred 
+compute the mean square error between label and predictions 
+compute the mean square logarithmic error between y true and y pred 
+compute the poisson loss between y true and y pred 
+serialize metric function or metric instance 
+calculate how often predictions match integer label 
+compute the sparse categorical crossentropy loss 
+compute how often integer target be in the top k predictions 
+compute the square hinge loss between y true and y pred 
+compute how often target be in the top k predictions 
+clone a functional or sequential model instance 
+load a model save via model save   
+instantiate a keras model from its config 
+parse a json model configuration string and return a model instance 
+parse a yaml model configuration file and return a model instance 
+save a model as a tensorflow savedmodel or hdf5 file 
+optimizer that implement the adadelta algorithm 
+optimizer that implement the adagrad algorithm 
+optimizer that implement the adam algorithm 
+optimizer that implement the adamax algorithm 
+optimizer that implement the ftrl algorithm 
+optimizer that implement the nadam algorithm 
+base class for keras optimizers 
+optimizer that implement the rmsprop algorithm 
+gradient descent  with momentum  optimizer 
+inverse of the serialize function 
+retrieve a keras optimizer instance 
+serialize the optimizer configuration to json compatible python dict 
+a learningrateschedule that use an exponential decay schedule 
+a learningrateschedule that use an inverse time decay schedule 
+the learn rate schedule base class 
+a learningrateschedule that use a piecewise constant decay schedule 
+a learningrateschedule that use a polynomial decay schedule 
+instantiate a learningrateschedule object from a serialize form 
+serialize a learningrateschedule into a json-compatible representation 
+iterator capable of read image from a directory on disk 
+generate batch of tensor image data with real-time data augmentation 
+base class for image data iterators 
+iterator yield data from a numpy array 
+apply an affine transformation specify by the parameters give 
+perform a brightness shift 
+perform a channel shift 
+perform a random brightness shift 
+perform a random channel shift 
+perform a random rotation of a numpy image tensor 
+perform a random spatial shear of a numpy image tensor 
+perform a random spatial shift of a numpy image tensor 
+perform a random spatial zoom of a numpy image tensor 
+utility class for generate batch of temporal data 
+generate a word rank-based probabilistic sample table 
+generate skipgram word pair 
+text tokenization utility class 
+convert a text to a sequence of index in a fixed-size hash space 
+one-hot encode a text into a list of word index of size n 
+convert a text to a sequence of word  or tokens  
+parse a json tokenizer configuration and return a tokenizer instance 
+a regularizer that apply both l1 and l2 regularization penalties 
+regularizer base class 
+retrieve a regularizer instance from a config or identifier 
+create a regularizer that apply both l1 and l2 penalties 
+build a queue out of a data generator 
+build a enqueuer from a sequence 
+display a progress bar 
+base object for fit to a sequence of data  such as a dataset 
+base class to enqueue input 
+expose custom classes/functions to keras deserialization internals 
+turn the serialize form of a keras object back into an actual object 
+retrieve a live reference to the global dictionary of custom object 
+download a file from a url if it not already in the cache 
+return the list of input tensors necessary to compute tensor 
+convert a keras model to dot format 
+normalize a numpy array 
+convert a keras model to dot format and save to a file 
+register an object with the keras serialization framework 
+serialize a keras object into a json-compatible representation 
+convert a class vector  integers  to binary class matrix 
+interface represent a stateful summary writer object 
+write an audio summary 
+create a summary file writer for the give log directory 
+return a summary writer that do nothing 
+force summary writer to send any buffer data to storage 
+write a histogram summary 
+write an image summary 
+set summary record on or off per the provide boolean value 
+write a scalar summary 
+write a text summary 
+stop and export the active trace as a summary and/or profile file 
+stop the current trace and discard any collect information 
+start a trace to record computation graph and profile information 
+write a generic summary to the default summarywriter if one exist 
+create a dataset that count from start in step of size step 
+a dataset comprise line from one or more csv file 
+deprecate function
+a dataset of pseudorandom value   deprecate 
+deprecate function
+a dataset consist of the result from a sql query 
+deprecate function
+deprecate function
+create a dataset that deterministically choose elements from datasets   deprecate 
+return a dataset of feature dictionaries from example protos 
+read csv file into a dataset 
+fuse implementation of map and batch   deprecate 
+sample elements at random from the datasets in datasets   deprecate 
+a one-machine strategy that put all variables on a single device 
+a distribution strategy for synchronous train on multiple workers 
+an asynchronous multi-worker parameter server tf distribute strategy 
+tpu distribution strategy implementation 
+an estimator for k-means cluster 
+function builder for a dnn logit fn 
+function builder for a linear logit fn 
+class to keep track of the specification for tpu embeddings 
+whether to output all intermediate from functional control flow ops 
+export a tf keras model as a tensorflow savedmodel 
+load a keras model from a savedmodel create by export save model   
+use keras-style variable management 
+use keras-style variable management 
+convert a graphdef with liteop hint into stub operations   deprecate 
+optimization parameters for adagrad with tpu embeddings 
+optimization parameters for adam with tpu embeddings 
+optimization parameters for stochastic gradient descent for tpu embeddings 
+tpu version of tf compat v1 feature column embed column 
+tpu version of tf compat v1 feature column share embed columns 
+hook to run evaluation in train without a checkpoint 
+stochastic dual coordinate ascent helper for linear estimators 
+a classifier for tensorflow rnn model 
+an estimator for tensorflow rnn model with user-specified head 
+build a supervise input receiver fn for raw feature and label 
+call logit fn  experimental  
+create early-stopping hook 
+create a proper stopatcheckpointstephook base on chief status 
+create hook to stop if the give metric be higher than the threshold 
+create hook to stop if the give metric be lower than the threshold 
+create hook to stop if metric do not decrease within give max step 
+create hook to stop if metric do not increase within give max step 
+linear model for regression and classification problems 
+a layer for sequence input 
+wide   deep model for regression and classification problems 

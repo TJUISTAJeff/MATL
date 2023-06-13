@@ -1,0 +1,933 @@
+ class to create custom autograd function
+context manager that manage autograd profiler state and hold a summary of result  under the hood it just record events of function be execute in c   and expose those events to python  you can wrap any code into it and it will only report runtime of py function  note  profiler be thread local and be automatically propagate into the async task
+context manager that make every autograd operation emit an nvtx range 
+context-manager that enable anomaly detection for the autograd engine 
+context-manager that set the anomaly detection for the autograd engine on or off 
+see  autocast   cuda amp autocast args     be equivalent to  autocast  cuda   args    
+return a python float contain the scale backoff factor 
+return a python float contain the scale backoff factor 
+return a python float contain the scale growth factor 
+return a python int contain the growth interval 
+return a python float contain the current scale  or 1 0 if scale be disable 
+return a bool indicate whether this instance be enable 
+load the scaler state   if this instance be disable  load state dict   be a no-op 
+multiply  ‘scales’  a tensor or list of tensors by the scale factor 
+new scale  float  – value to use as the new scale backoff factor 
+new scale  float  – value to use as the new scale growth factor 
+new interval  int  – value to use as the new growth interval 
+return the state of the scaler as a dict   it contain five entries 
+step   carry out the follow two operations 
+divide  “unscales”  the optimizer’s gradient tensors by the scale factor 
+update the scale factor 
+helper decorator for forward methods of custom autograd function  subclasses of  autograd function    see the example page for more detail 
+helper decorator for backward methods of custom autograd function  subclasses of  autograd function   ensure that backward execute with the same autocast state as forward  see the example page for more detail 
+return whether py be build with mkl support 
+return whether py be build with openmp support 
+an enum-like class of available backends  gloo  nccl  mpi  and other register backends 
+return true if the distribute package be available  otherwise   distribute do not expose any other apis  currently   distribute be available on linux  macos and windows  set use distributed=1 to enable it when build py from source  currently  the default value be use distributed=1 for linux and windows  use distributed=0 for macos 
+initialize the default distribute process group  and this will also initialize the distribute package 
+check if the default process group have be initialize
+check if the mpi backend be available 
+check if the nccl backend be available 
+return the backend of the give process group 
+return the rank of the current process in the provide group or the default group if none be provide 
+return the number of process in the current process group
+create a new distribute group 
+send a tensor synchronously 
+receive a tensor synchronously 
+send a tensor asynchronously 
+receive a tensor asynchronously 
+broadcast the tensor to the whole group 
+broadcast picklable object in object list to the whole group  similar to broadcast    but python object can be pass in  note that all object in object list must be picklable in order to be broadcast 
+reduce the tensor data across all machine in such a way that all get the final result 
+reduce the tensor data across all machine 
+gather tensors from the whole group in a list 
+gather picklable object from the whole group into a list  similar to all gather    but python object can be pass in  note that the object must be picklable in order to be gather 
+gather a list of tensors in a single process 
+gather picklable object from the whole group in a single process  similar to gather    but python object can be pass in  note that the object must be picklable in order to be gather 
+scatter a list of tensors to all process in a group 
+scatter picklable object in scatter object input list to the whole group  similar to scatter    but python object can be pass in  on each rank  the scatter object will be store as the first element of scatter object output list  note that all object in scatter object input list must be picklable in order to be scatter 
+reduce  then scatter a list of tensors to all process in a group 
+each process scatter list of input tensors to all process in a group and return gather list of tensors in output list 
+synchronize all process 
+synchronize all process similar to  distribute barrier  but take a configurable timeout and be able to report rank that do not pass this barrier within that timeout  specifically  for non-zero rank  will block until a send/recv be process from rank 0  rank 0 will block until all send /recv from other rank be process  and will report failures for rank that fail to respond in time  note that if one rank do not reach the monitor barrier  for example due to a hang   all other rank would fail in monitor barrier 
+broadcast the tensor to the whole group with multiple gpu tensors per node 
+reduce the tensor data across all machine in such a way that all get the final result  this function reduce a number of tensors on every node  while each tensor reside on different gpus  therefore  the input tensor in the tensor list need to be gpu tensors  also  each tensor in the tensor list need to reside on a different gpu 
+reduce the tensor data on multiple gpus across all machine  each tensor in tensor list should reside on a separate gpu
+gather tensors from the whole group in a list  each tensor in tensor list should reside on a separate gpu
+reduce and scatter a list of tensors to the whole group   only nccl backend be currently support 
+  object
+   distributions distribution distribution
+   create a bernoulli distribution parameterized by probs or logits ( but not both ) .
+   beta distribution parameterized by concentration.
+   distributions distribution distribution
+   distributions distribution distribution
+   distributions distribution distribution
+   distributions gamma gamma
+   distributions exp family exponentialfamily
+   create a dirichlet distribution parameterized by concentration concentration .
+   create a exponential distribution parameterized by rate .
+   distributions distribution distribution
+   create a gamma distribution parameterized by shape concentration and rate .
+   distributions distribution distribution
+   distributions transform distribution transformeddistribution
+   distributions transform distribution transformeddistribution
+   distributions transform distribution transformeddistribution
+   distributions distribution distribution
+   distributions transform distribution transformeddistribution
+   distributions distribution distribution
+   create a laplace distribution parameterized by loc and scale .
+   distributions transform distribution transformeddistribution
+   distributions distribution distribution
+   distributions distribution distribution
+   distributions distribution distribution
+   distributions distribution distribution
+   distributions distribution distribution
+   create a normal ( also call gaussian ) distribution parameterized by loc and scale .
+   create a one - hot categorical distribution parameterized by probs or logits .
+   distributions transform distribution transformeddistribution
+   distributions exp family exponentialfamily
+   distributions transform distribution transformeddistribution
+   distributions distribution distribution
+   distributions transform distribution transformeddistribution
+   distributions distribution distribution
+   distributions distribution distribution
+   generate uniformly distribute random sample from the half - open interval [ low , high ) .
+   distributions distribution distribution
+   distributions transform distribution transformeddistribution
+transform via the map y=∣x∣y = |x|y=∣x∣ 
+transform via the pointwise affine map y=loc scale×xy = \text{loc}   \text{scale} \times xy=loc scale×x 
+compose multiple transform in a chain  the transform be compose be responsible for cache 
+transform an uncontrained real vector xxx with length d∗ d−1 /2d  d-1 /2d∗ d−1 /2 into the cholesky factor of a d-dimension correlation matrix  this cholesky factor be a lower triangular matrix with positive diagonals and unit euclidean norm for each row  the transform be process as follow 
+transform via the map y=exp⁡ x y = \exp x y=exp x  
+wrapper around another transform to treat reinterpret batch ndims-many extra of the right most dimension as dependent  this have no effect on the forward or backward transform  but do sum out reinterpret batch ndims-many of the rightmost dimension in log abs det jacobian   
+transform from unconstrained matrices to lower-triangular matrices with noegative diagonal entries 
+transform via the map y=xexponenty = x {\text{exponent}}y=xexponent 
+unit jacobian transform to reshape the rightmost part of a tensor 
+transform via the map y=11 exp⁡ −x y = \frac{1}{1   \exp -x }y=1 exp −x 1​ and x=logit y x = \text{logit} y x=logit y  
+transform via the map y=tanh⁡ x y = \tanh x y=tanh x  
+transform from unconstrained space to the simplex via y=exp⁡ x y = \exp x y=exp x  then normalize 
+transform functor that apply a sequence of transform tseq component-wise to each submatrix at dim in a way compatible with  stack   
+transform from unconstrained space to the simplex of one additional dimension via a stick-breaking process 
+abstract class for invertable transformations with computable log det jacobians  they be primarily use in  distributions transformeddistribution 
+abstract  class for constraints 
+registry to link constraints to transform 
+return the cumulative density/mass function evaluate at value 
+return entropy of distribution  batch over batch shape 
+return tensor contain all value support by a discrete distribution  the result will enumerate over dimension 0  so the shape of the result will be  cardinality     batch shape   event shape  where event shape =    for univariate distributions  
+return a new distribution instance  or populate an exist instance provide by a derive class  with batch dimension expand to batch shape  this method call expand on the distribution’s parameters  as such  this do not allocate new memory for the expand distribution instance  additionally  this do not repeat any args check or parameter broadcast in   init   py  when an instance be first create 
+return the inverse cumulative density/mass function evaluate at value 
+return the log of the probability density/mass function evaluate at value 
+return perplexity of distribution  batch over batch shape 
+generate a sample shape shape reparameterized sample or sample shape shape batch of reparameterized sample if the distribution parameters be batch 
+generate a sample shape shape sample or sample shape shape batch of sample if the distribution parameters be batch 
+generate n sample or n batch of sample if the distribution parameters be batch 
+set whether validation be enable or disable 
+method to compute the entropy use bregman divergence of the log normalizer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compute the cumulative distribution function by invert the transform s  and compute the score of the  distribution 
+
+compute the inverse cumulative distribution function use transform s  and compute the score of the  distribution 
+score the sample by invert the transform s  and compute the score use the score of the  distribution and the log abs det jacobian 
+generate a sample shape shape reparameterized sample or sample shape shape batch of reparameterized sample if the distribution parameters be batch  sample first from  distribution and apply transform   for every transform in the list 
+generate a sample shape shape sample or sample shape shape batch of sample if the distribution parameters be batch  sample first from  distribution and apply transform   for every transform in the list 
+
+
+
+
+
+
+
+
+the sample algorithm for the von mises distribution be  on the follow paper  best  d  j   and nicholas i  fisher  “efficient simulation of the von mises distribution ” apply statistics  1979   152-157 
+
+
+compute the log det jacobian log |dy/dx| give input and output 
+infer the shape of the forward computation  give the input shape  default to preserve shape 
+infer the shape of the inverse computation  give the output shape  default to preserve shape 
+return a byte tensor of sample shape   batch shape indicate whether each event in value satisfy this constraint 
+register a constraint subclass in this registry  usage 
+compute kullback-leibler divergence kl p∥q kl p \| q kl p∥q  between two distributions 
+decorator to register a pairwise function with kl divergence    usage 
+alias of  distributions constraints  dependentproperty
+alias of  distributions constraints  greaterthan
+alias of  distributions constraints  greaterthaneq
+alias of  distributions constraints  independentconstraint
+alias of  distributions constraints  integerinterval
+alias of  distributions constraints  interval
+alias of  distributions constraints  halfopeninterval
+alias of  distributions constraints  lessthan
+alias of  distributions constraints  multinomial
+alias of  distributions constraints  stack
+append the give callback function to this future  which will be run when the future be complete   multiple callbacks can be add to the same future  but the order in which they will be execute caot be guarantee  the callback must take one argument  which be the reference to this future  the callback function can use the value   method to get the value  note that if this future be already complete  the give callback will be run inline 
+return true if this future be do  a future be do if it have a result or an exception 
+set an exception for this future  which will mark this future as complete with an error and trigger all attach callbacks  note that when call wait  /value   on this future  the exception set here will be raise inline 
+set the result for this future  which will mark this future as complete and trigger all attach callbacks  note that a future caot be mark complete twice 
+append the give callback function to this future  which will be run when the future be complete   multiple callbacks can be add to the same future  but the order in which they will be execute caot be guarantee  to enforce a certain order consider chain  fut then cb1  then cb2    the callback must take one argument  which be the reference to this future  the callback function can use the value   method to get the value  note that if this future be already complete  the give callback will be run immediately inline 
+obtain the value of an already-completed future 
+block until the value of this future be ready 
+collect the provide future object into a single combine future that be complete when all of the sub-futures be complete 
+wait for all provide futures to be complete  and return the list of complete value  if any of the futures encounter an error  the method will exit early and report the error not wait for other futures to complete 
+list all callable entrypoints available in the repo specify by github 
+show the docstring of entrypoint model 
+load a model from a github repo or a local directory 
+download object at the give url to a local path 
+load the  serialize object at the give url 
+get the  hub cache directory use for store download model   weight 
+optionally set the  hub directory use to save download model   weight 
+implement a function with check for    function   override 
+return true if the passed-in input be a tensor-like 
+return true if the function pass in be a handler for a method or property belong to  tensor  as pass into    function   
+wrap a give function with    function   -related functionality 
+this exception be raise when there be an issue with export a package  packageexporter will attempt to gather up all the errors and present them to you at once 
+this be an exception that be throw when a mock or extern be mark as allow empty=false  and be not match with any module during package 
+exporters allow you to write package of code  pickle python data  and arbitrary binary and text resources into a self-contained package 
+importers allow you to load code write to package by packageexporter  code be load in a hermetic way  use file from the package rather than the normal python import system  this allow for the package of py model code and data so that it can be run on a server or use in the future for transfer learn 
+a file structure representation  organize as directory nod that have list of their directory children  directories for a package be create by call packageimporter file structure   
+create an exporter 
+write the package to the filesystem  any call after close   be now invalid  it be preferable to use resource guard syntax instead 
+blocklist modules who name match the give glob pattern from the list of modules the package can import  if a dependency on any match package be find  a packagingerror be raise 
+include module in the list of external modules the package can import  this will prevent dependency discovery from save it in the package  the importer will load an external module directly from the standard import system  code for extern modules must also exist in the process load the package 
+get an id  this id be guarantee to only be hand out once for this package 
+specify modules that should be package  a module must match some intern pattern in order to be include in the package and have its dependencies process recursively 
+replace some require modules with a mock implementation   mock modules will return a fake object for any attribute access from it  because we copy file-by-file  the dependency resolution will sometimes find file that be import by model file but whose functionality be never use  e g  custom serialization code or train helpers   use this function to mock this functionality out without have to modify the original code 
+register an extern hook on the exporter 
+register an intern hook on the exporter 
+register a mock hook on the exporter 
+save raw bytes to the package 
+save the code for module into the package  code for the module be resolve use the importers path to find the module object  and then use its   file   attribute to find the source code 
+save a python object to the archive use pickle  equivalent to  save   but save into the archive rather than a stand-alone file  stanard pickle do not save the code  only the object  if dependencies be true  this method will also scan the pickle object for which modules be require to reconstruct them and save the relevant code 
+add src as the source code for module name in the export package 
+save text data to the package 
+open file or buffer for import  this check that the import package only require modules allow by module allow
+return a file structure representation of package’s zipfile 
+return internal identifier that  package use to distinguish packageimporter instance  look like 
+load a module from the package if it hasn’t already be load  and then return the module  modules be load locally to the importer and will appear in self modules rather than sys modules 
+load raw bytes 
+unpickles the resource from the package  load any modules that be need to construct the object use import module   
+load a string 
+check if a file be present in a directory 
+profiler context manager 
+profiler action that can be take at the specify intervals
+signal the profiler that the next profile step have start 
+return a callable that can be use as profiler schedule argument  the profiler will skip the first skip first step  then wait for wait step  then do the warmup for the next warmup step  then do the active record for the next active step and then repeat the cycle start with wait step  the optional number of cycle be specify with the repeat parameter  the zero value mean that the cycle will continue until the profile be finish 
+output trace file to directory of dir name  then that directory can be directly deliver to tensorboard as logdir  worker name should be unique for each worker in distribute scenario  it will be set to ‘[hostname] [pid]’ by default 
+return the recommend gain value for the give nonlinearity function  the value be as follow 
+fill the input tensor with value draw from the uniform distribution u a b \mathcal{u} a  b u a b  
+fill the input tensor with value draw from the normal distribution n mean std2 \mathcal{n} \text{mean}  \text{std} 2 n mean std2  
+fill the input tensor with the value val\text{val}val 
+fill the input tensor with the scalar value 1 
+fill the input tensor with the scalar value 0 
+fill the 2-dimensional input tensor with the identity matrix  preserve the identity of the input in linear layer  where as many input be preserve as possible 
+fill the {3  4  5}-dimensional input tensor with the dirac delta function  preserve the identity of the input in convolutional layer  where as many input chael be preserve as possible  in case of groups>1  each group of chael preserve identity
+fill the input tensor with value accord to the method describe in understand the difficulty of train deep feedforward neural network - glorot  x    bengio  y   2010   use a uniform distribution  the result tensor will have value sample from u −a a \mathcal{u} -a  a u −a a  where
+fill the input tensor with value accord to the method describe in understand the difficulty of train deep feedforward neural network - glorot  x    bengio  y   2010   use a normal distribution  the result tensor will have value sample from n 0 std2 \mathcal{n} 0  \text{std} 2 n 0 std2  where
+fill the input tensor with value accord to the method describe in delve deep into rectifiers  surpass human-level performance on imagenet classification - he  k  et al   2015   use a uniform distribution  the result tensor will have value sample from u −bound bind \mathcal{u} -\text{bound}  \text{bound} u −bound bind  where
+fill the input tensor with value accord to the method describe in delve deep into rectifiers  surpass human-level performance on imagenet classification - he  k  et al   2015   use a normal distribution  the result tensor will have value sample from n 0 std2 \mathcal{n} 0  \text{std} 2 n 0 std2  where
+fill the input tensor with a  semi  orthogonal matrix  as describe in exact solutions to the nonlinear dynamics of learn in deep linear neural network - saxe  a  et al   2013   the input tensor must have at least 2dimension  and for tensors with more than 2dimension the trail dimension be flatten 
+fill the 2d input tensor as a sparse matrix  where the non-zero elements will be draw from the normal distribution n 0 0 01 \mathcal{n} 0  0 01 n 0 0 01   as describe in deep learn via hessian-free optimization - martens  j   2010  
+export a model into ox format  if model be not a  jit scriptmodule nor a  jit scriptfunction  this run model once in order to convert it to a script graph to be export  the equivalent of  jit trace     thus this have the same limit support for dynamic control flow as  jit trace   
+similar to export    but return a text representation of the ox model  only differences in args list below  all other args be the same as export   
+register symbolic fn to handle symbolic name  see “custom operators” in the module documentation for an example usage 
+a context manager to temporarily set the train mode of model to mode  reset it when we exit the with-block   a no-op if mode be none 
+return true iff export   be run in the current thread
+ class for all optimizers 
+context object to wrap forward and backward pass when use distribute autograd  the context id generate in the with statement  be require to uniquely identify a distribute backward pass on all workers  each worker store metadata associate with this context id  which be require to correctly execute a distribute autograd pass 
+fork the rng  so that when you return  the rng be reset to the state that it be previously in 
+return the random number generator state as a  bytetensor 
+return the initial seed for generate random number as a python long 
+set the seed for generate random number  return a  generator object 
+set the seed for generate random number to a non-deterministic random number  return a 64 bite number use to seed the rng 
+set the random number generator state 
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+cast this storage to bfloat16 type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+assert that actual and expect be close 
+data loader  combine a dataset and a sampler  and provide an iterable over the give dataset 
+an abstract class represent a dataset 
+an iterable dataset 
+dataset wrap tensors 
+dataset as a concatenation of multiple datasets 
+dataset for chain multiple iterabledataset s 
+subset of a dataset at specify indices 
+ class for all samplers 
+sample elements sequentially  always in the same order 
+sample elements randomly  if without replacement  then sample from a shuffle dataset  if with replacement  then user can specify num sample to draw 
+sample elements randomly from a give list of indices  without replacement 
+sample elements from [0    len weight -1] with give probabilities  weight  
+wrap another sampler to yield a mini-batch of indices 
+sampler that restrict data load to a subset of the dataset 
+return the information about the current dataloader iterator worker process 
+randomly split a dataset into non-overlapping new datasets of give lengths  optionally fix the generator for reproducible result  e g  
+rename dimension name of self 
+in-place version of rename   
+refine the dimension name of self accord to name 
+permute the dimension of the self tensor to match the order specify in name  add size-one dim for any new name 
+expand the dimension dim of the self tensor over multiple dimension of size give by size 
+return true if obj be a py tensor 
+return true if obj be a py storage object 
+set the default float point dtype to d 
+set the default  tensor type to float point tensor type t 
+set options for print 
+split the tensor into chunk 
+set the seed for generate random number to a non-deterministic random number 
+set the seed for generate random number 
+return the initial seed for generate random number as a python long 
+return the random number generator state as a  bytetensor 
+set the random number generator state 
+the  quasirandom sobolengine be an engine for generate  scramble  sobol sequence 
+save an object to a disk file 
+load an object save with  save   from a file 
+context-manager that disable gradient calculation 
+context-manager that enable gradient calculation 
+context-manager that set gradient calculation to on or off 
+context-manager that enable or disable inference mode
+return the matrix norm or vector norm of a give tensor 
+return the unique elements of the input tensor 
+eliminate all but the first element from every consecutive group of equivalent elements 
+short-time fourier transform  stft  
+inverse short time fourier transform 
+return a 1dimensional view of each input tensor with zero dimension 
+return a 2dimensional view of each input tensor with zero dimension 
+return a 3dimensional view of each input tensor with zero dimension 
+create a block diagonal matrix from provide tensors 
+broadcast the give tensors accord to broadcast semantics 
+similar to broadcast tensors   but for shape 
+do cartesian product of the give sequence of tensors 
+compute batch the p-norm distance between each pair of the two collections of row vectors 
+sum the product of the elements of the input operands along dimension specify use a notation  on the einstein summation convention 
+create grids of coordinate specify by the 1d input in attr tensors 
+return a contraction of a and b over multiple dimension 
+return the matrix product of the n 2-d tensors 
+compute the lu factorization of a matrix or batch of matrices a 
+return the singular value decomposition  u  s  v  of a matrix  batch of matrices  or a sparse matrix aaa such that a≈udiag s vta \approx u diag s  v ta≈udiag s vt 
+perform linear principal component analysis  pca  on a low-rank matrix  batch of such matrices  or sparse matrix 
+find the k largest  or smallest  eigenvalues and the correspond eigenvectors of a symmetric positive definite generalize eigenvalue problem use matrix-free lobpcg methods 
+return whether py be build with  glibcxx use cxx11 abi=1
+set whether py operations must use “deterministic” algorithms 
+return true if the global deterministic flag be turn on 
+when this flag be false  default  then some py warn may only appear once per process 
+return true if the global warn always flag be turn on 
+a kind of tensor that be to be consider a module parameter 
+a parameter that be not initialize 
+a buffer that be not initialize 
+ class for all neural network modules 
+add a child module to the current module 
+return an iterator over module buffer 
+return an iterator over immediate children modules 
+move all model parameters and buffer to the cpu 
+move all model parameters and buffer to the gpu 
+set the module in evaluation mode 
+return an iterator over all modules in the network 
+return an iterator over module buffer  yield both the name of the buffer as well as the buffer itself 
+return an iterator over immediate children modules  yield both the name of the module as well as the module itself 
+return an iterator over all modules in the network  yield both the name of the module as well as the module itself 
+return an iterator over module parameters  yield both the name of the parameter as well as the parameter itself 
+return an iterator over module parameters 
+register a backward hook on the module 
+add a buffer to the module 
+register a forward hook on the module 
+register a forward pre-hook on the module 
+register a backward hook on the module 
+add a parameter to the module 
+change if autograd should record operations on parameters in this module 
+return a dictionary contain a whole state of the module 
+move and/or cast the parameters and buffer 
+move the parameters and buffer to the specify device without copy storage 
+set the module in train mode 
+move all model parameters and buffer to the xpu 
+a sequential container 
+hold submodules in a list 
+append a give module to the end of the list 
+append modules from a python iterable to the end of the list 
+insert a give module before a give index in the list 
+hold submodules in a dictionary 
+remove key from the moduledict and return its module 
+hold parameters in a list 
+append a give parameter at the end of the list 
+append parameters from a python iterable to the end of the list 
+hold parameters in a dictionary 
+remove key from the parameterdict and return its parameter 
+register a forward pre-hook common to all modules 
+register a global forward hook for all the modules
+register a backward hook common to all the modules 
+register a backward hook common to all the modules 
+apply a 1d convolution over an input signal compose of several input plan 
+apply a 2d convolution over an input signal compose of several input plan 
+apply a 3d convolution over an input signal compose of several input plan 
+apply a 1d transpose convolution operator over an input image compose of several input plan 
+apply a 2d transpose convolution operator over an input image compose of several input plan 
+apply a 3d transpose convolution operator over an input image compose of several input plan 
+a   conv1d module with lazy initialization of the in chael argument of the conv1d that be infer from the input size 1  
+a   conv2d module with lazy initialization of the in chael argument of the conv2d that be infer from the input size 1  
+a   conv3d module with lazy initialization of the in chael argument of the conv3d that be infer from the input size 1  
+a   convtranspose1d module with lazy initialization of the in chael argument of the convtranspose1d that be infer from the input size 1  
+a   convtranspose2d module with lazy initialization of the in chael argument of the convtranspose2d that be infer from the input size 1  
+a   convtranspose3d module with lazy initialization of the in chael argument of the convtranspose3d that be infer from the input size 1  
+extract slide local block from a batch input tensor 
+combine an array of slide local block into a large contain tensor 
+apply a 1d max pool over an input signal compose of several input plan 
+apply a 2d max pool over an input signal compose of several input plan 
+apply a 3d max pool over an input signal compose of several input plan 
+compute a partial inverse of maxpool1d 
+compute a partial inverse of maxpool2d 
+compute a partial inverse of maxpool3d 
+apply a 1d average pool over an input signal compose of several input plan 
+apply a 2d average pool over an input signal compose of several input plan 
+apply a 3d average pool over an input signal compose of several input plan 
+apply a 2d fractional max pool over an input signal compose of several input plan 
+apply a 3d fractional max pool over an input signal compose of several input plan 
+apply a 1d power-average pool over an input signal compose of several input plan 
+apply a 2d power-average pool over an input signal compose of several input plan 
+apply a 1d adaptive max pool over an input signal compose of several input plan 
+apply a 2d adaptive max pool over an input signal compose of several input plan 
+apply a 3d adaptive max pool over an input signal compose of several input plan 
+apply a 1d adaptive average pool over an input signal compose of several input plan 
+apply a 2d adaptive average pool over an input signal compose of several input plan 
+apply a 3d adaptive average pool over an input signal compose of several input plan 
+pad the input tensor use the reflection of the input boundary 
+pad the input tensor use the reflection of the input boundary 
+pad the input tensor use replication of the input boundary 
+pad the input tensor use replication of the input boundary 
+pad the input tensor use replication of the input boundary 
+pad the input tensor boundaries with zero 
+pad the input tensor boundaries with a constant value 
+pad the input tensor boundaries with a constant value 
+pad the input tensor boundaries with a constant value 
+apply the exponential linear unit  elu  function  element-wise  as describe in the paper  fast and accurate deep network learn by exponential linear units  elus  
+apply the hard shrinkage  hardshrink  function element-wise 
+apply the hardsigmoid function element-wise 
+apply the hardtanh function element-wise 
+apply the hardswish function  element-wise  as describe in the paper 
+apply the element-wise function leaky relu
+apply the element-wise function 
+allow the model to jointly attend to information from different representation subspaces as describe in the paper  attention be all you need 
+apply the element-wise function prelu
+apply the rectify linear unit function element-wise 
+apply the element-wise function 
+apply the randomize leaky rectify liner unit function  element-wise  as describe in the paper 
+apply element-wise  as 
+apply the element-wise function 
+apply the gaussian error linear units function 
+apply the element-wise function 
+apply the sigmoid linear unit  silu  function  element-wise 
+apply the mish function  element-wise 
+apply the softplus function softplus x =1β∗log⁡ 1 exp⁡ β∗x  \text{softplus} x  = \frac{1}{\beta}   \log 1   \exp \beta   x  softplus x =β1​∗log 1 exp β∗x   element-wise 
+apply the soft shrinkage function elementwise 
+apply the element-wise function 
+apply the hyperbolic tangent  tanh  function element-wise 
+apply the element-wise function 
+thresholds each element of the input tensor 
+apply the gate linear unit function glu a b =a⊗σ b {glu} a  b = a \otimes \sigma b glu a b =a⊗σ b  where aaa be the first half of the input matrices and bbb be the second half 
+apply the softmin function to an n-dimensional input tensor rescale them so that the elements of the n-dimensional output tensor lie in the range [0  1] and sum to 1 
+apply the softmax function to an n-dimensional input tensor rescale them so that the elements of the n-dimensional output tensor lie in the range [0 1] and sum to 1 
+apply softmax over feature to each spatial location 
+apply the log⁡ softmax x  \log \text{softmax} x  log softmax x   function to an n-dimensional input tensor 
+efficient softmax approximation as describe in efficient softmax approximation for gpus by edouard grave  armand joulin  moustapha cissé  david grangier  and hervé jégou 
+apply batch normalization over a 2d or 3d input as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift  
+apply batch normalization over a 4d input  a mini-batch of 2d input with additional chael dimension  as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift  
+apply batch normalization over a 5d input  a mini-batch of 3d input with additional chael dimension  as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift  
+a   batchnorm1d module with lazy initialization of the num feature argument of the batchnorm1d that be infer from the input size 1  
+a   batchnorm2d module with lazy initialization of the num feature argument of the batchnorm2d that be infer from the input size 1  
+a   batchnorm3d module with lazy initialization of the num feature argument of the batchnorm3d that be infer from the input size 1  
+apply group normalization over a mini-batch of input as describe in the paper group normalization
+apply batch normalization over a n-dimensional input  a mini-batch of [n-2]d input with additional chael dimension  as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift  
+apply instance normalization over a 2d  unbatched  or 3d  batch  input as describe in the paper instance normalization  the miss ingredient for fast stylization 
+apply instance normalization over a 4d input  a mini-batch of 2d input with additional chael dimension  as describe in the paper instance normalization  the miss ingredient for fast stylization 
+apply instance normalization over a 5d input  a mini-batch of 3d input with additional chael dimension  as describe in the paper instance normalization  the miss ingredient for fast stylization 
+apply layer normalization over a mini-batch of input as describe in the paper layer normalization
+apply local response normalization over an input signal compose of several input plan  where chael occupy the second dimension 
+apply a multi-layer elman r with tanh⁡\tanhtanh or relu\text{relu}relu non-linearity to an input sequence 
+apply a multi-layer long short-term memory  lstm  r to an input sequence 
+apply a multi-layer gate recurrent unit  gru  r to an input sequence 
+an elman r cell with tanh or relu non-linearity 
+a long short-term memory  lstm  cell 
+a gate recurrent unit  gru  cell
+a transformer model 
+take in and process mask source/target sequence 
+transformerencoder be a stack of n encoder layer
+pass the input through the encoder layer in turn 
+transformerdecoder be a stack of n decoder layer
+pass the input  and mask  through the decoder layer in turn 
+transformerencoderlayer be make up of self-attn and feedforward network 
+pass the input through the encoder layer 
+transformerdecoderlayer be make up of self-attn  multi-head-attn and feedforward network 
+pass the input  and mask  through the decoder layer 
+a placeholder identity operator that be argument-insensitive 
+apply a linear transformation to the incoming data  y=xat by = xa t   by=xat b
+apply a bilinear transformation to the incoming data  y=x1tax2 by = x 1 t a x 2   by=x1t​ax2​ b
+a   linear module where in feature be infer 
+during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution 
+randomly zero out entire chael  a chael be a 2d feature map  e g   the jjj-th chael of the iii-th sample in the batch input be a 2d tensor input[i j]\text{input}[i  j]input[i j]  
+randomly zero out entire chael  a chael be a 3d feature map  e g   the jjj-th chael of the iii-th sample in the batch input be a 3d tensor input[i j]\text{input}[i  j]input[i j]  
+apply alpha dropout over the input 
+randomly mask out entire chael  a chael be a feature map  e g 
+a simple lookup table that store embeddings of a fix dictionary and size 
+compute sum or mean of ‘bags’ of embeddings  without instantiate the intermediate embeddings 
+forward pass of embeddingbag 
+return cosine similarity between x1x 1x1​ and x2x 2x2​  compute along dim 
+compute the pairwise distance between vectors v1v 1v1​  v2v 2v2​ use the p-norm 
+create a criterion that measure the mean absolute error  mae  between each element in the input xxx and target yyy 
+create a criterion that measure the mean square error  square l2 norm  between each element in the input xxx and target yyy 
+this criterion compute the cross entropy loss between input and target 
+the coectionist temporal classification loss 
+the negative log likelihood loss 
+negative log likelihood loss with poisson distribution of target 
+gaussian negative log likelihood loss 
+the kullback-leibler divergence loss 
+create a criterion that measure the binary cross entropy between the target and the input probabilities 
+this loss combine a sigmoid layer and the bceloss in one single class 
+create a criterion that measure the loss give input x1x1x1  x2x2x2  two 1d mini-batch or 0d tensors  and a label 1d mini-batch or 0d tensor yyy  contain 1 or -1  
+measure the loss give an input tensor xxx and a label tensor yyy  contain 1 or -1  
+create a criterion that optimize a multi-class multi-classification hinge loss  margin-d loss  between input xxx  a 2d mini-batch tensor  and output yyy  which be a 2d tensor of target class indices  
+create a criterion that use a square term if the absolute element-wise error fall below delta and a delta-scaled l1 term otherwise 
+create a criterion that use a square term if the absolute element-wise error fall below beta and an l1 term otherwise 
+create a criterion that optimize a two-class classification logistic loss between input tensor xxx and target tensor yyy  contain 1 or -1  
+create a criterion that optimize a multi-label one-versus-all loss  on max-entropy  between input xxx and target yyy of size  n c  n  c  n c  
+create a criterion that measure the loss give input tensors x1x 1x1​  x2x 2x2​ and a tensor label yyy with value 1 or -1 
+create a criterion that optimize a multi-class classification hinge loss  margin-d loss  between input xxx  a 2d mini-batch tensor  and output yyy  which be a 1d tensor of target class indices  0≤y≤x size 1 −10 \leq y \leq \text{x size} 1 -10≤y≤x size 1 −1  
+create a criterion that measure the triplet loss give an input tensors x1x1x1  x2x2x2  x3x3x3 and a margin with a value greater than 000 
+create a criterion that measure the triplet loss give input tensors aaa  ppp  and n  represent anchor  positive  and negative examples  respectively   and a noegative  real-valued function  “distance function”  use to compute the relationship between the anchor and positive example  “positive distance”  and the anchor and negative example  “negative distance”  
+rearrange elements in a tensor of shape  ∗ c×r2 h w     c \times r 2  h  w  ∗ c×r2 h w  to a tensor of shape  ∗ c h×r w×r     c  h \times r  w \times r  ∗ c h×r w×r   where r be an upscale factor 
+reverse the pixelshuffle operation by rearrange elements in a tensor of shape  ∗ c h×r w×r     c  h \times r  w \times r  ∗ c h×r w×r  to a tensor of shape  ∗ c×r2 h w     c \times r 2  h  w  ∗ c×r2 h w   where r be a downscale factor 
+upsamples a give multi-chael 1d  temporal   2d  spatial  or 3d  volumetric  data 
+apply a 2d nearest neighbor upsampling to an input signal compose of several input chael 
+apply a 2d bilinear upsampling to an input signal compose of several input chael 
+divide the chael in a tensor of shape  ∗ c h w     c   h  w  ∗ c h w  into g group and rearrange them as  ∗ cg g h w     c \frac g  g  h  w  ∗ c g​g h w   while keep the original tensor shape 
+implement data parallelism at the module level 
+implement distribute data parallelism that be  on  distribute package at the module level 
+register a communication hook which be an enhancement that provide a flexible hook to users where they can specify how ddp aggregate gradients across multiple workers 
+clip gradient norm of an iterable of parameters 
+clip gradient of an iterable of parameters at specify value 
+convert parameters to one vector
+convert one vector to the parameters
+remove the weight normalization reparameterization from a module 
+remove the spectral normalization reparameterization from a module 
+apply spectral normalization to a parameter in the give module 
+add a parametrization to a tensor in a module 
+remove the parametrizations on a tensor in a module 
+context manager that enable the cache system within parametrizations register with register parametrization   
+return true if module have an active parametrization 
+a sequential container that hold and manage the original or original0  original1   
+hold the data and list of batch size of a pack sequence 
+pack a tensor contain pad sequence of variable length 
+pad a pack batch of variable length sequence 
+pad a list of variable length tensors with pad value
+pack a list of variable length tensors
+flatten a contiguous range of dim into a tensor 
+unflattens a tensor dim expand it to a desire shape 
+a mixin for modules that lazily initialize parameters  also know as “lazy modules ”
+extract slide local block from a batch input tensor 
+combine an array of slide local block into a large contain tensor 
+apply a 1d max pool over an input signal compose of several input plan 
+apply a 2d max pool over an input signal compose of several input plan 
+apply a 3d max pool over an input signal compose of several input plan 
+compute a partial inverse of maxpool1d 
+compute a partial inverse of maxpool2d 
+compute a partial inverse of maxpool3d 
+apply a 1d power-average pool over an input signal compose of several input plan 
+apply a 2d power-average pool over an input signal compose of several input plan 
+apply a 1d adaptive max pool over an input signal compose of several input plan 
+apply a 2d adaptive max pool over an input signal compose of several input plan 
+apply a 3d adaptive max pool over an input signal compose of several input plan 
+apply a 2d adaptive average pool over an input signal compose of several input plan 
+apply a 3d adaptive average pool over an input signal compose of several input plan 
+apply 2d fractional max pool over an input signal compose of several input plan 
+apply 3d fractional max pool over an input signal compose of several input plan 
+thresholds each element of the input tensor 
+apply the rectify linear unit function element-wise 
+apply the hardtanh function element-wise 
+apply the hardswish function  element-wise  as describe in the paper 
+apply the element-wise function relu6 x =min⁡ max⁡ 0 x  6 \text{relu6} x  = \min \max 0 x   6 relu6 x =min max 0 x  6  
+apply element-wise  elu x =max⁡ 0 x  min⁡ 0 α∗ exp⁡ x −1  \text{elu} x  = \max 0 x    \min 0  \alpha    \exp x  - 1  elu x =max 0 x  min 0 α∗ exp x −1   
+apply element-wise  selu x =scale∗ max⁡ 0 x  min⁡ 0 α∗ exp⁡ x −1   \text{selu} x  = scale    \max 0 x    \min 0  \alpha    \exp x  - 1   selu x =scale∗ max 0 x  min 0 α∗ exp x −1     with α=1 6732632423543772848170429916717\alpha=1 6732632423543772848170429916717α=1 6732632423543772848170429916717 and scale=1 0507009873554804934193349852946scale=1 0507009873554804934193349852946scale=1 0507009873554804934193349852946 
+apply element-wise  celu x =max⁡ 0 x  min⁡ 0 α∗ exp⁡ x/α −1  \text{celu} x  = \max 0 x    \min 0  \alpha    \exp x/\alpha  - 1  celu x =max 0 x  min 0 α∗ exp x/α −1   
+apply element-wise  leakyrelu x =max⁡ 0 x  negative slope∗min⁡ 0 x \text{leakyrelu} x  = \max 0  x    \text{negative\ slope}   \min 0  x leakyrelu x =max 0 x  negative slope∗min 0 x 
+apply element-wise the function prelu x =max⁡ 0 x  weight∗min⁡ 0 x \text{prelu} x  = \max 0 x    \text{weight}   \min 0 x prelu x =max 0 x  weight∗min 0 x  where weight be a learnable parameter 
+randomize leaky relu 
+the gate linear unit 
+apply element-wise the function gelu x =x∗φ x \text{gelu} x  = x   \phi x gelu x =x∗φ x 
+apply the hard shrinkage function element-wise
+apply element-wise  tanhshrink x =x−tanh x \text{tanhshrink} x  = x - \text{tanh} x tanhshrink x =x−tanh x 
+apply element-wise  the function softsign x =x1 ∣x∣\text{softsign} x  = \frac{x}{1   |x|}softsign x =1 ∣x∣x​
+apply a softmin function 
+apply a softmax function 
+sample from the gumbel-softmax distribution  link 1 link 2  and optionally discretizes 
+apply a softmax follow by a logarithm 
+apply element-wise  tanh x =tanh⁡ x =exp⁡ x −exp⁡ −x exp⁡ x  exp⁡ −x \text{tanh} x  = \tanh x  = \frac{\exp x  - \exp -x }{\exp x    \exp -x }tanh x =tanh x =exp x  exp −x exp x −exp −x ​
+apply the element-wise function sigmoid x =11 exp⁡ −x \text{sigmoid} x  = \frac{1}{1   \exp -x }sigmoid x =1 exp −x 1​
+apply the element-wise function hard sigmoid
+apply the sigmoid linear unit  silu  function  element-wise 
+apply the mish function  element-wise 
+apply batch normalization for each chael across a batch of data 
+apply group normalization for last certain number of dimension 
+apply instance normalization for each chael in each data sample in a batch 
+apply layer normalization for last certain number of dimension 
+apply local response normalization over an input signal compose of several input plan  where chael occupy the second dimension 
+perform lpl plp​ normalization of input over specify dimension 
+apply a linear transformation to the incoming data  y=xat by = xa t   by=xat b 
+apply a bilinear transformation to the incoming data  y=x1tax2 by = x 1 t a x 2   by=x1t​ax2​ b
+during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution 
+apply alpha dropout to the input 
+randomly mask out entire chael  a chael be a feature map  e g 
+randomly zero out entire chael  a chael be a 2d feature map  e g   the jjj-th chael of the iii-th sample in the batch input be a 2d tensor input[i j]\text{input}[i  j]input[i j]  of the input tensor  
+randomly zero out entire chael  a chael be a 3d feature map  e g   the jjj-th chael of the iii-th sample in the batch input be a 3d tensor input[i j]\text{input}[i  j]input[i j]  of the input tensor  
+a simple lookup table that look up embeddings in a fix dictionary and size 
+compute sum  mean or maxes of bag of embeddings  without instantiate the intermediate embeddings 
+see   pairwisedistance for detail
+function that measure the binary cross entropy between the target and input probabilities 
+function that measure binary cross entropy between target and input logits 
+poisson negative log likelihood loss 
+see cosineembeddingloss for detail 
+this criterion compute the cross entropy loss between input and target 
+the coectionist temporal classification loss 
+gaussian negative log likelihood loss 
+see hingeembeddingloss for detail 
+the kullback-leibler divergence loss
+function that take the mean element-wise absolute value difference 
+measure the element-wise mean square error 
+see marginrankingloss for detail 
+see multilabelmarginloss for detail 
+see multilabelsoftmarginloss for detail 
+see multimarginloss for detail 
+the negative log likelihood loss 
+function that use a square term if the absolute element-wise error fall below delta and a delta-scaled l1 term otherwise 
+function that use a square term if the absolute element-wise error fall below beta and an l1 term otherwise 
+see softmarginloss for detail 
+see tripletmarginloss for detail
+see tripletmarginwithdistanceloss for detail 
+pad tensor 
+down/up sample the input to either the give size or the give scale factor
+upsamples the input to either the give size or the give scale factor
+upsamples the input  use nearest neighbours’ pixel value 
+upsamples the input  use bilinear upsampling 
+give an input and a flow-field grid  compute the output use input value and pixel locations from grid 
+generate a 2d or 3d flow field  sample grid   give a batch of affine matrices theta 
+compute the gradient of current tensor w r t 
+check if tensor be in share memory 
+see  istft  
+see  lu  
+see  norm  
+register a backward hook 
+enable this tensor to have their grad populate during backward   
+move the underlie storage to share memory 
+see  split  
+see  stft  
+return the unique elements of the input tensor 
+eliminate all but the first element from every consecutive group of equivalent elements 
+compute the sum of gradients of give tensors with respect to graph leave 
+compute and return the sum of gradients of output with respect to the input 
+context-manager that enable forward ad 
+associate a tensor value with a forward gradient  the tangent  to create a “dual tensor”  which be use to compute forward ad gradients 
+unpack a “dual tensor” to get both its tensor value and its forward ad gradient 
+function that compute the jacobian of a give function 
+function that compute the hessian of a give scalar function 
+function that compute the dot product between a vector v and the jacobian of the give function at the point give by the input 
+function that compute the dot product between  the jacobian of the give function at the point give by the input and a vector v 
+function that compute the dot product between a vector v and the hessian of a give scalar function at the point give by the input 
+function that compute the dot product between the hessian of a give scalar function and a vector v at the point give by the input 
+context-manager that disable gradient calculation 
+context-manager that enable gradient calculation 
+context-manager that set gradient calculation to on or off 
+context-manager that enable or disable inference mode
+perform the operation 
+define a formula for differentiate the operation with backward mode automatic differentiation  alias to the vjp function  
+check gradients of gradients compute via small finite differences against analytical gradients w r t 
+export an eventlist as a chrome trace tool file 
+average all function events over their key 
+average all events 
+open an nvprof trace file and parse autograd aotations 
+context-manager that select a give stream 
+check if peer access between two devices be possible 
+return cublashandle t pointer to current cublas handle
+return the index of a currently select device 
+return the currently select stream for a give device 
+return the default stream for a give device 
+context-manager that change the select device 
+return the number of gpus available 
+context-manager that change the current device to that of give object 
+return list cuda architectures this library be compile for 
+get the cuda capability of a device 
+get the name of a device 
+get the properties of a device 
+return nvcc gencode flag this library be compile with 
+initialize py’s cuda state 
+force collect gpu memory after it have be release by cuda ipc 
+return a bool indicate if cuda be currently available 
+return whether py’s cuda state have be initialize 
+set the current device 
+set the current stream this be a wrapper api to set the stream 
+wrapper around a cuda stream 
+check if all the work submit have be complete 
+record an event 
+make all future work submit to the stream wait for an event 
+synchronize with another stream 
+wait for all kernels in all stream on a cuda device to complete 
+return the random number generator state of the specify gpu as a bytetensor 
+return a list of bytetensor represent the random number state of all devices 
+set the random number generator state of the specify gpu 
+set the random number generator state of all devices 
+set the seed for generate random number for the current gpu 
+set the seed for generate random number on all gpus 
+set the seed for generate random number to a random number for the current gpu 
+set the seed for generate random number to a random number on all gpus 
+return the current random seed of the current gpu 
+wrapper around a cuda event 
+check if all work currently capture by event have complete 
+release all unoccupied cache memory currently hold by the cache allocator so that those can be use in other gpu application and visible in nvidia-smi 
+return a human-readable printout of the run process and their gpu memory use for a give device 
+return a dictionary of cuda memory allocator statistics for a give device 
+return a human-readable printout of the current memory allocator statistics for a give device 
+return a snapshot of the cuda memory allocator state across all devices 
+return the current gpu memory occupy by tensors in bytes for a give device 
+return the maximum gpu memory occupy by tensors in bytes for a give device 
+reset the start point in track maximum gpu memory occupy by tensors for a give device 
+return the current gpu memory manage by the cache allocator in bytes for a give device 
+return the maximum gpu memory manage by the cache allocator in bytes for a give device 
+set memory fraction for a process 
+deprecate  see memory reserve   
+deprecate  see max memory reserve   
+reset the start point in track maximum gpu memory manage by the cache allocator for a give device 
+reset the “peak” stats track by the cuda memory allocator 
+perform a memory allocation use the cuda memory allocator 
+delete memory allocate use the cuda memory allocator 
+describe an instantaneous event that occur at some point 
+push a range onto a stack of nest range span 
+pop a range off of a stack of nest range span 
+add a param group to the optimizer s param group 
+load the optimizer state 
+return the state of the optimizer as a dict 
+perform a single optimization step  parameter update  
+set the gradients of all optimize  tensor s to zero 
+implement adadelta algorithm 
+load the optimizer state 
+perform a single optimization step 
+implement adagrad algorithm 
+load the optimizer state 
+perform a single optimization step 
+implement adam algorithm 
+load the optimizer state 
+perform a single optimization step 
+implement adamw algorithm 
+load the optimizer state 
+perform a single optimization step 
+implement lazy version of adam algorithm suitable for sparse tensors 
+load the optimizer state 
+perform a single optimization step 
+implement adamax algorithm  a variant of adam  on infinity norm  
+load the optimizer state 
+perform a single optimization step 
+implement average stochastic gradient descent 
+load the optimizer state 
+perform a single optimization step 
+implement l-bfgs algorithm  heavily inspire by minfunc 
+load the optimizer state 
+perform a single optimization step 
+implement rmsprop algorithm 
+load the optimizer state 
+perform a single optimization step 
+implement the resilient backpropagation algorithm 
+load the optimizer state 
+perform a single optimization step 
+implement stochastic gradient descent  optionally with momentum  
+load the optimizer state 
+perform a single optimization step 
+set the learn rate of each parameter group to the initial lr time a give function 
+load the schedulers state 
+multiply the learn rate of each parameter group by the factor give in the specify function 
+load the schedulers state 
+decay the learn rate of each parameter group by gamma every step size epochs 
+load the schedulers state 
+decay the learn rate of each parameter group by gamma once the number of epoch reach one of the milestones 
+load the schedulers state 
+decay the learn rate of each parameter group by gamma every epoch 
+load the schedulers state 
+set the learn rate of each parameter group use a cosine aeal schedule  where ηmax\eta {max}ηmax​ be set to the initial lr and tcurt {cur}tcur​ be the number of epochs since the last restart in sgdr 
+load the schedulers state 
+reduce learn rate when a metric have stop improve 
+set the learn rate of each parameter group accord to cyclical learn rate policy  clr  
+load the schedulers state 
+set the learn rate of each parameter group accord to the 1cycle learn rate policy 
+load the schedulers state 
+set the learn rate of each parameter group use a cosine aeal schedule  where ηmax\eta {max}ηmax​ be set to the initial lr  tcurt {cur}tcur​ be the number of epochs since the last restart and tit {i}ti​ be the number of epochs between two warm restart in sgdr 
+load the schedulers state 
+return the sum of each row of the sparse tensor input in the give dimension dim 
+this function do exact same thing as  addmm   in the forward  except that it support backward for sparse matrix mat1 
+perform a matrix multiplication of the sparse matrix mat1 and the  sparse or stride  matrix mat2 
+apply a softmax function 
+apply a softmax function follow by logarithm 

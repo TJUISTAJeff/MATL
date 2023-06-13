@@ -1,0 +1,1200 @@
+aggregation method
+critical section
+device spec
+gradient tape
+graph
+indexed slices
+indexed slices spec
+module
+operation
+optional spec
+ragged tensor
+ragged tensor spec
+register gradient
+sparse tensor spec
+tensor
+tensor array
+tensor array spec
+tensor shape
+tensor spec
+type spec
+unconnected gradients
+variable
+variable aggregation
+variable synchronization
+arg sort
+batch to space
+bit cast
+boolean mask
+broadcast dynamic shape
+broadcast static shape
+broadcast to
+case
+cast
+clip by global norm
+clip by norm
+clip by value
+c on cat
+cond
+constant
+constant initializer
+control dependencies
+convert to tensor
+custom gradient
+device
+dynamic partition
+dynamic stitch
+edit distance
+ein sum
+ensure shape
+execute eagerly
+expand dim
+extract volume patch
+eye
+fill
+fingerprint
+fold l
+fold r
+function
+gather
+gather nd
+get logger
+get static value
+grad pass through
+gradients
+group
+guarantee const
+hessian s
+histogram fix width
+histogram fix width bin
+identity
+identity n
+in it scope
+be tensor
+lin space
+load library
+load op library
+make nd array
+make tensor proto
+map fn
+mesh grid
+name scope
+no gradient
+no op
+non differentiable batch function
+norm
+num py function
+one hot
+ones
+ones initializer
+ones like
+pad
+parallel stack
+print
+py function
+random normal initializer
+random uniform initializer
+range
+rank
+real div
+re compute grad
+register tensor conversion function
+repeat
+require space to batch padding s
+reshape
+reverse
+reverse sequence
+roll
+scan
+scatter nd
+search sorted
+sequence mask
+shape
+shape n
+size
+slice
+sort
+space to batch
+space to batch nd
+split
+squeeze
+stack
+stop gradient
+stride slice
+switch case
+tensor scatter nd add
+tensor scatter nd sub
+tensor scatter nd update
+tensor dot
+tile
+timestamp
+transpose
+truncated iv
+truncate mod
+tuple
+unique
+unique with count
+unravel index
+un stack
+variable creator scope
+vector i zed map
+where
+while loop
+zero
+zero initializer
+zero like
+as bytes
+as str any
+as text
+dimension at index
+dimension value
+forward compatibility horizon
+forward compatible
+path to str
+conditional accumulator
+conditional accumulator base
+device spec
+dimension
+fixed length record reader
+graph keys
+identity reader
+interactive session
+lm db reader
+print
+reader base
+session
+sparse conditional accumulator
+t f record reader
+text line reader
+variable
+variable aggregation
+variable scope
+whole file reader
+add check numeric ops
+add to collection
+add to collections
+all variables
+arg max
+arg min
+arg max
+arg min
+assert equal
+assert greater
+assert greater equal
+assert integer
+assert less
+assert less equal
+assert near
+assert negative
+assert non negative
+assert non positive
+assert none equal
+assert positive
+assert rank
+assert rank at least
+assert rank in
+assert scalar
+assert type
+assert variables initialize
+assign
+assign add
+assign sub
+batch gather
+batch scatter update
+batch to space
+batch to space nd
+bin count
+boolean mask
+case
+clip by average norm
+co locate with
+cond
+confusion matrix
+constant
+container
+control flow enable
+convert to tensor
+convert to tensor or index slice
+convert to tensor or sparse tensor
+count nonzero
+count up to
+create partition variables
+decode csv
+decode raw
+delete session tensor
+depth to space
+device
+disable control flow
+disable eager execution
+disable resource variables
+disable tensor equality
+disable behavior
+disable tensor shape
+div
+enable control flow
+enable eager execution
+enable resource variables
+enable tensor equality
+enable behavior
+enable tensor shape
+execute eagerly
+expand dim
+extract image patch
+fix size partition er
+floor div
+fold l
+fold r
+gather
+gather nd
+get collection
+get collection ref
+get default graph
+get default session
+get local variable
+get seed
+get session handle
+get session tensor
+get variable
+get variable scope
+global variables
+global variables initializer
+gradients
+hessian s
+initialize all table
+initialize all variables
+initialize local variables
+initialize variables
+be variable initialize
+load file system library
+local variables
+local variables initializer
+make template
+map fn
+min max variable partition er
+model variables
+move average variables
+multi no mi al
+no regularize r
+norm
+ones like
+op scope
+pad
+parse example
+parse single example
+placeholder
+placeholder with default
+py fun c
+quant ize
+random normal initializer
+random poisson
+random uniform initializer
+reduce all
+reduce any
+reduce join
+reduce log sum exp
+reduce max
+reduce mean
+reduce min
+reduce prod
+reduce sum
+report uninitialized variables
+reset default graph
+resource variables enable
+reverse sequence
+scalar mul
+scan
+scatter add
+scatter div
+scatter max
+scatter min
+scatter mul
+scatter nd add
+scatter nd sub
+scatter nd update
+scatter sub
+scatter update
+serialize many sparse
+serialize sparse
+set random seed
+set diff 1d
+shape
+size
+space to batch
+space to depth
+sparse add
+sparse c on cat
+sparse mat mul
+sparse merge
+sparse placeholder
+sparse reduce max
+sparse reduce max sparse
+sparse reduce sum
+sparse reduce sum sparse
+sparse segment mean
+sparse segment sqr t n
+sparse segment sum
+sparse split
+sparse to dense
+squeeze
+string split
+string to hash bucket
+string to number
+subst r
+table initializer
+to b float 16
+to complex 128
+to complex 64
+to double
+to float
+to int 32
+to int 64
+trainable variables
+transpose
+truncate normal initializer
+tuple
+uniform unit scale initializer
+variable axis size partition er
+variable creator scope
+variable op scope
+variable scope
+variables initializer
+verify tensor all finite
+where
+while loop
+wrap function
+zero like
+app run
+autograph to code
+autograph to graph
+data data set
+data fixed length record data set
+data iterator
+data t f record data set
+data text linedata set
+data get output class
+data get output shape
+data get output type
+data make initial iz able iterator
+data make one shoot iterator
+debug assert shape
+distribute mirrored strategy
+distribute one device strategy
+distribute replica context
+distribute strategy
+distribute strategy extended
+distribute get loss reduction
+distributions bernoulli
+distributions beta
+distributions categorical
+distributions di rich let
+distributions di rich let multi no mi al
+distributions distribution
+distributions exponential
+distributions gamma
+distributions laplace
+distributions multi no mi al
+distributions normal
+distributions register kl
+distributions re parameter iz ation type
+distributions student t
+distributions uniform
+distributions kl divergence
+errors raise exception on not ok status
+estimator baseline class i fier
+estimator baseline estimator
+estimator baseline regress or
+estimator dnn class i fier
+estimator dnn estimator
+estimator dnn linear combined class i fier
+estimator dnn linear combined estimator
+estimator dnn linear combined regress or
+estimator dnn regress or
+estimator estimator
+estimator linear class i fier
+estimator linear estimator
+estimator linear regress or
+estimator class i fier parse example spec
+estimator regress or parse example spec
+estimator input num py input fn
+estimator input pandas input fn
+estimator tpu input pipeline config
+estimator tpu run config
+estimator tpu tpu config
+estimator tpu tpu estimator
+estimator tpu tpu estimator spec
+feature column categorical column with vocabulary file
+feature column input layer
+feature column linear model
+feature column make parse example spec
+feature column share embed columns
+g file copy
+g file delete recursively
+g file exist
+g file fast g file
+g file glob
+g file is directory
+g file list directory
+g file make dir s
+g file mk dir
+g file remove
+g file rename
+g file stat
+g file walk
+graph util convert variables to constants
+graph util extract sub graph
+graph util must run on cpu
+graph util remove train nod
+graph util tensor shape from node def name
+image resize method
+image crop and resize
+image draw bound box
+image extract glimpse
+image resize
+image resize area
+image resize image with pad
+image sample distort bound box
+initializer he normal
+initializer he uniform
+initializer lec un normal
+initializer lec un uniform
+io t f record compression type
+backend get session
+backend name scope
+backend set session
+callback tensor board
+estimator model to estimator
+initializer constant
+initializer identity
+initializer ones
+initializer orthogonal
+initializer random normal
+initializer random uniform
+initializer truncated normal
+initializer variance scaling
+initializer zero
+initializer gl or ot normal
+initializer gl or ot uniform
+initializer he normal
+initializer he uniform
+initializer lec un normal
+initializer lec un uniform
+layer batch normalization
+layer cudnn gru
+layer cudnn lstm
+layer dense features
+layer gru
+layer gru cell
+layer lstm
+layer lstm cell
+layer average pooling 1d
+layer average pooling 2d
+layer average pooling 3d
+layer batch normalization
+layer conv 1d
+layer conv 2d
+layer conv 2d transpose
+layer conv 3d
+layer conv 3d transpose
+layer dense
+layer dropout
+layer flatten
+layer layer
+layer max pooling 1d
+layer max pooling 2d
+layer max pooling 3d
+layer separable conv 1d
+layer separable conv 2d
+layer average pooling 1d
+layer average pooling 2d
+layer average pooling 3d
+layer batch normalization
+layer conv 1d
+layer conv 2d
+layer conv 2d transpose
+layer conv 3d
+layer conv 3d transpose
+layer dense
+layer dropout
+layer flatten
+layer max pooling 1d
+layer max pooling 2d
+layer max pooling 3d
+layer separable conv 1d
+layer separable conv 2d
+lite op hint
+lite tfl ite converter
+lite to co converter
+lite to co convert
+log get verbosity
+log log every n
+log log first n
+log log if
+log set verbosity
+lookup static hash table
+lookup static vocabulary table
+losses reduction
+losses absolute difference
+losses add loss
+losses compute weight loss
+losses cosine distance
+losses get losses
+losses get regular iz ation loss
+losses get regular iz ation losses
+losses get total loss
+losses hinge loss
+losses huber loss
+losses log loss
+losses mean pairwise square error
+losses mean square error
+losses s igm oid cross entropy
+losses soft max cross entropy
+losses sparse soft max cross entropy
+math in top k
+math log soft max
+math soft max
+metrics accuracy
+metrics auc
+metrics average precision at k
+metrics false negative
+metrics false negative at thresholds
+metrics false positives
+metrics false positives at thresholds
+metrics mean
+metrics mean absolute error
+metrics mean cosine distance
+metrics mean io u
+metrics mean per class accuracy
+metrics mean relative error
+metrics mean square error
+metrics mean tensor
+metrics percentage below
+metrics precision
+metrics precision at k
+metrics precision at thresholds
+metrics precision at top k
+metrics recall
+metrics recall at k
+metrics recall at thresholds
+metrics recall at top k
+metrics root mean square error
+metrics sensitivity at specificity
+metrics sparse average precision at k
+metrics sparse precision at k
+metrics specificity at sensitivity
+metrics true negative
+metrics true negative at thresholds
+metrics true positives
+metrics true positives at thresholds
+nn avg pool
+nn batch norm with global normalization
+nn bidirectional dynamic rnn
+nn conv 1d
+nn conv 2d
+nn conv 2d back prop filter
+nn conv 2d back prop input
+nn conv 2d transpose
+nn conv 3d
+nn conv 3d back prop filter
+nn conv 3d transpose
+nn convolution
+nn c relu
+nn ct c beam search decoder
+nn ct c loss
+nn ct c loss
+nn depth wise conv 2d
+nn depth wise conv 2d native
+nn dilation 2d
+nn dropout
+nn dynamic rnn
+nn embed lookup
+nn embed lookup sparse
+nn erosion 2d
+nn fractional avg pool
+nn fractional max pool
+nn fuse batch norm
+nn max pool
+nn max pool with arg max
+nn moments
+nn n ce loss
+nn pool
+nn quant ize avg pool
+nn quant ize conv 2d
+nn quant ize max pool
+nn quant ize relu x
+nn raw rnn
+nn relu layer
+nn safe embed lookup sparse
+nn sample soft max loss
+nn separable conv 2d
+nn s igm oid cross entropy with log its
+nn soft max cross entropy with log its
+nn soft max cross entropy with log its
+nn sparse soft max cross entropy with log its
+nn static bidirectional rnn
+nn static rnn
+nn static state save rnn
+nn sufficient statistics
+nn weight cross entropy with log its
+nn weight moments
+nn x w plus b
+nn rnn cell basic lstm cell
+nn rnn cell basic rnn cell
+nn rnn cell device wrapper
+nn rnn cell dropout wrapper
+nn rnn cell gru cell
+nn rnn cell lstm cell
+nn rnn cell lstm state tuple
+nn rnn cell multi rnn cell
+nn rnn cell rnn cell
+nn rnn cell residual wrapper
+profiler profile option builder
+profiler profiler
+profiler advise
+profiler profile
+profiler write op log
+rag ragged tensor value
+rag constant value
+rag placeholder
+random stateless multi no mi al
+resource loader get data file path
+resource loader get path to data file
+resource loader get root dir with all resources
+resource loader load resource
+resource loader read ahead file path
+save model builder
+save model build signature def
+save model build tensor info
+save model classification signature def
+save model contain save model
+save model get tensor from tensor info
+save model be valid signature
+save model load
+save model main op with restore
+save model predict signature def
+save model regression signature def
+save model simple save
+save model main op main op
+string length
+string split
+string subst r
+summary file writer
+summary file writer cache
+summary all summary ops
+summary audio
+summary get summary description
+summary histogram
+summary image
+summary initialize
+summary merge
+summary merge all
+summary scalar
+summary tensor summary
+summary text
+test stub out for testing
+test assert equal graph def
+test compute gradient
+test compute gradient error
+test get temp dir
+test test s rc dir path
+tpu cross shard optimizer
+tpu batch parallel
+tpu b float 16 scope
+tpu core
+tpu cross replica sum
+tpu initialize system
+tpu outside compilation
+tpu replicate
+tpu rewrite
+tpu shard
+tpu shutdown system
+train ada delta optimizer
+train a dagr add a optimizer
+train ada grad optimizer
+train adam optimizer
+train checkpoint
+train chief session creator
+train f trl optimizer
+train gradient descent optimizer
+train looper thread
+train momentum optimizer
+train monitored session
+train monitored training session
+train new checkpoint reader
+train optimizer
+train proxima lada grad optimizer
+train proxima l gradient descent optimizer
+train queue runner
+train rms prop optimizer
+train saver
+train scaffold
+train session creator
+train session manager
+train singular monitored session
+train supervisor
+train sync replicas optimizer
+train worker session creator
+train add queue runner
+train assert global step
+train basic train loop
+train batch
+train batch join
+train checkpoint exist
+train cosine decay
+train cosine decay restart
+train create global step
+train do quant ize train on graph def
+train exponential decay
+train export meta graph
+train generate checkpoint state proto
+train get checkpoint m times
+train get global step
+train get or create global step
+train global step
+train import meta graph
+train in it from checkpoint
+train input producer
+train inverse time decay
+train limit epochs
+train linear cosine decay
+train maybe batch
+train maybe batch join
+train maybe shuffle batch
+train maybe shuffle batch join
+train natural exp decay
+train noisy linear cosine decay
+train piecewise constant
+train polynomial decay
+train range input producer
+train remove checkpoint
+train replica device setter
+train s dc a f print
+train s dc a optimizer
+train s dc a shrink l 1
+train shuffle batch
+train shuffle batch join
+train slice input producer
+train start queue runners
+train string input producer
+train summary iterator
+train update checkpoint state
+train warm start
+user ops my fact
+estimator export classification output
+estimator export export output
+estimator export predict output
+estimator export regression output
+estimator export serving input receiver
+estimator export tensor serving input receiver
+estimator export build parse serve input receiver fn
+estimator export build raw serve input receiver fn
+input
+model
+sequential
+activation de serialize
+activation elu
+activation exponential
+activation get
+activation hard s igm oid
+activation linear
+activation relu
+activation s elu
+activation serialize
+activation s igm oid
+activation soft max
+activation soft plus
+activation soft sign
+activation tan h
+applications dense net dense net 121
+applications dense net dense net 169
+applications dense net dense net 201
+applications dense net decode predictions
+applications dense net pre process input
+applications image net utils decode predictions
+applications image net utils pre process input
+applications inception res net inception res ne tv 2
+applications inception res net decode predictions
+applications inception res net pre process input
+applications inception v 3 inception v 3
+applications inception v 3decode predictions
+applications inception v 3 pre process input
+applications mobile net mobile net
+applications mobile net decode predictions
+applications mobile net pre process input
+applications mobile net mobile ne tv 2
+applications mobile net decode predictions
+applications mobile net pre process input
+applications nas net nas net large
+applications nas net nas net mobile
+applications nas net decode predictions
+applications nas net pre process input
+applications res net res net 101
+applications res net res net 152
+applications res net 50 res net 50
+applications res net 50 decode predictions
+applications res net 50 pre process input
+applications res net res net 101 v 2
+applications res net res net 152 v 2
+applications res net res net 50 v 2
+applications res net decode predictions
+applications res net pre process input
+applications vgg 16 vgg 16
+applications vgg 16 decode predictions
+applications vgg 16 pre process input
+applications vgg 19 vgg 19
+applications vgg 19 decode predictions
+applications vgg 19 pre process input
+applications xc ep tion xc ep tion
+applications xc ep tion decode predictions
+applications xc ep tion pre process input
+backend clear session
+backend epsilon
+backend float x
+backend get u id
+backend image data format
+backend be tensor
+backend reset u ids
+backend rnn
+backend set epsilon
+backend set float x
+backend set image data format
+callback base logger
+callback csv logger
+callback callback
+callback early stopping
+callback history
+callback lambda callback
+callback learning rate scheduler
+callback model checkpoint
+callback prog bar logger
+callback reduce lr on plateau
+callback remote monitor
+callback tensor board
+callback terminate on nan
+constraints constraint
+constraints max norm
+constraints min max norm
+constraints non ne g
+constraints radial constraint
+constraints unit norm
+constraints get
+datasets boston house load data
+datasets ci far 10 load data
+datasets ci far 100 load data
+datasets fashion m nist load data
+datasets imdb get word index
+datasets imdb load data
+datasets m nist load data
+datasets reuters get word index
+datasets reuters load data
+estimator model to estimator
+initializer constant
+initializer gl or ot normal
+initializer gl or ot uniform
+initializer identity
+initializer initializer
+initializer ones
+initializer orthogonal
+initializer random normal
+initializer random uniform
+initializer truncated normal
+initializer variance scaling
+initializer zero
+initializer de serialize
+initializer get
+layer abstract rnn cell
+layer activation
+layer activity regular iz ation
+layer add
+layer additive attention
+layer alpha dropout
+layer attention
+layer average
+layer average pooling 1d
+layer average pooling 2d
+layer average pooling 3d
+layer batch normalization
+layer bidirectional
+layer concatenate
+layer conv 1d
+layer conv 2d
+layer conv 2d transpose
+layer conv 3d
+layer conv 3d transpose
+layer conv lstm 2d
+layer cropping 1d
+layer cropping 2d
+layer cropping 3d
+layer dense
+layer dense features
+layer depth wise conv 2d
+layer dot
+layer dropout
+layer elu
+layer embed
+layer flatten
+layer gru
+layer gru cell
+layer gaussian dropout
+layer gaussian noise
+layer global average pooling 1d
+layer global average pooling 2d
+layer global average pooling 3d
+layer global max pool 1d
+layer global max pool 2d
+layer input layer
+layer input spec
+layer lstm
+layer lstm cell
+layer lambda
+layer layer
+layer layer normalization
+layer leaky relu
+layer locally connected 1d
+layer locally connected 2d
+layer mask
+layer max pool 1d
+layer max pool 2d
+layer max pool 3d
+layer maximum
+layer minimum
+layer multiply
+layer p relu
+layer permute
+layer rnn
+layer relu
+layer repeat vector
+layer reshape
+layer separable conv 1d
+layer separable conv 2d
+layer simple rnn
+layer simple rnn cell
+layer soft max
+layer spatial dropout 1d
+layer spatial dropout 2d
+layer spatial dropout 3d
+layer stacked rnn cells
+layer subtract
+layer threshold ed relu
+layer time distributed
+layer up sampling 1d
+layer up sampling 2d
+layer up sampling 3d
+layer wrapper
+layer zero padding 1d
+layer zero padding 2d
+layer zero padding 3d
+layer add
+layer average
+layer concatenate
+layer de serialize
+layer dot
+layer maximum
+layer minimum
+layer multiply
+layer serialize
+layer subtract
+layer experimental preprocessing preprocessing layer
+losses binary cross entropy
+losses categorical cross entropy
+losses categorical hinge
+losses cosine similarity
+losses hinge
+losses huber
+losses kl divergence
+losses log co sh
+losses loss
+losses mean absolute error
+losses mean absolute percentage error
+losses mean squared error
+losses mean squared logarithmic error
+losses poisson
+losses reduction
+losses sparse categorical cross entropy
+losses squared hinge
+losses categorical hinge
+losses cosine similarity
+losses de serialize
+losses get
+losses serialize
+metrics auc
+metrics accuracy
+metrics binary accuracy
+metrics binary cross entropy
+metrics categorical accuracy
+metrics categorical cross entropy
+metrics categorical hinge
+metrics cosine similarity
+metrics false negatives
+metrics false positives
+metrics hinge
+metrics kl divergence
+metrics log co sh error
+metrics mean
+metrics mean absolute error
+metrics mean absolute percentage error
+metrics mean io u
+metrics mean relative error
+metrics mean squared error
+metrics mean squared logarithmic error
+metrics mean tensor
+metrics metric
+metrics poisson
+metrics precision
+metrics precision at recall
+metrics recall
+metrics root mean squared error
+metrics sensitivity at specificity
+metrics sparse categorical accuracy
+metrics sparse categorical cross entropy
+metrics sparse top k categorical accuracy
+metrics specificity at sensitivity
+metrics squared hinge
+metrics sum
+metrics top k categorical accuracy
+metrics true negatives
+metrics true positives
+metrics binary accuracy
+metrics binary cross entropy
+metrics categorical accuracy
+metrics categorical cross entropy
+metrics de serialize
+metrics get
+metrics hinge
+metrics mean absolute error
+metrics mean absolute percentage error
+metrics mean square error
+metrics mean square logarithmic error
+metrics poisson
+metrics serialize
+metrics sparse categorical accuracy
+metrics sparse categorical cross entropy
+metrics sparse top k categorical accuracy
+metrics square hinge
+metrics top k categorical accuracy
+model clone model
+model load model
+model model from config
+model model from json
+model model from yam l
+model save model
+optimizer ada delta
+optimizer ada grad
+optimizer adam
+optimizer adama x
+optimizer f trl
+optimizer n adam
+optimizer optimizer
+optimizer rms prop
+optimizer sgd
+optimizer de serialize
+optimizer get
+optimizer serialize
+optimizer schedule exponential decay
+optimizer schedule inverse time decay
+optimizer schedule learning rate schedule
+optimizer schedule piecewise constant decay
+optimizer schedule polynomial decay
+optimizer schedule de serialize
+optimizer schedule serialize
+preprocessing image directory iterator
+preprocessing image image data generator
+preprocessing image iterator
+preprocessing image num py array iterator
+preprocessing image apply affine transform
+preprocessing image apply brightness shift
+preprocessing image apply channel shift
+preprocessing image random brightness
+preprocessing image random channel shift
+preprocessing image random rotation
+preprocessing image random shear
+preprocessing image random shift
+preprocessing image random zoom
+preprocessing sequence time series generator
+preprocessing sequence make sample table
+preprocessing sequence skip grams
+preprocessing text token ize r
+preprocessing text hash trick
+preprocessing text one hot
+preprocessing text text to word sequence
+preprocessing text token ize r from json
+regularize rs l 1 l 2
+regularize rs regularize r
+regularize rs get
+regularize rs l 1 l 2
+utils generator en queue r
+utils ordered en queue r
+utils prog bar
+utils sequence
+utils sequence en queue r
+utils custom object scope
+utils de serialize object
+utils get custom object
+utils get file
+utils get source input
+utils model to dot
+utils normalize
+utils plot model
+utils register serial iz able
+utils serialize object
+utils to categorical
+summary summary writer
+summary audio
+summary create file writer
+summary create no op writer
+summary flush
+summary histogram
+summary image
+summary record if
+summary scalar
+summary text
+summary trace export
+summary trace off
+summary trace on
+summary write
+data experimental counter
+data experimental csv data set
+data experimental ragged tensor structure
+data experimental random data set
+data experimental sparse tensor structure
+data experimental sql data set
+data experimental tensor array structure
+data experimental tensor structure
+data experimental choose from datasets
+data experimental make batch feature data set
+data experimental make csv data set
+data experimental map and batch with legacy function
+data experimental sample from datasets
+distribute experimental central storage strategy
+distribute experimental multi worker mirrored strategy
+distribute experimental parameter server strategy
+distribute experimental tpu strategy
+estimator experimental k means
+estimator experimental dnn log it fn builder
+estimator experimental linear log it fn builder
+estimator tpu experimental embedding config spec
+experimental output all intermediate
+experimental export save model
+experimental load from save model
+layer experimental style scope
+layer experimental set style
+lite experimental convert op hint to stub
+tpu experimental ada grad parameters
+tpu experimental adam parameters
+tpu experimental stochastic gradient descent parameters
+tpu experimental embed column
+tpu experimental share embed columns
+estimator experimental in memory eva lu at or hook
+estimator experimental linear dc a
+estimator experimental rnn class i fier
+estimator experimental rnn estimator
+estimator experimental build raw supervise input receiver fn
+estimator experimental call log it fn
+estimator experimental make early stop hook
+estimator experimental make stop at checkpoint step hook
+estimator experimental stop if higher hook
+estimator experimental stop if lower hook
+estimator experimental stop if no decrease hook
+estimator experimental stop if no increase hook
+experimental linear model
+experimental sequence features
+experimental wide deep model

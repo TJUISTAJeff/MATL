@@ -1,0 +1,75 @@
+convenience fluent method for  py func  clip  
+convenience fluent method for  py func  depth to space  
+create a bernoulli distribution parameterized by  attr  prob 
+draw sample from an exponential distribution 
+draw random sample from a gamma distribution 
+draw random sample from a normal  gaussian  distribution 
+draw random sample from a uniform distribution 
+initialize the weight to a give value 
+return an initializer perform  xavier  initialization for weight 
+initialize weight to one 
+initialize weight as orthogonal matrix 
+initialize weight with random value sample from a normal distribution
+initialize weight with random value uniformly sample from a give range 
+initialize weight to zero 
+batch normalization layer  ioffe and szegedy  2014  
+apply a multi layer gate recurrent unit  gru  rnn to an input sequence 
+elman rnn recurrent neural network cell 
+apply a multi layer long short term memory  lstm  rnn to an input sequence 
+long short term memory  lstm  network cell 
+average pool operation for temporal data 
+average pool operation for spatial data 
+average pool operation for 3d data  spatial or spatio temporal  
+1 d convolution layer  e g  temporal convolution  
+2 d convolution layer  e g  spatial convolution over image  
+transpose 2 d convolution layer  sometimes call deconvolution  
+3 d convolution layer  e g  spatial convolution over volumes  
+transpose 3 d convolution layer  sometimes call deconvolution  
+just your regular densely connect nn layer 
+apply dropout to the input 
+flatten the input to two dimensional 
+max pool operation for one dimensional data 
+max pool operation for two dimensional  spatial  data 
+max pool operation for 3 d data  spatial or spatio temporal  
+calculate the hinge loss function often use in svms 
+calculate smooth l1 loss that be equal to l1 loss if absolute error
+calculate the mean square error between  label  and  pred  
+convenience fluent method for  py func  log softmax  
+apply softmax activation to input  this be intend for internal layer 
+connectionist temporal classification loss 
+apply an activation function to input 
+gate rectify unit  gru  network cell 
+compute the norm on an ndarray 
+pad an input array with a constant or edge value of the array 
+load parameters from file 
+rearrange permute  block of spatial data into depth 
+the adadelta optimizer 
+this class implement the adagrad optimizer describe in  adaptive subgradient methods for online learn and stochastic optimization
+the adam optimizer 
+the rmsprop optimizer 
+compute the gradients of head w r t variables  gradients will be
+block that pass through the input directly 
+exponential linear unit  elu  
+compute hard sigmoid of x element wise 
+scale exponential linear unit  selu  
+dot product of two array 
+turn non negative integers  indexes/tokens  into dense vectors
+apply layer normalization to the n dimensional input array 
+leaky version of a rectify linear unit 
+parametric leaky version of a rectify linear unit 
+apply a multi layer elman rnn with  tanh  or  relu  non linearity to an input sequence 
+upsamples the give input data 
+the cross entropy loss for binary classification   alias  sigmoidbceloss 
+compute the softmax cross entropy loss   alias  softmaxceloss 
+for a target label 1 or  1  vectors input1 and input2  the function compute the cosine distance
+for a target  random variable  in a poisson distribution  the function calculate the negative
+checkpoint the model data into file 
+reduce the learn rate by a factor for every  n  step 
+the sgd optimizer with momentum and weight decay 
+stack block sequentially 
+return a scope context to be use in  with  statement for cod that do not need
+split an array along a particular axis into multiple sub array 
+find the unique elements of an array  return the sort unique elements of an array 
+return coordinate matrices from coordinate vectors 
+return a 2 d array with ones on the diagonal and zero elsewhere 
+evaluate the einstein summation convention on the operands

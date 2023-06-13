@@ -1,0 +1,255 @@
+
+( newelement : the element to append to the array . )
+( newelement : the new element to insert into the array . ) ( i : the position at which to insert the new element . index must be a valid index of the array or equal to its endindex property . )
+
+( element : the element to find in the sequence . )
+( body : a closure that take an element of the sequence as a parameter . )
+( index : the position of the element to access . index must be greater than or equal to startindex and less than endindex . )
+( element : an element to search for in the collection . )
+( element : an element to search for in the collection . )
+
+( index : the position of the element to remove . index must be a valid index of the array . )
+
+
+( bounds :  the range of the collection to be remove . the bound of the range must be valid indices of the collection . )
+
+
+( subrange : the subrange of the array to replace . the start and end of a subrange must be valid indices of the array . ) ( newelements : the new elements to add to the array . )
+( newelement : the element to append to the array . )
+( newelement : the new element to insert into the array . ) ( i : the position at which to insert the new element . index must be a valid index of the array or equal to its endindex property . )
+
+( element : the element to find in the sequence . )
+( index : the position of the element to access . index must be greater than or equal to startindex and less than endindex . )
+( element : an element to search for in the collection . )
+( element : an element to search for in the collection . )
+( index : the position of the element to remove . index must be a valid index of the array . )
+
+( subrange : the subrange of the array to replace . the start and end of a subrange must be valid indices of the array . ) ( newelements : the new elements to add to the array . )
+
+
+
+
+
+
+
+
+
+
+
+( newelement : the element to append to the array . )
+( newelement : the element to append to the array . )
+
+( newmember : an element to insert into the set . )
+
+( predicate : a closure that take an element of the sequence as its argument and return a boolean value that indicate whether the pass element represent a match . )
+
+
+( member : the element to remove from the set . )
+
+
+( predicate : a closure that take an element of the sequence as its argument and return a boolean value that indicate whether the pass element represent a match . )
+( predicate : a closure that take an element of the sequence as its argument and return a boolean value that indicate whether the pass element represent a match . )
+( body : a closure that take an element of the sequence as a parameter . )
+( key : the key to find in the dictionary . )
+( key : the key the look up in the dictionary . ) ( defaultvalue : the default value to use if key doesn’t exist in the dictionary . )
+
+
+( other : a dictionary to merge . ) ( combine : a closure that take the current and new value for any duplicate key . the closure return the desire value for the final dictionary . )
+( key : the key to associate with value ) ( value : the new value to add to the dictionary . )
+( key : the key to remove along with its associate value . )
+
+( date1 :  a date to compare . ) ( date2 :  a date to compare . ) ( component :  a granularity to compare . for example , pass . hour to check if two date be in the same hour . )
+
+
+( component :  a component to calculate a range for . )
+( component :  a component to calculate a range for . )
+( component :  the component to calculate . ) ( date :  the date to use . )
+( components :  use as input to the search algorithm for find a correspond date . )
+
+
+
+( components :  use as input to the search algorithm for find a correspond date . )
+( timezone :  the timezone to use . )
+
+
+( date1 :  a date to compare . ) ( date2 :  a date to compare . ) ( component :  a granularity to compare . for example , pass . hour to check if two date be in the same hour . )
+
+
+
+
+( timezone :  the timezone to use . ) ( date :  the date to use . )
+
+
+
+
+
+
+( repeatedvalue :  the element to repeat . ) ( count :  the number of time to repeat the value pass in the repeat parameter . )
+
+
+
+
+
+
+( element :  an element to search for in the collection . )
+( element :  an element to search for in the collection . )
+( element : an element to search for in the collection . )
+( newelements : the elements to append to the array . )
+
+( obj  :  an object . )
+( repeatedvalue :  the element to repeat . ) ( count :  the number of time to repeat the value pass in the repeat parameter . )
+( repeatedvalue :  the element to repeat . ) ( count :  the number of time to repeat the value pass in the repeat parameter . )
+( other :  a sequence to compare to this sequence . )
+( element : an element to search for in the collection . )
+( other :  a sequence to compare to this sequence . )
+( i :  a valid index of the string . i must be less than the string’s end index . )
+( other :  a sequence to compare to this sequence . )
+( other :  another string . )
+( element :  the element to find in the sequence . )
+( other :  a sequence to compare to this sequence . )
+( prefix  :  the prefix . )
+( suffix  :  the suffix . )
+( other :  a sequence to compare to this sequence . )
+( format  :  a format string )
+( bounds : a range of the collection’s indices . the bound of the range must be valid indices of the collection . )
+( bounds : a range of the collection’s indices . the bound of the range must be valid indices of the collection . )
+( element :  an element to search for in the collection . )
+
+( separator :  a string to insert between each of the elements in this sequence . the default separator be an empty string . )
+( element :  an element to search for in the collection . )
+
+
+( target :  the string to replace . ) ( replacement :  the string with which to replace target . )
+( separator :  the element that should be split upon . ) ( maxsplits  : the maximum number of time to split the collection )
+
+
+( set :  a character set contain the character to remove from the receiver . )
+( obj  :  an object . )
+
+
+
+( buffer :  a buffer into which to store the bytes from the receiver . the return bytes be not null - terminate . ) ( encoding :  the encode to use for the return bytes . for possible value , see nsstringencoding . )
+( string :  the string to search . )
+( arange :  the range of character to retrieve . the range must not exceed the bound of the receiver . ) ( buffer :  upon return , contain the character from the receiver . )
+( obj  :  an object . )
+( obj  :  an object . )
+( obj  :  an object . )
+( obj  :  an object . )
+( obj  :  an object . )
+( obj  :  an object . )
+( bounds : a range of the collection’s indices . the bound of the range must be valid indices of the collection . )
+
+
+( element :  an element to search for in the collection . )
+( target :  the string to replace . ) ( replacement :  the string with which to replace target . )
+( separator : the element that should be split upon . ) ( maxsplits  : the maximum number of time to split the collection )
+( source :  a value to convert to this type of integer . the value pass as source must be representable in this type . )
+
+
+( rhs :  the value to divide this value by . )
+( value :  the integer to convert to a float - point value . )
+
+( x :  a float - point value . ) ( y :  another float - point value . )
+( x :  a float - point value . ) ( y :  another float - point value . )
+
+
+
+( rhs :  the value to divide this value by . )
+
+
+
+
+
+
+
+( value :  the integer to convert to a float - point value . )
+
+
+( radix :  the radix , or base , to use for convert text to an integer value . )
+( radix :  the radix , or base , to use for convert text to an integer value . )
+( radix :  the radix , or base , to use for convert text to an integer value . )
+( radix :  the radix , or base , to use for convert text to an integer value . )
+
+
+
+
+
+
+
+
+
+
+( ti :  the duration of the sleep . )
+
+
+
+( priority :  the new priority , specify with a float point number )
+
+
+
+( cls :  a class object . )
+( cls :  a class object . )
+
+( aclass :  a pointer to a class definition . pass the class that contain the method you want to retrieve . )
+( cls :  a class object . )
+
+
+( cls :  a class object . )
+( cls :  the class you want to inspect . )
+( aclass :  a class object represent the objective - c class to be test . )
+( name :  the name of the class to look up . )
+
+
+
+( path1 :  the path of a file or directory to compare with the content of path2 . ) ( path2 :  the path of a file or directory to compare with the content of path1 . )
+( path1 :  the path of a file or directory to compare with the content of path2 . ) ( path2 :  the path of a file or directory to compare with the content of path1 . )
+( path :  the path for the new file . ) ( contents :  a data object contain the content of the new file . ) ( attributes :  a dictionary contain the attribute to associate with the new file . )
+( url :  a file url specify the file or directory to remove . )
+( path :  the path of the file or directory . )
+( path :  the path of a file or directory . )
+( string :  a c string representation of a pathname . )
+
+
+
+
+( path :  a path string identify the directory to create . )
+( string :  a c string representation of a pathname . )
+
+( path :  the path to the directory whose content you want to enumerate . )
+( path :  the path of the directory to list . )
+
+
+
+
+
+( srcurl :  the file url that identify the file or directory you want to move ) ( dsturl :  the new location for the item in srcurl . )
+
+( path :  the path for the new file . ) ( contents :  a data object contain the content of the new file . ) ( attributes :  a dictionary contain the attribute to associate with the new file . )
+( path :  the path for the new file . ) ( contents :  a data object contain the content of the new file . ) ( attributes :  a dictionary contain the attribute to associate with the new file . )
+
+
+
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+
+
+
+
+
+
+
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+( separator :  a string to print between each item . ) ( terminator :  the string to print after all items have be print . ( "\n" ) . )
+
+( path :  the path to the file the output stream will write to . )
+( buffer :  a data buffer . the buffer must be large enough to contain the number of bytes specify by len . )
+
+

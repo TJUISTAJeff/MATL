@@ -1,0 +1,61 @@
+ops depth to space
+random bernoulli
+random normal
+random uniform
+initializer he normal
+initializer he uniform
+initializer gl or ot normal
+initializer gl or ot uniform
+initializer normal
+initializer uniform
+layer layer batch normalization
+cntk py batch normalization
+layer block gru
+layer block lstm
+layer layer average pool
+layer layer convolution 1d
+layer layer convolution 2d
+layer layer convolution transpose 2d
+layer layer convolution 3d
+layer layer convolution transpose 3d
+layer layer dense
+layer layer dropout
+cntk py dropout
+layer layer max pool
+square error
+ops log soft max
+ops soft max
+layer max pool
+ops relu
+ops pad
+ops function load model
+ops space to depth
+learners ada delta
+learners ada grad
+learners adam
+learners rms prop
+ops function function grad
+ops elu
+ops hard s igm oid
+ops s elu
+layer s igm oid
+layer soft plus
+ops soft sign
+ops tan h
+ops element time
+layer layer embed
+ops flatten
+layer layer layer normalization
+ops leaky relu
+ops param relu
+layer block rnn step
+losses binary cross entropy
+losses cross entropy with soft max
+losses cosine distance
+train trainer save checkpoint
+learners sgd
+layer sequential
+ops per dim mean variance normalize
+ops stop gradient
+ops crop manual
+ops function unique

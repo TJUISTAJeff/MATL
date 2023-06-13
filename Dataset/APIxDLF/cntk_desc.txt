@@ -1,0 +1,61 @@
+rearrange elements in the input tensor from the depth dimension into spatial block 
+generate sample from the bernoulli distribution with success probability  mean  
+generate sample from the normal distribution with mean  mean  and standard deviation  scale  
+generate sample from the uniform distribution in the interval   low   high   
+initializer
+initializer
+initializer
+glorot initializer
+normal initializer
+uniform initializer
+normalize layer output for every minibatch for each output  feature  independently
+normalize layer output for every minibatch for each output  feature  independently
+layer factory function to create a gru block for use inside a recurrence 
+layer factory function to create an lstm block for use inside a recurrence 
+layer factory function to create an average pool layer 
+layer factory function to create a 1 d convolution layer with optional non linearity 
+layer factory function to create a 2 d convolution layer with optional non linearity 
+layer factory function to create a 2 d convolution transpose layer with optional non linearity 
+layer factory function to create a 3 d convolution layer with optional non linearity 
+layer factory function to create a 3 d convolution transpose layer with optional non linearity 
+layer factory function to create an instance of a fully connect linear layer of the form
+layer factory function to create a drop out layer 
+each element of the input be independently set to 0 with probability   dropout rate  
+layer factory function to create a max pool layer 
+this operation compute the sum of the square difference between elements in the two input matrices 
+compute the logsoftmax normalize value of x  that be  y   x   log reduce sum exp x   axis  
+compute the gradient of  math  f z  \log\sum i\exp z i   at   z   x    concretely 
+layer factory function to create a max pool layer 
+rectify linear operation  compute the element wise rectify linear
+pad a tensor accord to the specify pattern 
+alias for  func  ~cntk ops function function load  
+rearrange elements in the input tensor from the spatial dimension to the depth dimension 
+create an adadelta learner instance to learn the parameters 
+create an adagrad learner instance to learn the parameters 
+create an adam learner instance to learn the parameters 
+create an rmsprop learner instance to learn the parameters 
+compute the gradient of this function at location   at   with respect to   wrt   
+exponential linear unit operation  compute the element wise exponential linear
+compute the element wise hardsigmoid function  y   max 0  min 1  alpha   x   beta   
+scale exponential linear unit operation  compute the element wise exponential linear
+compute the element wise sigmoid of   x   
+softplus operation  compute the element wise softplus of   x   
+compute the element wise softsign of   x   
+compute the element wise tanh of   x   
+the output of this operation be the element wise product of the two or more input
+layer factory function to create a embed layer 
+flatten the input tensor into a 2 d matrix 
+layer factory function to create a function that implement layer normalization 
+leaky rectify linear operation  compute the element wise leaky rectify linear
+parametric rectify linear operation  compute the element wise parameteric rectify linear
+layer factory function to create a plain rnn block for use inside a recurrence 
+compute the binary cross entropy  aka logistic loss  between the   output   and   target   
+this operation compute the cross entropy between the   target vector   and the softmax of the   output vector   
+compute the cosine distance between   x   and   y   
+save a checkpoint of the model and other trainer state at the specify file location 
+create an sgd learner instance to learn the parameters 
+layer factory function to create a composite that apply a sequence of layer  or any function  onto an input 
+compute per dimension mean variance normalization of the specify input operand 
+output its input as it be and prevent any gradient contribution from its output to its input 
+crop input along spatial dimension so that it match spatial size of reference input 
+class decorator for enumerations ensure unique member value 

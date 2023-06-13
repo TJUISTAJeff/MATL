@@ -1,0 +1,255 @@
+create a new empty array
+add a new element at the end of the array
+insert a new element at the specify position
+remove all elements from the array
+return a boolean value indicate whether the sequence contain the give element
+call the give closure on each element in the sequence in the same order as a for in loop
+access the element at the specify position
+return the first index where the specify value appear in the collection
+return the last index where the specify value appear in the collection
+a boolean value indicate whether the collection be empty
+remove and return the element at the specify position
+the number of elements in the array
+return an iterator over the elements of the collection
+remove the elements in the specify subrange from the collection
+sort the collection in place
+the hash value
+replace a range of elements with the elements in the specify collection
+add a new element at the end of the array
+insert a new element at the specify position
+remove all elements from the array
+return a boolean value indicate whether the sequence contain the give element
+access the element at the specify position
+return the first index where the specify value appear in the collection
+return the last index where the specify value appear in the collection
+remove and return the element at the specify position
+return an iterator over the elements of the collection
+replace a range of elements with the elements in the specify collection
+remove and return the first element of the collection
+remove and return the first element of the collection
+remove and return the last element of the collection
+the number of elements in the array
+the first element of the collection
+the hash value
+the first element of the collection
+the last element of the collection
+the first element of the collection
+the last element of the collection
+remove and return the first element of the collection
+add a new element at the end of the array
+add a new element at the end of the array
+hash the essential components of this value by feed them into the give hasher
+insert the give element in the set if it be not already present
+remove all members from the set
+return a boolean value indicate whether the sequence contain an element that satisfy the give predicate
+a boolean value that indicate whether the set be empty
+return an iterator over the members of the set
+remove the specify element from the set
+the number of elements in the set
+remove all key value pair from the dictionary
+return a boolean value indicate whether the sequence contain an element that satisfy the give predicate
+return a boolean value indicate whether the sequence contain an element that satisfy the give predicate
+call the give closure on each element in the sequence in the same order as a for in loop
+access the value associate with the give key for read and write
+access the value with the give key fall back to the give default value if the key isn’t find
+a collection contain just the key of the dictionary
+a collection contain just the value of the dictionary
+merge the give dictionary into this dictionary use a combine closure to determine the value for any duplicate key
+update the value store in the dictionary for the give key or add a new key value pair if the key do not exist
+remove the give key and its associate value from the dictionary
+the number of key value pair in the dictionary
+compare two date down to the specify component
+the symbol use to represent “am” localize to the calendar’s locale
+the symbol use to represent “pm” localize to the calendar’s locale
+the maximum range limit of the value that a give component can take on
+return the minimum range limit of the value that a give component can take on
+return the value for one component of a date
+return a date create from the specify components
+the time zone of the calendar
+the first day of the week for the calendar
+the number of minimum days in the first week
+return a date create from the specify components
+return all the date components of a date as if in a give time zone
+the compute hash value for the calendar
+the locale of the calendar
+return a boolean value indicate whether two date be equal down to the specify component
+the user’s current calendar
+return a string representation of the date use the give locale
+set the value of one of the properties
+construct a duration given a number of milliseconds
+return all the date components of a date as if in a give time zone
+an alias for this value type's equivalent reference type
+a week of the year or count of the weeks of the year
+create an empty set
+create a new empty array
+create an empty dictionary
+return a sequence of pair n  x where n represents a consecutive integer start at zero and x represents an element of the sequence
+create a new array contain the specify number of a single repeat value
+return the maximum element in the sequence
+return the minimum element in the sequence
+sort the collection in place
+shuffle the collection in place
+exchange the value at the specify indices of the collection
+reverse the elements of the collection in place
+return the first index where the specify value appear in the collection
+return the last index where the specify value appear in the collection
+return the first index where the specify value appear in the collection
+add the elements of a sequence to the end of the array
+sort the collection in place
+return the string representation of the object argument
+create a new array contain the specify number of a single repeat value
+create a new array contain the specify number of a single repeat value
+return a boolean value indicate whether this sequence and another sequence contain the same elements in the same order
+return the first index where the specify value appear in the collection
+return a boolean value indicate whether this sequence and another sequence contain the same elements in the same order
+access the character at the give index
+return a boolean value indicate whether this sequence and another sequence contain the same elements in the same order
+append the give string to this string
+return a boolean value indicate whether the sequence contain the give element
+return a boolean value indicate whether this sequence and another sequence contain the same elements in the same order
+test if this string start with the specify prefix
+test if this string end with the specify suffix
+return a boolean value indicate whether this sequence and another sequence contain the same elements in the same order
+return a string object initialize by use a give format string as a template into which the remain argument value be substitute
+access a contiguous subrange of the collection’s elements
+access a contiguous subrange of the collection’s elements
+return the first index where the specify value appear in the collection
+a boolean value indicate whether a string have no character
+return a new string by concatenate the elements of the sequence add the give separator between each element
+return the last index where the specify value appear in the collection
+the number of utf 16 code units
+the result of match a regex against a string
+return a new string in which all occurrences of a target string in the receiver be replace by another give string
+return the longest possible subsequences of the collection in order around elements equal to the give element
+return a lowercase version of the string
+return an uppercase version of the string
+return a new string make by remove from both end of the receiver character contain in a give character set
+return the string representation of the object argument
+the hash value
+return a new instance that’s a copy of the receiver
+a case insensitive search
+get a give range of character as bytes in a specify encode
+return an array contain all the match of the regular expression in the string
+copy character from a give range in the receiver into a give buffer
+return the string representation of the object argument
+return the string representation of the object argument
+return the string representation of the object argument
+return the string representation of the object argument
+return the string representation of the object argument
+return the string representation of the object argument
+access a contiguous subrange of the collection’s elements
+return a string object initialize by use a give format string as a template into which the remain argument value be substitute
+return a string object initialize by use a give format string as a template into which the remain argument value be substitute accord to give locale information
+return the last index where the specify value appear in the collection
+return a new string in which all occurrences of a target string in the receiver be replace by another give string
+return the longest possible subsequences of the collection in order around elements equal to the give element
+create a new instance from the give integer
+the number of bits equal to 1 in this value’s binary representation
+the integer value of the string
+return the quotient obtain by divide this value by the give value
+create a new value round to the closest possible representation
+the hash value
+return the greater of the two give value
+return the lesser of the two give value
+the number of lead zero in this value’s binary representation
+the number of trail zero in this value’s binary representation
+the integer value of the string
+return the remainder after divide this value by the give value
+a representation of this integer with the byte order swap
+return the sum of this value and the give value
+the integer value of the string
+a textual representation of this value
+the minimum representable integer in this type
+the maximum representable integer in this type
+returns  1 if this value be negative and 1 if it’s positive otherwise  0
+create a new value round to the closest possible representation
+the integer value of the string
+a textual representation of this value
+create a string represent the give value
+create a string represent the give value
+create a string represent the give value
+create a string represent the give value
+the integer value of the string
+the hash value
+return the singleton nsexceptionhandler instance
+the key for fetch the stack trace an nsstring object in the userinfo dictionary of the nsexception object pass into one of the delegate methods
+the key for fetch the stack trace an nsstring object in the userinfo dictionary of the nsexception object pass into one of the delegate methods
+the call return address relate to a raise exception
+an array contain the current call stack symbols
+return an initialized thread object
+start the receiver
+the main entry point routine for the thread
+sleep the thread for a give time interval
+terminate the current thread
+a boolean value that indicate whether the receiver be cancel
+return the current thread’s priority
+set the current thread’s priority
+return the thread object represent the current thread of execution
+return an array contain the call stack symbols
+the name of the receiver
+return the superclass of a class
+return the name of a class
+return a string that represent the content of the receive class
+return a pointer to the data structure describe a give class method for a give class
+return a boolean value that indicate whether a class object be a metaclass
+
+an array of nsstring objects contain the name of immutable value that instance of the receiver's class contain
+return the function pointer that would be call if a particular message be send to an instance of a class
+describe the properties declare by a class
+return a boolean value that indicate whether the receiver be an instance of a give class
+return the class definition of a specify class
+return a boolean value that indicate whether the operate system appear able to execute a specify file
+return a boolean value that indicate whether the invoke object appear able to read a specify file
+return a boolean value that indicate whether the invoke object appear able to write to a specify file
+return a boolean value that indicate whether the file or directories in specify paths have the same content
+return a boolean value that indicate whether the file or directories in specify paths have the same content
+create a directory with give attribute at the specify path
+remove the file or directory at the specify url
+return a boolean value that indicate whether a file or directory exist at a specify path
+return the display name of the file or directory at a specify path
+return an nsstring object whose content be derive from the specify c string path
+this property contain a boolean value indicate whether the file wrapper be a directory file wrapper
+this property contain a boolean value that indicate whether the file wrapper object be a regular file
+the absolute string for the url
+the parent directory of the resource return as an nsurl object  or nil if the resource be the root directory of its volume read only
+create a directory with give attribute at the specify path
+return an nsstring object whose content be derive from the specify c string path
+create a url from a resource
+perform a shallow search of the specify directory and return the paths of any contain items return an array of nsstring object each of which identify a file directory or symbolic link contain in path
+return an array of string identify the paths for all items in the specify directory
+the key in a file system attribute dictionary whose value indicate the amount of free space on the file system
+the key in a file system attribute dictionary whose value indicate the size of the file system
+the key in a file system attribute dictionary whose value indicate the amount of free space on the file system
+the file’s last modify date
+indicate the file’s size in bytes
+move the file or directory at the specify url to a new location synchronously
+the parent directory of the resource return as an nsurl object  or nil if the resource be the root directory of its volume read only
+create a directory with give attribute at the specify path
+create a directory with give attribute at the specify path
+the compute hash value for the url
+write a textual representation of this instance into the give output stream
+write a textual representation of this instance into the give output stream
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+
+append the give string to the stream
+append the give string to the stream
+append the give string to the stream
+set the error state of the stream to true
+clear the internal error state of this stream
+return an nserror object represent the stream error
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+write the textual representations of the give items into the standard output
+close the receiver
+create and return an initialize output stream for write to a specify file
+read up to a give number of bytes into a give buffer
+a boolean value that indicate whether the receiver have bytes available to read
+close the stream

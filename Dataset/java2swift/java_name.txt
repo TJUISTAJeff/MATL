@@ -1,0 +1,255 @@
+ array list array list
+ array list add
+ array list add int index e element
+ array list clear
+ array list contain object o
+ array list for each consumer super e action
+ array list get int index
+ array list index of object o
+ array list last index of object o
+ array list be empty
+ array list remove int index
+ array list size
+ array list list iterator
+ array list remove range int from index int to index
+ array list sort comparator super e c
+ array list hash code
+ array list set int index e element
+ link list add e e
+ link list add int index e element
+ link list clear
+ link list contain object o
+ link list get int index
+ link list index of object o
+ link list last index of object o
+ link list remove int index
+ link list list iterator
+ link list set int index e element
+ link list remove
+ link list remove first
+ link list remove last
+ link list size
+ link list element
+ link list hash code
+ link list get first
+ link list get last
+ link list peek first
+ link list peek last
+ link list pop
+ link list add all collection extend e c
+ link list offer last e e
+ hash set hash set
+ hash set add e e
+ hash set clear
+ hash set contain object o
+ hash set be empty
+ hash set iterator
+ hash set remove object o
+ hash set size
+ hash map clear
+ hash map contain key object key
+ hash map contain value object value
+ hash map for each bi consumer super k super v action
+ hash map get object key
+ hash map get or default object key v default value
+ hash map key set
+ hash map value
+ hash map merge k key v value bi function super v super v extend v re map function
+ hash map put k key v value
+ hash map remove object key
+ hash map size
+ calendar compare to calendar another calendar
+ calendar be
+ calendar pm
+ calendar get maximum int field
+ calendar get minimum int field
+ calendar get int field
+ calendar get time
+ calendar get timezone
+ calendar get first day of week
+ calendar get minimal days in first week
+ calendar set time date date
+ calendar set timezone timezone value
+ calendar hash code
+ calendar get available locales
+ calendar equal object obj
+ calendar get instance
+ calendar to string
+ calendar set int field int value
+ calendar get time in mill be
+ calendar get display name int field int style locale locale
+ calendar get calendar type
+ calendar get weeks in week year
+ collections empty set
+ collections empty list
+ collections empty map
+ collections enumeration collection t c
+ collections fill list super t list t obj
+ collections max collection extend t coll
+ collections min collection extend t coll
+ collections sort list t list
+ collections shuffle list list
+ collections swap list list int i int j
+ collections reverse list list
+ collections index of sublist list source list target
+ collections last index of sublist list source list target
+ collections binary search list extend comparable super t list t key
+ collections add all collection super t c t elements
+ array sort object a
+ array to string object a
+ array set all int array in tuna ry operator generator
+ array fill int a int val
+ array equal int a int a 2
+ array binary search int a int key
+ array deep equal object a 1 object a 2
+ string char at int index
+ string compare to string another string
+ string c on cat string str
+ string contain char sequence s
+ string content equal char sequence cs
+ string start with string prefix
+ string end with string suffix
+ string equal object an object
+ string format string format object arg s
+ string substring int begin index int end index
+ string sub sequence int begin index int end index
+ string index of int ch
+ string be empty
+ string join char sequence delimiter char sequence elements
+ string last index of int ch
+ string length
+ string match string regex
+ string replace char old char char new char
+ string split string regex
+ string to lowercase
+ string to uppercase
+ string trim
+ string value of object obj
+ string hash code
+ string copy value of char data
+ string compare to ignore case string str
+ string get bytes
+ string match string regex
+ string get char int s rc begin int s rc end char dst int dst begin
+ string value of boolean b
+ string value of int i
+ string value of float f
+ string value of char c
+ string value of char data int offset int count
+ string value of char data
+ string substring int begin index
+ string format string format object arg s
+ string format locale l string format object arg s
+ string last index of string str
+ string replace char sequence target char sequence replacement
+ string split string regex int limit
+ inter ger integer int value
+ inter ger bite count int i
+ inter ger decode string nm
+ inter ger divide unsigned int dividend int divisor
+ inter ger double value
+ inter ger hash code
+ inter ger max int a int b
+ inter ger min int a int b
+ inter ger number of lead zero int i
+ inter ger number of trail zero int i
+ inter ger parse int string s
+ inter ger remainder unsigned int dividend int divisor
+ inter ger reverse bytes int i
+ inter ger sum int a int b
+ inter ger value of string s
+ inter ger to string
+ inter ger min value
+ inter ger max value
+ inter ger signum int i
+ inter ger float value
+ inter ger parse int string s int radix
+ inter ger to string int i
+ inter ger to string int i int radix
+ inter ger to binary string int i
+ inter ger to octal string int i
+ inter ger to hex string int i
+ inter ger integer string s
+ inter ger hash code int value
+ throw able throw able
+ throw able get stack trace
+ throw able print stack trace
+ throw able get cause
+ throw able get message
+ thread thread
+ thread start
+ thread run
+ thread sleep long mill be
+ thread interrupt
+ thread be interrupt
+ thread get priority
+ thread set priority int new priority
+ thread current thread
+ thread get stack trace
+ thread get name
+ class get superclass
+ class get name
+ class to generic string
+ class get methods
+ class be primitive
+ class get interfaces
+ class get field
+ class get method string name class parameter type
+ class get declare field
+ class be member class
+ class for name string class name
+ file can execute
+ file can read
+ file can write
+ file compare to file path name
+ file equal object obj
+ file create new file
+ file delete
+ file exist
+ file get name
+ file get path
+ file be directory
+ file be file
+ file get absolute path
+ file get parent
+ file mk dir
+ file to string
+ file tour i
+ file list
+ file list file
+ file get free space
+ file get total space
+ file get usable space
+ file last modify
+ file length
+ file rename to file de st
+ file get parent file
+ file create temp file string prefix string suffix
+ file create temp file string prefix string suffix file directory
+ file hash code
+ print stream write int b
+ print stream write byte bu f int off int len
+ print stream print ln
+ print stream print ln boolean x
+ print stream print ln char x
+ print stream print ln char x
+ print stream print ln double x
+ print stream print ln float x
+ print stream print ln int x
+ print stream print ln object x
+ print stream print ln string x
+ print stream print ln long x
+ print stream append char c
+ print stream append char sequence c sq
+ print stream append char sequence c sq int start int end
+ print stream set error
+ print stream clear error
+ print stream check error
+ print stream print string s
+ print stream print object obj
+ print stream print int i
+ print stream close
+ print stream print stream file file
+ input stream read byte b
+ input stream available
+ input stream close

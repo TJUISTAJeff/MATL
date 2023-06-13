@@ -1,0 +1,255 @@
+ array
+ array append
+ array insert at
+ array remove all
+ array contain
+ array for each
+ array subscript
+ array index of
+ array last index of
+ array be empty
+ array remove at
+ array count
+ array make iterator
+ array remove subrange
+ array sort
+ array hash value
+ array replace subrange with
+ array append
+ array insert at
+ array remove all
+ array contain
+ array subscript
+ array index of
+ array last index of
+ array remove at
+ array make iterator
+ array replace subrange with
+ array remove first
+ array remove first
+ array remove last
+ array count
+ array first
+ array hash value
+ array first
+ array last
+ array first
+ array last
+ array remove first
+ array append
+ array append
+ set hash into
+ set insert
+ set remove all
+ set contain where
+ set be empty
+ set make iterator
+ set remove
+ set count
+ dictionary remove all
+ dictionary contain where
+ dictionary contain where
+ dictionary for each
+ dictionary subscript
+ dictionary subscript default
+ dictionary key
+ dictionary value
+ dictionary merge uni quin g key with
+ dictionary update value for key
+ dictionary remove value for key
+ dictionary count
+ compare to to granularity
+ be symbol
+ pm symbol
+ maximum range of
+ minimum range of
+ component from
+ date from
+ timezone
+ first weekday
+ minimum days in first week
+ date from
+ date components in from
+ calendar hash value
+ locale
+ be date equal to to granularity
+ current
+ description with
+ date component set value for
+ duration milliseconds
+ date components in from
+ calendar reference type
+ date components week of year
+ set
+ array
+ dictionary
+ enumerate
+ array repeat count
+ max
+ min
+ sort
+ shuffle
+ swap at
+ reverse
+ first index of
+ last index of
+ array index of
+ array append content of
+ array sort
+ string
+ array repeat count
+ array repeat count
+ array elements equal
+ array index of
+ array elements equal
+ subscript
+ elements equal
+ append
+ contain
+ elements equal
+ have prefix
+ have suffix
+ elements equal
+ in it format
+ subscript
+ subscript
+ first index of
+ be empty
+ join separator
+ last index of
+ length
+ regex match
+ replace occurrences of with
+ split separator max split omit empty sub sequence
+ lowercase d
+ uppercase d
+ trim character in
+ string
+ string hash value
+ copy with
+ case insensitive
+ get bytes max length use length encode options range remain
+ ns regular expression match in options range
+ get character range
+ string
+ string
+ string
+ string
+ string
+ string
+ subscript
+ string format
+ string format locale
+ last index of
+ replace occurrences of with
+ split separator max split omit empty sub sequence
+ int
+ int nonzero bite count
+ string int value
+ int divide report overflow by
+ double
+ int hash value
+ maximum
+ minimum
+ int lead zero bite count
+ int trail zero bite count
+ string int value
+ int remainder report overflow divide by
+ int byte swap
+ int add report overflow
+ string int value
+ int description
+ int min
+ int max
+ int signum
+ float
+ int value
+ int description
+ string radix
+ string radix
+ string radix
+ string radix
+ string int value
+ int hash value
+ ns exception handler
+ ns stack trace key
+ ns stack trace key
+ call stack return address
+ exception call stack symbols
+ thread
+ thread start
+ thread main
+ thread sleep for time interval
+ thread exit
+ thread be cancel
+ thread thread priority
+ thread set thread priority
+ thread current
+ thread call stack symbols
+ thread name
+ class get superclass
+ class get name
+ description
+ class get class method
+ class be meta class
+
+ attribute key
+ class get method implementation
+ class copy property list
+ be member of
+ obj c get class
+ file manager be executable file at path
+ file manager be readable file at path
+ file manager be writable file at path
+ file manager content equal at path and path
+ file manager content equal at path and path
+ file manager create file at path content attribute
+ file manager remove item at
+ file manager file exist at path
+ file manager display name at path
+ string with filesystem representation length
+ url be directory
+ url be regular file
+ url absolute string
+ url parent directory url key
+ file manager create directory at path with intermediate directories attribute
+ string with filesystem representation length
+ url
+ file manager content of directory at path
+ sub paths at path
+ ns filesystem free size
+ ns filesystem size
+ ns filesystem free size
+ file manager modification date
+ file manager file manager size
+ file manager move item at to
+ url parent directory url key
+ file manager create file at path content attribute
+ file manager create file at path content attribute
+ url hash value
+ text output stream write to
+ text output stream write to
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ print separator terminator
+
+ text output stream write
+ text output stream write
+ text output stream write
+ ns stream set property for key ns stream status error
+ ns stream set property for key ns stream status error
+ ns stream stream error
+ print separator terminator
+ print separator terminator
+ print separator terminator
+ ns stream close
+ output stream to file at path append
+ read max length
+ have bytes available
+ ns stream close

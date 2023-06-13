@@ -1,0 +1,933 @@
+auto grad function
+auto grad profiler profile
+auto grad profiler emit nv tx
+auto grad detect anomaly
+auto grad set detect anomaly
+ amp auto cast
+ amp grad scale r
+ amp grad scale r get back off factor
+ amp grad scale r get growth factor
+ amp grad scale r get growth interval
+ amp grad scale r get scale
+ amp grad scale r be enable
+ amp grad scale r load state dic t
+ amp grad scale r scale
+ amp grad scale r set back off factor
+ amp grad scale r set growth factor
+ amp grad scale r set growth interval
+ amp grad scale r state dic t
+ amp grad scale r step
+ amp grad scale r un scale
+ amp grad scale r update
+ amp custom fwd
+ amp custom b wd
+back ends m kl be available
+back ends open mp be available
+distribute backend
+distribute be available
+distribute initial process group
+distribute be initialize
+distribute be mp i available
+distribute be n ccl available
+distribute get backend
+distribute get rank
+distribute get world size
+distribute new group
+distribute send
+distribute re cv
+distribute is end
+distribute ire cv
+distribute broadcast
+distribute broadcast object list
+distribute all reduce
+distribute reduce
+distribute all gather
+distribute all gather object
+distribute gather
+distribute gather object
+distribute scatter
+distribute scatter object list
+distribute reduce scatter
+distribute all to all
+distribute barrier
+distribute monitor barrier
+distribute broadcast multi gpu
+distribute all reduce multi gpu
+distribute reduce multi gpu
+distribute all gather multi gpu
+distribute reduce scatter multi gpu
+distributions distribution distribution
+distributions exp family exponential family
+distributions bernoulli bernoulli
+distributions beta beta
+distributions binomial binomial
+distributions categorical categorical
+distributions cauchy cauchy
+distributions chi 2 chi 2
+distributions continuous bernoulli continuous bernoulli
+distributions di rich let di rich let
+distributions exponential exponential
+distributions fishers ne decor fishers ne decor
+distributions gamma gamma
+distributions geometric geometric
+distributions g umbel g umbel
+distributions half cauchy half cauchy
+distributions half normal half normal
+distributions independent independent
+distributions kumar a swamy kumar a swamy
+distributions lk j c hole sky lk jc hole sky
+distributions laplace laplace
+distributions log normal log normal
+distributions low rank multivariate normal low rank multivariate normal
+distributions mixture same family mixture same family
+distributions multi no mi al multi no mi al
+distributions multivariate normal multivariate normal
+distributions negative binomial negative binomial
+distributions normal normal
+distributions one hot categorical one hot categorical
+distributions pareto pareto
+distributions poisson poisson
+distributions relax bernoulli relaxed bernoulli
+distributions relax bernoulli log it relaxed bernoulli
+distributions relax categorical relaxed one hot categorical
+distributions student t student t
+distributions transform distribution transformed distribution
+distributions uniform uniform
+distributions von mises von mises
+distributions wei bull wei bull
+distributions transform abs transform
+distributions transform affine transform
+distributions transform compose transform
+distributions transform corr c hole sky transform
+distributions transform exp transform
+distributions transform independent transform
+distributions transform lower c hole sky transform
+distributions transform power transform
+distributions transform reshape transform
+distributions transform s igm oid transform
+distributions transform tan h transform
+distributions transform soft max transform
+distributions transform stack transform
+distributions transform stick breaking transform
+distributions transform transform
+distributions constraints constraint
+distributions constraint registry constraint registry
+distributions distribution distribution cd f
+distributions distribution distribution entropy
+distributions distribution distribution enumerate support
+distributions distribution distribution expand
+distributions distribution distribution icd f
+distributions distribution distribution log pro b
+distributions distribution distribution perplexity
+distributions distribution distribution r sample
+distributions distribution distribution sample
+distributions distribution distribution sample n
+distributions distribution distribution set default validate arg s
+distributions exp family exponential family entropy
+distributions bernoulli bernoulli entropy
+distributions bernoulli bernoulli enumerate support
+distributions bernoulli bernoulli expand
+distributions bernoulli bernoulli log pro b
+distributions bernoulli bernoulli sample
+distributions beta beta entropy
+distributions beta beta expand
+distributions beta beta log pro b
+distributions beta beta r sample
+distributions binomial binomial entropy
+distributions binomial binomial enumerate support
+distributions binomial binomial expand
+distributions binomial binomial log pro b
+distributions binomial binomial sample
+distributions categorical categorical entropy
+distributions categorical categorical enumerate support
+distributions categorical categorical expand
+distributions categorical categorical log pro b
+distributions categorical categorical sample
+distributions cauchy cauchy cd f
+distributions cauchy cauchy entropy
+distributions cauchy cauchy expand
+distributions cauchy cauchy icd f
+distributions cauchy cauchy log pro b
+distributions cauchy cauchy r sample
+distributions chi 2 chi 2 expand
+distributions continuous bernoulli continuous bernoulli cd f
+distributions continuous bernoulli continuous bernoulli entropy
+distributions continuous bernoulli continuous bernoulli expand
+distributions continuous bernoulli continuous bernoulli icd f
+distributions continuous bernoulli continuous bernoulli log pro b
+distributions continuous bernoulli continuous bernoulli r sample
+distributions continuous bernoulli continuous bernoulli sample
+distributions di rich let di rich let entropy
+distributions di rich let di rich let expand
+distributions di rich let di rich let log pro b
+distributions di rich let di rich let r sample
+distributions exponential exponential cd f
+distributions exponential exponential entropy
+distributions exponential exponential expand
+distributions exponential exponential icd f
+distributions exponential exponential log pro b
+distributions exponential exponential r sample
+distributions fishers ne decor fishers ne decor expand
+distributions fishers ne decor fishers ne decor log pro b
+distributions fishers ne decor fishers ne decor r sample
+distributions gamma gamma entropy
+distributions gamma gamma expand
+distributions gamma gamma log pro b
+distributions gamma gamma r sample
+distributions geometric geometric entropy
+distributions geometric geometric expand
+distributions geometric geometric log pro b
+distributions geometric geometric sample
+distributions g umbel g umbel entropy
+distributions g umbel g umbel expand
+distributions g umbel g umbel log pro b
+distributions half cauchy half cauchy cd f
+distributions half cauchy half cauchy entropy
+distributions half cauchy half cauchy expand
+distributions half cauchy half cauchy icd f
+distributions half cauchy half cauchy log pro b
+distributions half normal half normal cd f
+distributions half normal half normal entropy
+distributions half normal half normal expand
+distributions half normal half normal icd f
+distributions half normal half normal log pro b
+distributions independent independent entropy
+distributions independent independent enumerate support
+distributions independent independent expand
+distributions independent independent log pro b
+distributions independent independent r sample
+distributions independent independent sample
+distributions kumar a swamy kumar a swamy entropy
+distributions kumar a swamy kumar a swamy expand
+distributions lk j c hole sky lk jc hole sky expand
+distributions lk j c hole sky lk jc hole sky log pro b
+distributions lk j c hole sky lk jc hole sky sample
+distributions laplace laplace cd f
+distributions laplace laplace entropy
+distributions laplace laplace expand
+distributions laplace laplace icd f
+distributions laplace laplace log pro b
+distributions laplace laplace r sample
+distributions log normal log normal entropy
+distributions log normal log normal expand
+distributions low rank multivariate normal low rank multivariate normal entropy
+distributions low rank multivariate normal low rank multivariate normal expand
+distributions low rank multivariate normal low rank multivariate normal log pro b
+distributions low rank multivariate normal low rank multivariate normal r sample
+distributions mixture same family mixture same family cd f
+distributions mixture same family mixture same family expand
+distributions mixture same family mixture same family log pro b
+distributions mixture same family mixture same family sample
+distributions multi no mi al multi no mi al entropy
+distributions multi no mi al multi no mi al expand
+distributions multi no mi al multi no mi al log pro b
+distributions multi no mi al multi no mi al sample
+distributions multivariate normal multivariate normal entropy
+distributions multivariate normal multivariate normal expand
+distributions multivariate normal multivariate normal log pro b
+distributions multivariate normal multivariate normal r sample
+distributions negative binomial negative binomial expand
+distributions negative binomial negative binomial log pro b
+distributions negative binomial negative binomial sample
+distributions normal normal cd f
+distributions normal normal entropy
+distributions normal normal expand
+distributions normal normal icd f
+distributions normal normal log pro b
+distributions normal normal r sample
+distributions normal normal sample
+distributions one hot categorical one hot categorical entropy
+distributions one hot categorical one hot categorical enumerate support
+distributions one hot categorical one hot categorical expand
+distributions one hot categorical one hot categorical log pro b
+distributions one hot categorical one hot categorical sample
+distributions pareto pareto entropy
+distributions pareto pareto expand
+distributions poisson poisson expand
+distributions poisson poisson log pro b
+distributions poisson poisson sample
+distributions relax bernoulli relaxed bernoulli expand
+distributions relax bernoulli log it relaxed bernoulli expand
+distributions relax bernoulli log it relaxed bernoulli log pro b
+distributions relax bernoulli log it relaxed bernoulli r sample
+distributions relax categorical relaxed one hot categorical expand
+distributions student t student t entropy
+distributions student t student t expand
+distributions student t student t log pro b
+distributions student t student t r sample
+distributions transform distribution transformed distribution cd f
+distributions transform distribution transformed distribution expand
+distributions transform distribution transformed distribution icd f
+distributions transform distribution transformed distribution log pro b
+distributions transform distribution transformed distribution r sample
+distributions transform distribution transformed distribution sample
+distributions uniform uniform cd f
+distributions uniform uniform entropy
+distributions uniform uniform expand
+distributions uniform uniform icd f
+distributions uniform uniform log pro b
+distributions uniform uniform r sample
+distributions von mises von mises expand
+distributions von mises von mises log pro b
+distributions von mises von mises sample
+distributions wei bull wei bull entropy
+distributions wei bull wei bull expand
+distributions transform transform log abs det jacobi an
+distributions transform transform forward shape
+distributions transform transform inverse shape
+distributions constraints constraint check
+distributions constraint registry constraint registry register
+distributions kl kl divergence
+distributions kl register kl
+distributions constraints dependent property
+distributions constraints greater than
+distributions constraints greater than eq
+distributions constraints independent
+distributions constraints integer interval
+distributions constraints interval
+distributions constraints half open interval
+distributions constraints less than
+distributions constraints multi no mi al
+distributions constraints stack
+futures future add do callback
+futures future do
+futures future set exception
+futures future set result
+futures future then
+futures future value
+futures future wait
+futures collect all
+futures wait all
+hub list
+hub help
+hub load
+hub download url to file
+hub load state dic t from url
+hub get dir
+hub set dir
+override handle function
+override be tensor like
+override be tensor method or property
+override wrap function
+package packaging error
+package empty match error
+package package exporter
+package package importer
+package directory
+package package exporter initial
+package package exporter close
+package package exporter deny
+package package exporter ex tern
+package package exporter get unique id
+package package exporter intern
+package package exporter mock
+package package exporter register ex tern hook
+package package exporter register intern hook
+package package exporter register mock hook
+package package exporter save binary
+package package exporter save module
+package package exporter save pickle
+package package exporter save source string
+package package exporter save text
+package package importer initial
+package package importer file structure
+package package importer id
+package package importer import module
+package package importer load binary
+package package importer load pickle
+package package importer load text
+package directory have file
+profiler profile
+profiler profiler action
+profiler profile step
+profiler schedule
+profiler tensor board trace handler
+nn initial calculate gain
+nn initial uniform
+nn initial normal
+nn initial constant
+nn initial ones
+nn initial zero
+nn initial eye
+nn initial dirac
+nn initial xavier uniform
+nn initial xavier normal
+nn initial k aiming uniform
+nn initial k aiming normal
+nn initial orthogonal
+nn initial sparse
+on nx export
+on nx export to pretty string
+on nx register custom op symbolic
+on nx select model mode for export
+on nx be in on nx export
+optim optimizer
+distribute auto grad context
+random fork r ng
+random get r ng state
+random initial seed
+random manual seed
+random seed
+random set r ng state
+double storage
+float storage
+half storage
+long storage
+int storage
+short storage
+char storage
+byte storage
+boo l storage
+b float 16 storage
+complex double storage
+complex float storage
+quint 8 storage
+qin t 8 storage
+qin t 32 storage
+quint 4 x 2 storage
+double storage 
+double storage type
+float storage 
+float storage type
+half storage 
+half storage type
+long storage 
+long storage type
+int storage 
+int storage type
+short storage 
+short storage type
+char storage 
+char storage type
+byte storage 
+byte storage type
+boo l storage 
+boo l storage type
+b float 16 storage 
+b float 16 storage type
+complex double storage 
+complex double storage type
+complex float storage 
+complex float storage type
+quint 8 storage 
+quint 8 storage type
+qin t 8 storage 
+qin t 8 storage type
+qin t 32 storage 
+qin t 32 storage type
+quint 4 x 2 storage 
+quint 4 x 2 storage type
+test assert close
+utils data data loader
+utils data data set
+utils data it er able data set
+utils data tensor data set
+utils data c on cat data set
+utils data chain data set
+utils data subset
+utils data sampler
+utils data sequential sampler
+utils data random sampler
+utils data subset random sampler
+utils data weighted random sampler
+utils data batch sampler
+utils data distribute distributed sampler
+utils data get worker info
+utils data random split
+tensor rename
+tensor rename
+tensor refine name
+tensor align to
+tensor un flatten
+be tensor
+be storage
+set default d type
+set default tensor type
+set print options
+split
+seed
+manual seed
+initial seed
+get r ng state
+set r ng state
+quasi random so bol engine
+save
+load
+no grad
+enable grad
+set grad enable
+inference mode
+norm
+unique
+unique consecutive
+st ft
+is tft
+atleast 1d
+atleast 2d
+atleast 3d
+block dia g
+broadcast tensors
+broadcast shape
+cartesian prod
+c dist
+ein sum
+mesh grid
+tensor dot
+chain mat mul
+lu
+sv d low rank
+pca low rank
+lob pcg
+compile with c xx 11 abi
+use deterministic algorithms
+be deterministic algorithms enable
+set warn always
+be warn always enable
+nn parameter parameter
+nn parameter uninitialized parameter
+nn parameter uninitialized buffer
+nn module
+nn module add module
+nn module buffer
+nn module children
+nn module cpu
+nn module 
+nn module e val
+nn module modules
+nn module name buffer
+nn module name children
+nn module name modules
+nn module name parameters
+nn module parameters
+nn module register backward hook
+nn module register buffer
+nn module register forward hook
+nn module register forward pre hook
+nn module register full backward hook
+nn module register parameter
+nn module require grad
+nn module state dic t
+nn module to
+nn module to empty
+nn module train
+nn module xp u
+nn sequential
+nn module list
+nn module list append
+nn module list extend
+nn module list insert
+nn module dic t
+nn module dic t pop
+nn parameter list
+nn parameter list append
+nn parameter list extend
+nn parameter dic t
+nn parameter dic t pop
+nn modules module register module forward pre hook
+nn modules module register module forward hook
+nn modules module register module backward hook
+nn modules module register module full backward hook
+nn conv 1d
+nn conv 2d
+nn conv 3d
+nn conv transpose 1d
+nn conv transpose 2d
+nn conv transpose 3d
+nn lazy conv 1d
+nn lazy conv 2d
+nn lazy conv 3d
+nn lazy conv transpose 1d
+nn lazy conv transpose 2d
+nn lazy conv transpose 3d
+nn unfold
+nn fold
+nn max pool 1d
+nn max pool 2d
+nn max pool 3d
+nn max un pool 1d
+nn max un pool 2d
+nn max un pool 3d
+nn avg pool 1d
+nn avg pool 2d
+nn avg pool 3d
+nn fractional max pool 2d
+nn fractional max pool 3d
+nn lp pool 1d
+nn lp pool 2d
+nn adaptive max pool 1d
+nn adaptive max pool 2d
+nn adaptive max pool 3d
+nn adaptive avg pool 1d
+nn adaptive avg pool 2d
+nn adaptive avg pool 3d
+nn reflection pad 1d
+nn reflection pad 2d
+nn replication pad 1d
+nn replication pad 2d
+nn replication pad 3d
+nn zero pad 2d
+nn constant pad 1d
+nn constant pad 2d
+nn constant pad 3d
+nn elu
+nn hard shrink
+nn hard s igm oid
+nn hard tan h
+nn hard swish
+nn leaky relu
+nn logs igm oid
+nn multi head attention
+nn p relu
+nn relu
+nn relu 6
+nn r relu
+nn s elu
+nn c elu
+nn g elu
+nn s igm oid
+nn sil u
+nn m ish
+nn soft plus
+nn soft shrink
+nn soft sign
+nn tan h
+nn tan h shrink
+nn threshold
+nn g lu
+nn soft min
+nn soft max
+nn soft max 2d
+nn log soft max
+nn adaptive log soft max with loss
+nn batch norm 1d
+nn batch norm 2d
+nn batch norm 3d
+nn lazy batch norm 1d
+nn lazy batch norm 2d
+nn lazy batch norm 3d
+nn group norm
+nn sync batch norm
+nn instance norm 1d
+nn instance norm 2d
+nn instance norm 3d
+nn layer norm
+nn local response norm
+nn rnn
+nn lstm
+nn gru
+nn rnn cell
+nn lstm cell
+nn gru cell
+nn transformer
+nn transformer forward
+nn transformer encoder
+nn transformer encoder forward
+nn transformer decoder
+nn transformer decoder forward
+nn transformer encoder layer
+nn transformer encoder layer forward
+nn transformer decoder layer
+nn transformer decoder layer forward
+nn identity
+nn linear
+nn bi linear
+nn lazy linear
+nn dropout
+nn dropout 2d
+nn dropout 3d
+nn alpha dropout
+nn feature alpha dropout
+nn embed
+nn embedding bag
+nn embedding bag forward
+nn cosine similarity
+nn pairwise distance
+nn l 1 loss
+nn mse loss
+nn cross entropy loss
+nn ct c loss
+nn nll loss
+nn poisson nll loss
+nn gaussian nll loss
+nn kl div loss
+nn bce loss
+nn bce with log its loss
+nn margin ranking loss
+nn hinge embedding loss
+nn multi label margin loss
+nn huber loss
+nn smooth l 1 loss
+nn soft margin loss
+nn multi label soft margin loss
+nn cosine embedding loss
+nn multi margin loss
+nn triplet margin loss
+nn triplet margin with distance loss
+nn pixel shuffle
+nn pixel un shuffle
+nn up sample
+nn up sampling nearest 2d
+nn up sampling bi linear 2d
+nn channel shuffle
+nn data parallel
+nn parallel distributed data parallel
+nn parallel distributed data parallel register com m hook
+nn utils clip grad norm
+nn utils clip grad value
+nn utils parameters to vector
+nn utils vector to parameters
+nn utils remove weight norm
+nn utils remove spectral norm
+nn utils para me tri zat ions spectral norm
+nn utils para met rize register para me tri z ation
+nn utils para met rize remove para me tri zat ions
+nn utils para met rize cache
+nn utils para met rize be para met rize d
+nn utils para met rize para me tri z ation list
+nn utils rnn packed sequence
+nn utils rnn pack pad sequence
+nn utils rnn pad pack sequence
+nn utils rnn pad sequence
+nn utils rnn pack sequence
+nn flatten
+nn un flatten
+nn modules lazy lazy module mix in
+nn functional unfold
+nn functional fold
+nn functional max pool 1d
+nn functional max pool 2d
+nn functional max pool 3d
+nn functional max un pool 1d
+nn functional max un pool 2d
+nn functional max un pool 3d
+nn functional lp pool 1d
+nn functional lp pool 2d
+nn functional adaptive max pool 1d
+nn functional adaptive max pool 2d
+nn functional adaptive max pool 3d
+nn functional adaptive avg pool 2d
+nn functional adaptive avg pool 3d
+nn functional fractional max pool 2d
+nn functional fractional max pool 3d
+nn functional threshold
+nn functional relu
+nn functional hard tan h
+nn functional hard swish
+nn functional relu 6
+nn functional elu
+nn functional s elu
+nn functional c elu
+nn functional leaky relu
+nn functional p relu
+nn functional r relu
+nn functional g lu
+nn functional g elu
+nn functional hard shrink
+nn functional tan h shrink
+nn functional soft sign
+nn functional soft min
+nn functional soft max
+nn functional g umbel soft max
+nn functional log soft max
+nn functional tan h
+nn functional s igm oid
+nn functional hard s igm oid
+nn functional sil u
+nn functional m ish
+nn functional batch norm
+nn functional group norm
+nn functional instance norm
+nn functional layer norm
+nn functional local response norm
+nn functional normalize
+nn functional linear
+nn functional bi linear
+nn functional dropout
+nn functional alpha dropout
+nn functional feature alpha dropout
+nn functional dropout 2d
+nn functional dropout 3d
+nn functional embed
+nn functional embed bag
+nn functional pairwise distance
+nn functional binary cross entropy
+nn functional binary cross entropy with log its
+nn functional poisson nll loss
+nn functional cosine embed loss
+nn functional cross entropy
+nn functional ct c loss
+nn functional gaussian nll loss
+nn functional hinge embed loss
+nn functional kl div
+nn functional l 1 loss
+nn functional mse loss
+nn functional margin rank loss
+nn functional multi label margin loss
+nn functional multi label soft margin loss
+nn functional multi margin loss
+nn functional nll loss
+nn functional huber loss
+nn functional smooth l 1 loss
+nn functional soft margin loss
+nn functional triplet margin loss
+nn functional triplet margin with distance loss
+nn functional pad
+nn functional interpolate
+nn functional up sample
+nn functional up sample nearest
+nn functional up sample bi linear
+nn functional grid sample
+nn functional affine grid
+tensor backward
+tensor be share
+tensor is tft
+tensor lu
+tensor norm
+tensor register hook
+tensor retain grad
+tensor share memory
+tensor split
+tensor st ft
+tensor unique
+tensor unique consecutive
+auto grad backward
+auto grad grad
+auto grad forward ad dual level
+auto grad forward ad make dual
+auto grad forward ad unpack dual
+auto grad functional jacobi an
+auto grad functional hessian
+auto grad functional v jp
+auto grad functional j vp
+auto grad functional v hp
+auto grad functional h vp
+auto grad no grad
+auto grad enable grad
+auto grad set grad enable
+auto grad inference mode
+auto grad function forward
+auto grad function backward
+auto grad grad grad check
+auto grad profiler profile export chrome trace
+auto grad profiler profile key average
+auto grad profiler profile total average
+auto grad profiler load nv prof
+ stream context
+ can device access peer
+ current blas handle
+ current device
+ current stream
+ default stream
+ device
+ device count
+ device of
+ get arch list
+ get device capability
+ get device name
+ get device properties
+ get gen code flag
+ initial
+ ipc collect
+ be available
+ be initialize
+ set device
+ set stream
+ stream
+ stream query
+ stream record event
+ stream wait event
+ stream wait stream
+ synchronize
+ get r ng state
+ get r ng state all
+ set r ng state
+ set r ng state all
+ manual seed
+ manual seed all
+ seed
+ seed all
+ initial seed
+ event
+ event query
+ empty cache
+ list gpu process
+ memory stats
+ memory summary
+ memory snapshot
+ memory allocate
+ max memory allocate
+ reset max memory allocate
+ memory reserve
+ max memory reserve
+ set per process memory fraction
+ memory cache
+ max memory cache
+ reset max memory cache
+ reset peak memory stats
+ cache al locator all oc
+ cache al locator delete
+ nv tx mark
+ nv tx range push
+ nv tx range pop
+optim optimizer add param group
+optim optimizer load state dic t
+optim optimizer state dic t
+optim optimizer step
+optim optimizer zero grad
+optim ada delta
+optim ada delta load state dic t
+optim ada delta step
+optim ada grad
+optim ada grad load state dic t
+optim ada grad step
+optim adam
+optim adam load state dic t
+optim adam step
+optim adam w
+optim adam w load state dic t
+optim adam w step
+optim sparse adam
+optim sparse adam load state dic t
+optim sparse adam step
+optim adama x
+optim adama x load state dic t
+optim adama x step
+optim as gd
+optim as gd load state dic t
+optim as gd step
+optim lbf gs
+optim lbf gs load state dic t
+optim lbf gs step
+optim rms prop
+optim rms prop load state dic t
+optim rms prop step
+optim r prop
+optim r prop load state dic t
+optim r prop step
+optim sgd
+optim sgd load state dic t
+optim sgd step
+optim lr scheduler lambda lr
+optim lr scheduler lambda lr load state dic t
+optim lr scheduler multiplicative lr
+optim lr scheduler multiplicative lr load state dic t
+optim lr scheduler step lr
+optim lr scheduler step lr load state dic t
+optim lr scheduler multi step lr
+optim lr scheduler multi step lr load state dic t
+optim lr scheduler exponential lr
+optim lr scheduler exponential lr load state dic t
+optim lr scheduler cosine annealing lr
+optim lr scheduler cosine annealing lr load state dic t
+optim lr scheduler reduce lr on plateau
+optim lr scheduler cyclic lr
+optim lr scheduler cyclic lr load state dic t
+optim lr scheduler one cycle lr
+optim lr scheduler one cycle lr load state dic t
+optim lr scheduler cosine annealing warm restarts
+optim lr scheduler cosine annealing warm restarts load state dic t
+sparse sum
+sparse add mm
+sparse mm
+sparse soft max
+sparse log soft max

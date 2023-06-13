@@ -1,0 +1,61 @@
+sanitize input get data type float value error depth to space 
+default override or sanitize random arg s bernoulli random 
+default override or sanitize random arg s normal random 
+default override or sanitize random arg s uniform random 
+cnt k py he normal initializer 
+cnt k py he uniform initializer 
+cnt k py gl or ot normal initializer 
+cnt k py gl or ot uniform initializer 
+cnt k py normal initializer 
+cnt k py uniform initializer 
+constant warn warn sanitize input batch normalization 
+constant warn warn sanitize input batch normalization 
+default override or default override or default override or default override or get default override get default override get default override get default override recurrent block 
+default override or default override or default override or default override or default override or get default override get default override get default override get default override get default override recurrent block 
+default override or get default override pool 
+default override or default override or default override or default override or default override or get default override get default override get default override get default override get default override len as tuple value error convolution 
+default override or default override or default override or default override or default override or get default override get default override get default override get default override get default override len as tuple value error pad to shape convolution 
+default override or default override or default override or default override or default override or get default override get default override get default override get default override get default override get default override len as tuple value error pad to shape convolution transpose 
+default override or default override or default override or default override or default override or get default override get default override get default override get default override get default override len as tuple value error pad to shape convolution 
+default override or default override or default override or default override or default override or get default override get default override get default override get default override get default override get default override len as tuple value error pad to shape convolution transpose 
+default override or default override or default override or default override or get default override get default override get default override get default override as tuple value error len initializer for record parameter parameter time activation 
+value error value error value error dropout 
+value error sanitize input dropout 
+default override or get default override pool 
+get data type sanitize input sanitize input square error 
+sanitize input sanitize axis log soft max log soft max 
+sanitize input sanitize axis soft max soft max 
+default override or get default override pool 
+sanitize input re lu 
+any len value error sanitize input reverse reverse pad 
+function load 
+sanitize input get data type float value error space to depth 
+learn parameter schedule per sample train parameter schedule infer learn rate schedule and ref mini batch size infer ref mini batch size from legacy use mean gradient cnt k py size t wrapper cnt k py ada delta learner 
+infer learn rate schedule and ref mini batch size train parameter schedule infer ref mini batch size from legacy use mean gradient cnt k py size t wrapper cnt k py ada grad learner 
+momentum schedule per sample infer learn rate schedule and ref mini batch size infer learn parameter schedule verify momentum type infer learn parameter schedule verify momentum type train parameter schedule cnt k py size t wrapper cnt k py adam learner 
+infer learn rate schedule and ref mini batch size train parameter schedule infer ref mini batch size from legacy use mean gradient cnt k py size t wrapper cnt k py rms prop learner 
+sanitize var map len value error str super init  super init  value as sequence or array value as sequence or array len sanitize variable value dic t sanitize variable value dic t sanitize variable value dic t 
+sanitize input elu 
+sanitize input hard s igm oid 
+sanitize input s elu 
+sanitize input s igm oid 
+sanitize input soft plus type map as block 
+sanitize input soft sign 
+sanitize input tan h 
+get data type sanitize input sanitize input cnt k py element time 
+default override or be default override value error value error get default override as tuple parameter np array np shape value error constant time 
+sanitize input sanitize axis flatten flatten 
+default override or get default override get default override default override or parameter parameter np as array reduce mean sqr t reduce mean 
+sanitize input leaky re lu 
+sanitize input pre lu 
+default override or default override or default override or default override or get default override get default override get default override get default override recurrent block 
+get data type sanitize input sanitize input binary cross entropy 
+get data type sanitize input sanitize input sanitize axis cross entropy with soft max 
+get data type sanitize input sanitize input cosine distance 
+super init  py dic t to cnt k dic t 
+infer learn rate schedule and ref mini batch size train parameter schedule cnt k py size t wrapper cnt k py sgd learner 
+be instance sequential reduce inject name 
+sanitize input get data type sanitize input get data type per dim mean variance normalize 
+get data type sanitize input stop gradient 
+sanitize input get data type sanitize input get data type crop 
+duplicate append join value error 

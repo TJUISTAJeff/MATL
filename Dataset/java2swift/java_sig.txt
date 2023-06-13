@@ -1,0 +1,255 @@
+
+( e  :  element to be append to this list )
+( element : element to be insert ) ( index : index at which the specify element be to be insert )
+
+( o  :  element whose presence in this list be to be test )
+( action  :  the action to be perform for each element )
+( index  :  index of the element to return )
+( o  :  element to search for )
+( o  :  element to search for )
+
+( index  :  the index of the element to be remove )
+
+
+( fromindex  :  index of first element to be remove ) ( toindex  :  index after last element to be remove )
+( c  :  the comparator used to compare list elements . a null value indicate that the elements' natural ordering should be use )
+
+( index  :  index of the element to replace ) ( element  :  element to be store at the specify position )
+( e  :  element to be append to this list )
+( element : element to be insert ) ( index : index at which the specify element be to be insert )
+
+( o  :  element whose presence in this list be to be test )
+( index  :  index of the element to return )
+( o  :  element to search for )
+( o  :  element to search for )
+( index  :  the index of the element to be remove )
+
+( index  :  index of the element to replace ) ( element  :  element to be store at the specify position )
+
+
+
+
+
+
+
+
+
+
+
+( c  :  collection contain elements to be add to this list )
+( e  :  the element to insert )
+
+( e  :  element to be add to this set )
+
+( o  :  element whose presence in this set be to be test )
+
+
+( o  :  object to be remove from this set , if present )
+
+
+( key  :  the key whose presence in this map be to be test )
+( value  :  value whose presence in this map be to be test )
+( action  :  the action to be perform for each entry )
+( key  :  the key whose associate value be to be return )
+( key  :  the key whose associate value be to be return ) ( defaultvalue  :  the default map of the key )
+
+
+( key  :  key with which the result value be to be associate ) ( value  :  the non - null value to be merge with the exist value associate with the key or , if no exist value or a null value be associate with the key , to be associate with the key ) ( remappingfunction  : the function to recompute a value if present )
+( key  :  key with which the specify value be to be associate ) ( value  :  value to be associate with the specify key )
+( key  :  key whose map be to be remove from the map )
+
+( anothercalendar  :  the calendar to be compare . )
+
+
+( field  :  the calendar field . )
+( field  :  the calendar field . )
+( field  :  the give calendar field . )
+
+
+
+
+( date  :  the give date . )
+( value  :  the give time zone . )
+
+
+( obj  :  the object to compare with . )
+
+
+( field  :  the calendar field . ) ( value  :  the value to be set for the give calendar field . )
+
+( field  :  the calendar field for which the string representation be return ) ( style :  the style apply to the string representation ) ( locale  :  the locale for the string representation )
+
+
+
+
+
+( c  :  the collection for which an enumeration be to be return . )
+( list :  the list to be fill with the specify element . )
+( coll  :  the collection whose maximum element be to be determine . )
+( coll  :  the collection whose minimum element be to be determine . )
+( list  : the list to be sort . )
+( list  : the list to be shuffle . )
+( list :  the list in which to swap elements . ) ( i  :  the index of one element to be swap . ) ( j  :  the index of the other element to be swap . )
+( list  : the list to be reverse . )
+( target  :  the list to search for as a sublist of source . )
+( target  :  the list to search for as a sublist of source . )
+( list - the list to be search . ) ( key  :  the value to be search for )
+( elements  :  the elements to insert into c )
+( a  :  the array to be sort )
+( a  :  the array whose string representation to return )
+( array  : array to be initialize ) ( generator  :  a function accept an index and produce the desire value for that position )
+( a  :  the array to be fill ) ( val  :  the value to be store in all elements of the array )
+( a  :  one array to be test for equality ) ( a2  :  the other array to be test for equality )
+( a :  the array to be search ) ( key  :  the value to be search for )
+( a1  :  one array to be test for equality ) ( a2  :  the other array to be test for equality )
+( index  :  the index of the char value . )
+( anotherstring  :  the string to be compare . )
+( str  :  the string that be concatenate to the end of this string . )
+( s :  the sequence to search for )
+( cs  :  the sequence to compare this string against )
+( prefix  :  the prefix . )
+( suffix  :  the suffix . )
+( anobject  :  the object to compare this string against )
+( format  :  a format string )
+( beginindex  :  the begin index , inclusive . ) ( endindex :  the end index , exclusive . )
+( beginindex :  the begin index , inclusive . ) ( endindex  :  the end index , exclusive . )
+( ch  :  a character . )
+
+( delimiter  :  the delimiter that separate each element ) ( elements  :  the elements to join together . )
+( ch  :  a character . )
+
+( regex  :  the regular expression to which this string be to be match )
+( oldchar  :  the old character . ) ( newchar  :  the new character . )
+( regex  :  the delimit regular expression ) ( limit :  the result threshold )
+
+
+
+( obj  :  an object . )
+
+
+( str  :  the string to be compare . )
+
+( regex  :  the regular expression to which this string be to be match )
+( srcbegin  :  index of the first character in the string to copy . ) ( srcend :  index after the last character in the string to copy . ) ( dst  :  the destination array . ) ( dstbegin :  the start offset in the destination array . )
+( b - a boolean . )
+( i  :  an int . )
+( f  :  a float . )
+( c - a char . )
+( data  :  the character array . ) ( offset :  initial offset of the subarray . ) ( count  :  length of the subarray . )
+( data  :  the character array . )
+( beginindex  :  the begin index , inclusive . )
+( format :  a format string ) ( args  :  arguments reference by the format specifiers in the format string . )
+( l  :  the locale to apply during format . ) ( format :  a format string ) ( args  :  arguments reference by the format specifiers in the format string . )
+( str  :  the substring to search for . )
+( target  :  the sequence of char value to be replace ) ( replacement  :  the replacement sequence of char value )
+( regex  :  the delimit regular expression ) ( limit  :  the result threshold , as describe above )
+( value  :  the value to be represent by the integer object . )
+
+( nm  :  the string to decode . )
+( dividend  :  the value to be divide ) ( divisor  :  the value do the divide )
+
+
+( a  :  the first operand ) ( b :  the second operand )
+( a  :  the first operand ) ( b :  the second operand )
+( i  :  the value whose number of lead zero be to be compute )
+( i  :  the value whose number of trail zero be to be compute )
+( s  :  a string containing the int representation to be parse )
+( dividend :  the value to be divide ) ( divisor  :  the value do the divide )
+( i  :  the value to be reverse )
+( a  :  the first operand ) ( b :  the second operand )
+
+
+
+
+
+
+( s  :  the string contain the integer representation to be parse ) ( radix  :  the radix to be use while parse s . )
+( i  :  an integer to be convert . )
+( i  :  an integer to be convert to a string . ) ( radix :  the radix to use in the string representation . )
+( i  :  an integer to be convert to a string . )
+( i  :  an integer to be convert to a string . )
+( i  :  an integer to be convert to a string . )
+( s  :  the string to be convert to an integer . )
+( value  :  the value to hash )
+
+
+
+
+
+
+
+
+( millis  :  the length of time to sleep in milliseconds )
+
+
+
+( newpriority  :  priority to set this thread to )
+
+
+
+
+
+
+
+
+
+
+( name  :  the name of the method ) ( parametertypes  : the list of parameters )
+
+
+( classname  :  the fully qualify name of the desire class . )
+
+
+
+( pathname  :  the abstract pathname to be compare to this abstract pathname )
+( obj  :  the object to be compare with this abstract pathname )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+( dest  : the new abstract pathname for the name file )
+
+( prefix  :  the prefix string to be use in generate the file's name ) ( suffix :  the suffix string to be use in generate the file's name )
+( prefix :  the prefix string to be use in generate the file's name ) ( suffix  :  the suffix string to be use in generate the file's name ) ( directory  :  the directory in which the file be to be create )
+
+( b  :  the byte to be write )
+( buf  :  a byte array )
+
+( x  :  the boolean to be print )
+( x  :  the char to be print . )
+( x :  an array of char to print . )
+( x  :  the double to be print . )
+( x  :  the float to be print . )
+( x  :  the int to be print . )
+( x  :  the object to be print . )
+( x  :  the string to be print . )
+( x  :  a the long to be print . )
+( c  :  the character to append )
+( csq :  the character sequence to append . )
+( csq :  the character sequence from which a subsequence will be append . ) ( start  :  the index of the first character in the subsequence ) ( end  :  the index of the character follow the last character in the subsequence )
+
+
+
+( s  :  the string to be print )
+( obj  :  the object to be print )
+( i  :  the int to be print )
+
+( file  :  the file to use as the destination of this print stream . )
+( b  :  the buffer into which the data be read . )
+
+

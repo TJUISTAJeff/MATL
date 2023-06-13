@@ -1,0 +1,75 @@
+op clip 
+op depth to space 
+value error format be instance np i bernoulli np i bernoulli be instance np i bernoulli np i bernoulli 
+random helper 
+random helper 
+random helper 
+random helper 
+super init  np be scalar be instance json dump 
+super init  float len value error format len np prod value error np sqr t uniform fn normal fn value error 
+super init  
+super init  np prod random uniform random normal np lina lg sv d res reshape 
+super init  normal fn 
+super init  uniform fn 
+super init  
+super init  
+super init  
+super init  self params get self params get self params get self params get have at tr format s format f fully connect f fully connect f el em wise add self get activation 
+super init  
+super init  self params get self params get self params get self params get format s format f fully connect f fully connect f el em wise add f slice channel self get activation self get activation self get activation self get activation f el em wise add f el em wise mul f el em wise mul f el em wise mul f activation 
+be instance len super init  
+be instance len super init  
+be instance len super init  
+be instance len k war gs pop super init  
+be instance len k war gs pop super init  
+be instance be instance len len k war gs pop super init  
+be instance len k war gs pop super init  
+be instance be instance len len k war gs pop super init  
+super init  self params get self params get activation fc self act s format format 
+super init  dropout copy s format 
+super init  flatten 
+be instance len super init  
+be instance len super init  
+be instance len super init  
+super init  reshape like f relu apply weight f mean 
+super init  reshape like f abs f where f square apply weight f mean 
+super init  reshape like f np square f square apply weight f np mean tuple range f n px batch flatten f mean 
+op log soft max 
+
+label layout find super init  f swap ax f swap ax f ct c loss apply weight 
+super init  act s format 
+super init  self params get self params get self params get self params get format s format f fully connect f fully connect f slice channel f slice channel f activation f el em wise add f activation f el em wise add f activation f el em wise add f el em wise mul f ones like f el em wise add f el em wise mul f el em wise sub f el em wise mul 
+
+
+name start with nd array load self load dic t 
+
+super init  zero zero be instance be instance self get wd self update count clip sqr t sqr t 
+super init  zero be instance be instance self update count self get lr self get wd sparse ada grad update clip square sqr t 
+super init  zero zero be instance be instance self update count self get lr self get wd math sqr t adam update 
+super init  zero zero zero zero be instance be instance self update count self get lr self get wd rms prop update rms prop alex update 
+parse head be instance len c handle array c type pointer c type pointer check call lib mx auto grad backward ex len len c type c int c type c int c type c int c type by ref c type by ref nd array cls c type cast range len be instance 
+super init  
+super init  leaky relu 
+
+super init  leaky relu 
+
+super init  self params get embed s format 
+super init  self params get self params get layer norm format s format join join 
+super init  leaky relu s format 
+initializer constant super init  self params get leaky relu 
+super init  
+
+super init  reshape like relu fn act fn abs fn mul fn act fn abs fn relu fn log fn log fn mul fn log fn log fn apply weight f np mean tuple range f n px batch flatten f mean 
+super init  log soft max pick reshape like sum apply weight loss mean tuple range f n px batch flatten loss mean 
+super init  reshape like label reshape self cosine similarity f array f zero f broadcast maximum apply weight f norm f norm f sum f array f full f broadcast maximum 
+super init  reshape like f exp f log f log f log apply weight f mean 
+symbol save v as in context save dic t update v as in context nd save log info 
+super init  value error value error self get warm up lr log info log info 
+super init  int os get en v weight as type self create state warn warn self create state zero be instance zip be instance be instance self update count self get lr s self get wds multi sgd mom update flatten list zip len multi sgd update flatten list zip len multi mp sgd mom update flatten list zip zip len multi mp sgd update flatten list zip list zip len zip sgd mom update sgd update mp sgd mom update mp sgd update self update i mpl be instance self update i mpl 
+super init  self register child block join format indent s format list be instance type net add len all be instance warn warn super init  
+record state cope 
+
+mx nd np unique 
+len k war gs pop not implement error k war gs pop not implement error k war gs pop type error list value error x reshape enumerate output 0 reshape output 1 reshape broadcast array 
+mx nd np eye 
+mx nd np ein sum 

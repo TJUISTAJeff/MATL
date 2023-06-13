@@ -1,0 +1,33 @@
+a simple lookup table that store embeddings of a fix dictionary and size
+apply the exponential linear unit  elu  function  element-wise  as describe in the paper  fast and accurate deep network learn by exponential linear units  elus
+during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution
+the connectionist temporal classification loss
+this criterion compute the cross entropy loss between input and target
+return cosine similarity between x1x 1x1​ and x2x 2x2​  compute along dim
+create a criterion that measure the loss give input tensors x1x 1x1​  x2x 2x2​ and a tensor label yyy with value 1 or -1
+apply a 3d transpose convolution operator over an input image compose of several input plan
+apply a 2d transpose convolution operator over an input image compose of several input plan
+apply a 3d convolution over an input signal compose of several input plan
+apply a 2d convolution over an input signal compose of several input plan
+apply a 1d convolution over an input signal compose of several input plan
+apply batch normalization over a 2d or 3d input as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift
+apply a 3d average pool over an input signal compose of several input plan
+apply a 2d average pool over an input signal compose of several input plan
+apply a 1d average pool over an input signal compose of several input plan
+apply alpha dropout over the input
+create grids of coordinate specify by the 1d input in attr tensors
+load an object save with torch save   from a file
+return true if obj be a pytorch tensor
+sum the product of the elements of the input operands along dimension specify use a notation base on the einstein summation convention
+base  torch distributions distribution distribution
+base  torch distributions distribution distribution
+base  torch distributions exp family exponentialfamily
+base  torch distributions distribution distribution
+base  torch distributions exp family exponentialfamily
+base  torch distributions exp family exponentialfamily
+base  torch distributions exp family exponentialfamily
+base  torch distributions exp family exponentialfamily
+base  torch distributions exp family exponentialfamily
+reduce the tensor data across all machine in such a way that all get the final result
+compute and return the sum of gradients of output with respect to the input
+function that compute the hessian of a give scalar function

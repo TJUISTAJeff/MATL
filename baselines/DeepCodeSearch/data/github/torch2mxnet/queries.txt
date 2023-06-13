@@ -1,0 +1,32 @@
+sum the product of the elements of the input operands along dimension specify use a notation base on the einstein summation convention
+apply a 2d average pool over an input signal compose of several input plan
+a gate recurrent unit  gru  cell
+clip gradient of an iterable of parameters at specify value
+measure the element-wise mean square error
+apply a 1d max pool over an input signal compose of several input plan
+apply a 3d convolution over an input signal compose of several input plan
+apply a linear transformation to the incoming data  y=xat by = xa t   by=xat b
+base  torch distributions exp family exponentialfamily
+apply a softmax function
+fill the input tensor with the scalar value 1
+fill the 2-dimensional input tensor with the identity matrix  preserve the identity of the input in linear layer  where as many input be preserve as possible
+return a contraction of a and b over multiple dimension
+base  torch distributions exp family exponentialfamily
+apply a multi-layer gate recurrent unit  gru  rnn to an input sequence
+upsamples a give multi-channel 1d  temporal   2d  spatial  or 3d  volumetric  data
+create a criterion that use a square term if the absolute element-wise error fall below delta and a delta-scaled l1 term otherwise
+implement adagrad algorithm
+rearrange elements in a tensor of shape  ∗ c×r2 h w     c \times r 2  h  w  ∗ c×r2 h w  to a tensor of shape  ∗ c h×r w×r     c  h \times r  w \times r  ∗ c h×r w×r   where r be an upscale factor
+fill the input tensor with value draw from the normal distribution n mean std2 \mathcal{n} \text{mean}  \text{std} 2 n mean std2
+apply a 1d convolution over an input signal compose of several input plan
+fill the input tensor with value draw from the uniform distribution u a b \mathcal{u} a  b u a b
+apply layer normalization over a mini-batch of input as describe in the paper layer normalization
+apply the exponential linear unit  elu  function  element-wise  as describe in the paper  fast and accurate deep network learn by exponential linear units  elus
+this criterion compute the cross entropy loss between input and target
+create grids of coordinate specify by the 1d input in attr tensors
+see cosineembeddingloss for detail
+implement adadelta algorithm
+implement adam algorithm
+apply a 3d max pool over an input signal compose of several input plan
+function that use a square term if the absolute element-wise error fall below delta and a delta-scaled l1 term otherwise
+base  torch distributions exp family exponentialfamily

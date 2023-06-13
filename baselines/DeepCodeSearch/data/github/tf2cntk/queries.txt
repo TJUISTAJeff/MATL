@@ -1,0 +1,33 @@
+softsign activation function  softsign x  = x /  abs x    43  1
+initializer that generate tensors with a normal distribution
+he uniform variance scale initializer
+construct symbolic derivatives of sum of ys w r t  x in xs
+optimizer that implement the adam algorithm
+hard sigmoid activation function
+long short-term memory layer - hochreiter 1997
+average pool layer for 3d input  e g  volumes
+exponential linear unit
+transpose convolution layer  sometimes call deconvolution
+rectify linear unit activation function
+max pool layer for 1d input
+initializer that generate tensors with a normal distribution
+initializer that generate tensors with a uniform distribution
+parametric rectify linear unit
+spacetodepth for tensors of type t
+2d convolution layer  e g  spatial convolution over image
+compute dropout   deprecate arguments
+max pool layer for 3d input  e g
+gate recurrent unit - cho et al  2014
+scale exponential linear unit  selu
+softmax convert a vector of value to a probability distribution
+max pool operation for 3d data  spatial or spatio-temporal
+functional interface for transpose 2d convolution layer
+tensor contraction of a and b along specify ax and outer product
+max pool operation for 1d temporal data
+apply dropout to the input
+apply dropout to the input
+optimizer that implement the adam algorithm
+optimizer that implement the adagrad algorithm
+densely-connected layer class
+optimizer that implement the adadelta algorithm
+average pool layer for 1d input

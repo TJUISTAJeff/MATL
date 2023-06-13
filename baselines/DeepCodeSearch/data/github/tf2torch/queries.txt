@@ -1,0 +1,35 @@
+average pool layer for 1d input
+average pool layer for 3d input  e g  volumes
+average pool layer for 2d input  e g  image
+average pool layer for 1d input
+cell class for the lstm layer
+long short-term memory layer - hochreiter 1997
+gate recurrent unit - cho et al  2014
+layer that normalize its input
+initializer that generate tensors initialize to 0
+initializer that generate tensors with a uniform distribution
+initializer that generate a normal distribution
+initializer that generate an orthogonal matrix
+initializer that generate tensors initialize to 1
+initializer capable of adapt its scale to the shape of weight tensors
+initializer capable of adapt its scale to the shape of weight tensors
+the glorot uniform initializer  also call xavier uniform initializer
+the glorot normal initializer  also call xavier normal initializer
+initializer that generate tensors with constant value
+he uniform variance scale initializer
+he normal initializer
+construct the hessian of sum of ys with respect to x in xs
+uniform distribution with low and high parameters
+the normal distribution with location loc and scale parameters
+the laplace distribution with location loc and scale parameters
+gamma distribution
+exponential distribution
+dirichlet distribution
+categorical distribution
+beta distribution
+bernoulli distribution
+tf distribute reduceop correspond to the last loss reduction
+depthtospace for tensors of type t
+clip tensor value to a specify min and max
+clip tensor value to a maximum l2-norm
+clip value of multiple tensors by the ratio of the sum of their norms

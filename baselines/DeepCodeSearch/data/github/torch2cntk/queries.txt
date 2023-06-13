@@ -1,0 +1,33 @@
+apply a 3d average pool over an input signal compose of several input plan
+apply a multi-layer elman rnn with tanh⁡\tanhtanh or relu\text{relu}relu non-linearity to an input sequence
+pad tensor
+apply the rectify linear unit function element-wise
+implement rmsprop algorithm
+pad the input tensor boundaries with zero
+load an object save with torch save   from a file
+apply batch normalization over a 2d or 3d input as describe in the paper batch normalization  accelerate deep network train by reduce internal covariate shift
+apply a 2d transpose convolution operator over an input image compose of several input plan
+apply a 2d average pool over an input signal compose of several input plan
+apply a 2d max pool over an input signal compose of several input plan
+apply element-wise  selu x =scale∗ max⁡ 0 x  min⁡ 0 α∗ exp⁡ x −1   \text{selu} x  = scale    \max 0 x    \min 0  \alpha    \exp x  - 1   selu x =scale∗ max 0 x  min 0 α∗ exp x −1     with α=1 6732632423543772848170429916717\alpha=1 6732632423543772848170429916717α=1 6732632423543772848170429916717 and scale=1 0507009873554804934193349852946scale=1 0507009873554804934193349852946scale=1 0507009873554804934193349852946
+return the unique elements of the input tensor
+fill the input tensor with value draw from the normal distribution n mean std2 \mathcal{n} \text{mean}  \text{std} 2 n mean std2
+fill the input tensor with value accord to the method describe in understand the difficulty of train deep feedforward neural network - glorot  x    bengio  y   2010   use a uniform distribution  the result tensor will have value sample from u −a a \mathcal{u} -a  a u −a a  where
+this criterion compute the cross entropy loss between input and target
+apply a 3d convolution over an input signal compose of several input plan
+apply a multi-layer long short-term memory  lstm  rnn to an input sequence
+apply the element-wise function sigmoid x =11 exp⁡ −x \text{sigmoid} x  = \frac{1}{1   \exp -x }sigmoid x =1 exp −x 1​
+apply a 3d max pool over an input signal compose of several input plan
+apply a 2d max pool over an input signal compose of several input plan
+base  torch distributions exp family exponentialfamily
+fill the input tensor with value accord to the method describe in understand the difficulty of train deep feedforward neural network - glorot  x    bengio  y   2010   use a normal distribution  the result tensor will have value sample from n 0 std2 \mathcal{n} 0  \text{std} 2 n 0 std2  where
+base  torch distributions exp family exponentialfamily
+apply the element-wise function
+apply a 1d average pool over an input signal compose of several input plan
+during train  randomly zero some of the elements of the input tensor with probability p use sample from a bernoulli distribution
+apply the exponential linear unit  elu  function  element-wise  as describe in the paper  fast and accurate deep network learn by exponential linear units  elus
+apply batch normalization for each channel across a batch of data
+fill the input tensor with value accord to the method describe in delve deep into rectifiers  surpass human-level performance on imagenet classification - he  k  et al   2015   use a uniform distribution  the result tensor will have value sample from u −bound bind \mathcal{u} -\text{bound}  \text{bound} u −bound bind  where
+apply the rectify linear unit function element-wise
+apply the softmax function to an n-dimensional input tensor rescale them so that the elements of the n-dimensional output tensor lie in the range [0 1] and sum to 1
+a simple lookup table that store embeddings of a fix dictionary and size

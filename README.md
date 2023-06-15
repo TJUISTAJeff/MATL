@@ -110,5 +110,3 @@ Or you can obtain the pre-trained models in <a  href ="https://drive.google.com/
 - **Step 3:** To run the finr tune phase and get the model in approaches/model. 
 
 
-
-

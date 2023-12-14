@@ -13,3 +13,6 @@ In which the file "mapping_list.xlsx" demonstrates the basic correspondence, and
 |	├─mapping_list.xlsx  # The MApping pairs
 |	├─...  # The details for each API
 ```
+
+java2swift dataset are consistent with the corresponding original paper(Zejun Zhang, Minxue Pan, Tian Zhang, Xinyu Zhou, and Xuandong Li. 2020. Deep-Diving into Documentation to
+Develop Improved Java-to-Swift API Mapping. In ICPC. ACM, 106–116.)
